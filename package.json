@@ -10,7 +10,7 @@
     "clean:prod": "rm -rf dist",
     "copy:dev": "cpx './vendor/**/*' public/assets --verbose",
     "copy:prod": "cpx './vendor/**/*' dist/assets --verbose",
-    "build": "webpack -p --progress --profile --colors",
+    "build": "webpack -p --profile --colors",
     "server": "node server.js",
     "lint": "eslint --ext .js,.jsx ."
   },
