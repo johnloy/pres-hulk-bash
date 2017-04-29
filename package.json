@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "NODE_ENV=development npm-run-all clean:dev copy:dev server",
-    "deploy": "NODE_ENV=production npm-run-all clean:prod copy:prod build deploy:netlify",
-    "deploy:netlify": "netlify deploy",
+    "deploy": "NODE_ENV=production npm-run-all clean:prod copy:prod build",
     "clean:dev": "rm -rf public/assets",
     "clean:prod": "rm -rf dist",
     "copy:dev": "cpx './vendor/**/*' public/assets --verbose",
