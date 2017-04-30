@@ -2,6 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const bgImage = require('../images/hulk-comic.jpg');
+
 // Import Spectacle Core tags
 import {
   Heading,
@@ -13,23 +15,21 @@ import {
 class TerminalComponent extends React.Component {
   componentDidMount() {
     this.el = ReactDOM.findDOMNode(this);
-    const script = document.createElement("script");
-    script.src = "https://asciinema.org/a/a0wqk5qzsz1bjbxdrrcs29tj5.js";
-    script.id = "asciicast-a0wqk5qzsz1bjbxdrrcs29tj5";
-    script.dataset.autoplay = 1;
-    script.dataset.speed = 5;
-    script.dataset.size = "big";
-    this.el.appendChild(script);
+    const player = document.getElementById('foo');
+    player.style.position = 'relative';
+    player.style.opacity = 1;
+    player.style.zIndex = 1000; 
+    player.firstElementChild.play();
   }
 
   render() {
-    return (<span/>);
+    return (<div/>);
   }
 
 }
 
 const TermSlide = (
-  <Slide transition={["zoom"]} key="terminal">
+  <Slide transition={["zoom"]} key="terminal" bgImage={bgImage}>
     <Fill>
         <TerminalComponent />
     </Fill>

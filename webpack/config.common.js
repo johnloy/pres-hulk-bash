@@ -2,8 +2,14 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHardDiskPlugin = require("html-webpack-harddisk-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
+const buildDir = process.NODE_ENV === "production" ? "dist" : "public";
 
 module.exports = {
+
+  context: path.join(__dirname, ".."),
 
   entry: [
     "babel-polyfill",
@@ -53,14 +59,15 @@ module.exports = {
       },
 
       {
-        test: /\.(png|jpg|gif)$/,
-        loader: "url-loader?limit=8192"
+        test: /\.(png|gif)$/,
+        loader: "url-loader?limit=500"
       },
 
       {
         test: /\.svg$/,
         loader: "url-loader?limit=10000&mimetype=image/svg+xml"
-      }]
+      }
+    ]
   },
 
   plugins: [
@@ -73,14 +80,37 @@ module.exports = {
       }
     }),
 
+    new CleanWebpackPlugin(
+      [buildDir],
+      {
+        verbose: true
+      }
+    ),
+
+    new CopyWebpackPlugin(
+      [
+        {
+          from: "vendor/**/*",
+          flatten: true
+        },
+        {
+          from: "src/asciicasts/*",
+          flatten: true
+        }
+      ],
+      {
+        debug: "warnings"
+      }
+    ),
+
     new HtmlWebpackPlugin({
       title: "Hulk Bash",
-      template: "src/index.ejs"
+      template: "src/index.ejs",
+      inject: false,
+      alwaysWriteToDisk: true
     }),
 
-    new HtmlWebpackHardDiskPlugin({
-      alwaysWriteToDisk: true
-    })
+    new HtmlWebpackHardDiskPlugin()
   ]
 
 };

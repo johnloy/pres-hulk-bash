@@ -186,6 +186,9 @@
   fill: #bbbbbb;
 }
 .asciinema-player .control-bar {
+  /* Hide for presentation */
+  display: none;
+
   width: 100%;
   height: 32px;
   background-color: #000;
@@ -381,6 +384,11 @@
   width: 100%;
   height: 100%;
 }
+.asciinema-player .start-prompt .play-button {
+  /* Hide for presentation */
+  display: none;
+}
+
 .asciinema-player .start-prompt .play-button div {
   vertical-align: middle;
   display: table-cell;
