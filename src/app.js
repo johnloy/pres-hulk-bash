@@ -29,8 +29,6 @@ import slides from "./slides";
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
-//
-
 
 
 const images = {
@@ -55,7 +53,7 @@ const theme = createTheme({
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme} progress="none" controls={false}>
         { slides }
       </Deck>
     );

@@ -1,9 +1,13 @@
-import IntroSlide from "./intro";
-import TermSlide from "./term";
+import IntroSlide from "./1-intro";
+import Term2 from "./2-term";
+import Term3 from "./3-term";
+import Normal from "./4-normal";
 
 const slides = [
   IntroSlide,
-  TermSlide
+  Term2,
+  Term3,
+  Normal
 //   <Slide bgColor="tertiary" key="1">
 //     <Heading size={6} textColor="primary" caps>Typography</Heading>
 //     <Heading size={1} textColor="secondary">Heading 1</Heading>

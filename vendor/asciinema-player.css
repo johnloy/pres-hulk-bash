@@ -1920,8 +1920,8 @@
 }
 .asciinema-theme-asciinema .asciinema-terminal {
   color: #cccccc;
-  background-color: #121314;
-  border-color: #121314;
+  background-color: rgba(43, 5, 49, .85);
+  border-color: rgba(43, 5, 49, .85);
 }
 .asciinema-theme-asciinema .fg-bg {
   color: #121314;

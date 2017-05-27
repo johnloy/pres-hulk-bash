@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHardDiskPlugin = require("html-webpack-harddisk-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const asciicastHTML = require("./asciicast-html");
 
 const buildDir = process.NODE_ENV === "production" ? "dist" : "public";
 
@@ -96,6 +97,14 @@ module.exports = {
         {
           from: "src/asciicasts/*",
           flatten: true
+        },
+        {
+          from: "src/styles.css",
+          flatten: true
+        },
+        {
+          from: "src/fonts/*",
+          flatten: true
         }
       ],
       {
@@ -107,7 +116,8 @@ module.exports = {
       title: "Hulk Bash",
       template: "src/index.ejs",
       inject: false,
-      alwaysWriteToDisk: true
+      alwaysWriteToDisk: true,
+      asciicastHTML
     }),
 
     new HtmlWebpackHardDiskPlugin()

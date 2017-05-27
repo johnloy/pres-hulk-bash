@@ -1,21 +1,27 @@
 import React from "react";
 import { Slide as SpectacleSlide } from "spectacle";
 
-/**
- * I'm using this class so that in deck.js I can use small independent slide components
- * Since most of my slides will use a default transition I also provide some default props
- */
+const bgImage = require('../images/hulk-comic-green.jpg');
+
 export default class Slide extends SpectacleSlide {
   render() {
-    return (
-      <div>
-        {this.contents()}
+    React.Children.toArray(this.props.children);
+    this.props.children.push(
+      <div className="comic-book">
+        The Bourne shell...
       </div>
     );
+    return {
+      ...SpectacleSlide.prototype.render.call(this),
+      children: this.props.children
+    };
   }
 }
 
 Slide.defaultProps = {
   ...SpectacleSlide.defaultProps,
-  transition: ["slide", "fade"]
+  align: "top",
+  bgImage,
+  maxWidth: "auto",
+  transition: []
 };
