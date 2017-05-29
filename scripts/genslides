@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# genslides <<EOF
+# [paste]
+# EOF
+
+while read file; do
+  touch "$file"
+done

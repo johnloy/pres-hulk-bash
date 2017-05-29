@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Comic Book Bold';
+  src: url('Comic-Book-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
+.terminal {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  height: 100vh;
+  padding-top: 36px;
+}
+
+.terminal.active {
+  z-index: 1000;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-name: zoomIn;
+  animation-delay: 500ms;
+  position: relative;
+  opacity: 1;
+}
+
+.zoom-in {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-name: zoomIn;
+  animation-delay: 500ms;
+}
+
+.comic-book {
+  font-family: 'Comic Book Bold';
+  background: black;
+  color: white;
+  padding: 5px 20px;
+  letter-spacing: 1px;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+}
+
+.asciinema-theme-asciinema .asciinema-terminal {
+    border: 15px solid rgba(43, 5, 49, .90);
+    background-clip: content-box;
+    color: #cccccc;
+    background-color: rgba(43, 5, 49, .90);
+    border-color: rgba(43, 5, 49, .90);
+}
+
+.spectacle-slide {
+  box-shadow: inset 0px 0px 11px 3px rgb(8, 62, 18);
+  border: 2px solid #000;
+}
+
+.spectacle-content {
+  font-family: Roboto;
+  padding: 0 !important;
+  height: 100vh !important;
+}
+
+.big-code code {
+  font-size: 40px;
+}
+
+.section-title {
+  font-size: 80px;
+  color: greenyellow;
+  margin: 0;
+  letter-spacing: .025em;
+}

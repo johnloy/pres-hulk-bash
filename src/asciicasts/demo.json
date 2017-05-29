@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "width": 108,
+  "height": 30,
+  "duration": 17.872033,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.142744,
+      "\u001b[32mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.215284,
+      "t"
+    ],
+    [
+      0.1196,
+      "y"
+    ],
+    [
+      0.064413,
+      "p"
+    ],
+    [
+      0.160271,
+      "e"
+    ],
+    [
+      0.591706,
+      " "
+    ],
+    [
+      0.239859,
+      "m"
+    ],
+    [
+      0.079835,
+      "a"
+    ],
+    [
+      0.112205,
+      "n"
+    ],
+    [
+      0.239746,
+      "\r\n"
+    ],
+    [
+      0.000234,
+      "man is /usr/bin/man\r\n"
+    ],
+    [
+      0.003347,
+      "\u001b[32mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.660649,
+      "m"
+    ],
+    [
+      0.128117,
+      "a"
+    ],
+    [
+      0.103774,
+      "n"
+    ],
+    [
+      0.089464,
+      " "
+    ],
+    [
+      0.238133,
+      "m"
+    ],
+    [
+      0.080111,
+      "a"
+    ],
+    [
+      0.104182,
+      "n"
+    ],
+    [
+      0.248652,
+      "\r\n"
+    ],
+    [
+      0.102124,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.074355,
+      "man(1)                                                                                                                   man(1)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       man - format and display the on-line manual pages\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       \u001b[1mman\u001b[0m  [\u001b[1m-acdfFhkKtwW\u001b[0m]  [\u001b[1m--path\u001b[0m]  [\u001b[1m-m\u001b[0m  \u001b[4msystem\u001b[24m] [\u001b[1m-p\u001b[0m \u001b[4mstring\u001b[24m] [\u001b[1m-C\u001b[0m \u001b[4mconfig_file\u001b[24m] [\u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m] [\u001b[1m-P\u001b[0m \u001b[4mpager\u001b[24m] [\u001b[1m-B\u001b[0m \u001b[4mbrowser\u001b[24m] [\u001b[1m-H\u001b[0m \u001b[4mhtml-\u001b[24m\r\n       \u001b[4mpager\u001b[24m] [\u001b[1m-S\u001b[0m \u001b[4msection_list\u001b[24m] [\u001b[4msection\u001b[24m] \u001b[4mname\u001b[24m \u001b[4m...\u001b[24m\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       \u001b[1mman\u001b[0m formats and displays the on-line manual pages.  If you specify \u001b[4msection\u001b[24m, \u001b[1mman\u001b[0m only looks in that section of  the  man-\r\n       ual.   \u001b[4mname\u001b[24m  is normally the name of the manual page, which is typically the name of a command, function, or file.  How-\r\n       ever, if \u001b[4mname\u001b[24m contains a slash (\u001b[1m/\u001b[0m) then \u001b[1mman\u001b[0m interprets it as a file specifica"
+    ],
+    [
+      2.3e-05,
+      "tion, so th"
+    ],
+    [
+      0.000228,
+      "at you can  do  \u001b[1mman\u001b[0m  \u001b[1m./foo.5\u001b[0m  or\r\n       even \u001b[1mman\u001b[0m \u001b[1m/cd/foo/bar.1.gz\u001b[0m.\r\n\r\n       See below for a description of where \u001b[1mman\u001b[0m looks for the manual page files.\r\n\r\n\u001b[1mOPTIONS\u001b[0m\r\n       \u001b[1m-C\u001b[0m  \u001b[1mconfig_file\u001b[0m\r\n              Specify the configuration file to use; the default is \u001b[1m/private/etc/man.conf\u001b[0m.  (See \u001b[1mman.conf\u001b[0m(5).)\r\n\r\n       \u001b[1m-M\u001b[0m  \u001b[1mpath\u001b[0m\r\n              Specify the list of directories to search for man pages.  Separate the directories with colons.  An empty list is\r\n              the same as not specifying \u001b[1m-M\u001b[0m at all.  See \u001b[1mSEARCH\u001b[0m \u001b[1mPATH\u001b[0m \u001b[1mFOR\u001b[0m \u001b[1mMANUAL\u001b[0m \u001b[1mPAGES\u001b[0m.\r\n\r\n       \u001b[1m-P\u001b[0m  \u001b[1mpager\u001b[0m\r\n              Specify which pager to use.  This option overrides the \u001b[1mMANPAGER\u001b[0m environment variable, which in turn overrides the\r\n              \u001b[1mPAGER\u001b[0m variable.  By default, \u001b[1mman\u001b[0m uses \u001b[1m/usr/bin/less\u001b[0m \u001b[1m-is\u001b[0m.\r\n\r\n       \u001b[1m-B\u001b[0m     Specify  which browser to use on HTML files"
+    ],
+    [
+      8.7e-05,
+      ".  This option overrides the \u001b[1mBROWSER\u001b[0m environment variable. By default,\r\n              \u001b[1mman\u001b[0m uses \u001b[1m/usr/bin/less\u001b[0m-is\u001b[1m,\u001b[0m\r\n\r\n       \u001b[1m-H\u001b[0m     Specify a command that renders HTML files as text.  This option overrides the \u001b[1mHTMLPAGER\u001b[0m environment variable.  By\r\n              default, \u001b[1mman\u001b[0m uses \u001b[1m/bin/cat\u001b[0m,\r\n\r\n       \u001b[1m-S\u001b[0m  \u001b[1msection_list\u001b[0m\r\n              List is a colon separated list of manual sections to search.  This option overrides the \u001b[1mMANSECT\u001b[0m environment vari-\r\n              able.\r\n\r\n       \u001b[1m-a\u001b[0m     By default, \u001b[1mman\u001b[0m will exit after displaying the first manual page it finds.  Using this option forces \u001b[1mman\u001b[0m to  dis-\r\n              play all the manual pages that match \u001b[1mname,\u001b[0m not just the first.\r\n\r\n       \u001b[1m-c\u001b[0m     Reformat  the  source  man page, even when an up-to-date cat page exists.  This can be meaningful if the cat page\r\n              was formatted for a screen with a different number of columns, or if the pref"
+    ],
+    [
+      4e-05,
+      "ormatted page is corrupted.\r\n\r\n       \u001b[1m-d\u001b[0m     Don't actually display the man pages, but do print gobs of debugging information.\r\n\r\n:\u001b[K"
+    ],
+    [
+      1.055163,
+      "\r\u001b[K       \u001b[1m-D\u001b[0m     Both display and print debugging info.\r\n:\u001b[K"
+    ],
+    [
+      0.199126,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.192026,
+      "\r\u001b[K       \u001b[1m-f\u001b[0m     Equivalent to \u001b[1mwhatis\u001b[0m.\r\n:\u001b[K"
+    ],
+    [
+      0.25345,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.036948,
+      "\r\u001b[K       \u001b[1m-F\u001b[0m or \u001b[1m--preformat\u001b[0m\r\n:\u001b[K"
+    ],
+    [
+      0.033802,
+      "\r\u001b[K              Format only - do not display.\r\n:\u001b[K"
+    ],
+    [
+      0.042122,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.02906,
+      "\r\u001b[K"
+    ],
+    [
+      2e-05,
+      "       \u001b[1m-h\u001b[0m     Print a help message and exit.\r\n:\u001b[K"
+    ],
+    [
+      0.033938,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.098235,
+      "\r\u001b[K       \u001b[1m-k\u001b[0m     Equivalent to \u001b[1mapropos\u001b[0m.\r\n:\u001b[K"
+    ],
+    [
+      0.176126,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.256599,
+      "\r\u001b[K"
+    ],
+    [
+      5e-05,
+      "       \u001b[1m-K\u001b[0m     Search for the specified string in *all* man pages. Warning: this is probably very slow! It helps  to  specify  a\r\n:\u001b[K"
+    ],
+    [
+      0.26348,
+      "\r\u001b[K\u001b[H\u001bM       ual.   \u001b[4mname\u001b[24m  is normally the name of the manual page, which is typically the name of a command, function, or file.  How-\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.255716,
+      "\r\u001b[K\u001b[H\u001bM       \u001b[1mman\u001b[0m formats and displays the on-line manual pages.  If you specify \u001b[4msection\u001b[24m, \u001b[1mman\u001b[0m only looks in that section of  the  man-\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.035592,
+      "\r\u001b[K\u001b[H\u001bM\u001b[1mDESCRIPTION\u001b[0m\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.034995,
+      "\r\u001b[K\u001b[H\u001bM\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.033969,
+      "\r\u001b[K"
+    ],
+    [
+      3.2e-05,
+      "\u001b[H\u001bM       \u001b[4mpager\u001b[24m] [\u001b[1m-S\u001b[0m \u001b[4msection_list\u001b[24m] [\u001b[4msection\u001b[24m] \u001b[4mname\u001b[24m \u001b[4m...\u001b[24m\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.040354,
+      "\r\u001b[K\u001b[H\u001bM       \u001b[1mman\u001b[0m  [\u001b[1m-acdfFhkKtwW\u001b[0m]  [\u001b[1m--path\u001b[0m]  [\u001b[1m-m\u001b[0m  \u001b[4msystem\u001b[24m] [\u001b[1m-p\u001b[0m \u001b[4mstring\u001b[24m] [\u001b[1m-C\u001b[0m \u001b[4mconfig_file\u001b[24m] [\u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m] [\u001b[1m-P\u001b[0m \u001b[4mpager\u001b[24m] [\u001b[1m-B\u001b[0m \u001b[4mbrowser\u001b[24m] [\u001b[1m-H\u001b[0m \u001b[4mhtml-\u001b[24m\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.042481,
+      "\r\u001b[K\u001b[H\u001bM\u001b[1mSYNOPSIS\u001b[0m\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.027876,
+      "\r\u001b[K\u001b[H\u001bM\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.033957,
+      "\r\u001b[K\u001b[H\u001bM       man - format and display the on-line manual pages\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.037196,
+      "\r\u001b[K\u001b[H\u001bM\u001b[1mNAME\u001b[0m\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.122114,
+      "\r\u001b[K\u001b[H\u001bM\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.176272,
+      "\r\u001b[K\u001b[H\u001bMman(1)                                                                                                                   man(1)\r\n\u001b[48;1H\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.17552,
+      "\r\u001b[K\u0007\r\u001b[K:\u001b[K"
+    ],
+    [
+      0.416992,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.005045,
+      "\u001b[32mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.96166,
+      "^C"
+    ],
+    [
+      0.000135,
+      "\r\n"
+    ],
+    [
+      0.001552,
+      "\u001b[32mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}
