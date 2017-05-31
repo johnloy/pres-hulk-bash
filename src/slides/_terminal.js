@@ -1,7 +1,7 @@
-import React from "react";
-import Slide from "../components/slide";
-import Terminal from "../components/terminal";
-import SlideTitleComic from "../components/slide-title-comic";
+import * as React from "react";
+import Slide from "../../components/slide";
+import Terminal from "../../components/terminal";
+import SlideTitleComic from "../../components/slide-title-comic";
 
 class TerminalSlide extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class TerminalSlide extends React.Component {
 }
 
 export default (
-  <Slide key="bar">
+  <Slide key="terminal">
     <SlideTitleComic>The Bourne Shell...</SlideTitleComic>
     <TerminalSlide/>
   </Slide>

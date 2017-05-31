@@ -1,39 +1,19 @@
-import React from "react";
-import Radium from "radium"
-import Slide from "../components/slide";
-import SlideTitleComic from "../components/slide-title-comic";
+import * as React from "react";
+import Radium from "radium";
+import Slide from "../../components/slide";
+import SlideTitleComic from "../../components/slide-title-comic";
 import {
   List,
   ListItem,
   Appear
 } from "spectacle";
-
-const styles = {
-  content: {
-    background: "rgba(43, 5, 49, .90)",
-    position: "absolute",
-    top: "80px",
-    right: "40px",
-    bottom: "40px",
-    left: "40px",
-    padding: "60px"
-  },
-  list: {
-    listStylePosition: "inherit",
-    paddingLeft: "40px",
-    margin: 0,
-    color: "rgb(122, 100, 125)"
-  },
-  listItemText: {
-    color: "rgb(60, 156, 44)"
-  }
-};
+import styles from "../../styles";
 
 @Radium
 class BulletsSlide extends React.Component {
   render() {
     return (
-      <div style={styles.content} className="zoom-in">
+      <div className="content zoom-in">
         <List textSize="24px" textColor="white" style={styles.list}>
           <Appear>
             <ListItem>
@@ -56,7 +36,7 @@ class BulletsSlide extends React.Component {
 }
 
 export default (
-  <Slide key="bar">
+  <Slide key="bullets">
     <SlideTitleComic>The Bourne Shell...</SlideTitleComic>
     <BulletsSlide/>
   </Slide>

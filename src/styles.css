@@ -54,9 +54,10 @@ h1 {
 
 .comic-book {
   font-family: 'Comic Book Bold';
+  font-size: 36px;
   background: black;
   color: white;
-  padding: 5px 20px;
+  padding: 0px 20px 5px;
   letter-spacing: 1px;
   position: absolute; 
   top: 0; 
@@ -64,11 +65,20 @@ h1 {
 }
 
 .asciinema-theme-asciinema .asciinema-terminal {
-    border: 15px solid rgba(43, 5, 49, .90);
+    border: 36px solid rgba(43, 5, 49, .90);
     background-clip: content-box;
     color: #cccccc;
     background-color: rgba(43, 5, 49, .90);
     border-color: rgba(43, 5, 49, .90);
+}
+
+.asciinema-player-wrapper {
+  position: fixed;
+  top: 90px;
+  right: 40px;
+  bottom: 40px;
+  left: 40px;
+  overflow: hidden;
 }
 
 .spectacle-slide {
@@ -91,4 +101,21 @@ h1 {
   color: greenyellow;
   margin: 0;
   letter-spacing: .025em;
+}
+
+.content {
+  background: rgba(43, 5, 49, .90);
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  bottom: 40px;
+  left: 40px;
+  padding: 60px;
+}
+
+.content-section-title {
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
