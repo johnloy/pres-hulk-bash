@@ -6,13 +6,13 @@ import SlideTitleComic from "../../components/slide-title-comic";
 class TerminalSlide extends React.Component {
   render() {
     return (
-      <Terminal id="history-expansion"/>
+      <Terminal id="history-expansions"/>
     );
   }
 }
 
 export default (
-  <Slide key="history-expansion">
+  <Slide key="history-expansions">
     <SlideTitleComic>History expansions</SlideTitleComic>
     <TerminalSlide/>
   </Slide>

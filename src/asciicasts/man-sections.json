@@ -1,62 +1,478 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 47.279335,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.307454,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
-    ],
-    [
-      0.244881,
+      0.697748,
       "a"
     ],
     [
-      0.144528,
-      "y"
+      0.471646,
+      "p"
     ],
     [
-      0.751604,
-      " "
+      0.248564,
+      "r"
     ],
     [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.128181,
       "o"
     ],
     [
-      0.240611,
+      0.191489,
+      "p"
+    ],
+    [
+      0.151766,
+      "o"
+    ],
+    [
+      0.144547,
+      "s"
+    ],
+    [
+      0.360186,
+      " "
+    ],
+    [
+      0.231773,
+      "."
+    ],
+    [
+      0.231882,
+      " "
+    ],
+    [
+      0.311398,
+      "|"
+    ],
+    [
+      0.192768,
+      " "
+    ],
+    [
+      0.151663,
+      "g"
+    ],
+    [
+      0.224021,
+      "r"
+    ],
+    [
+      0.055972,
+      "e"
+    ],
+    [
+      0.255759,
+      "p"
+    ],
+    [
+      0.216144,
+      " "
+    ],
+    [
+      0.607809,
+      "'"
+    ],
+    [
+      0.504191,
+      "("
+    ],
+    [
+      0.623742,
+      "1"
+    ],
+    [
+      0.448063,
+      ")"
+    ],
+    [
+      0.896092,
+      "'"
+    ],
+    [
+      0.504324,
+      " "
+    ],
+    [
+      0.439348,
+      "|"
+    ],
+    [
+      0.872829,
+      " "
+    ],
+    [
+      0.343202,
+      "s"
+    ],
+    [
+      0.184111,
+      "e"
+    ],
+    [
+      0.192502,
+      "d"
+    ],
+    [
+      0.167927,
+      " "
+    ],
+    [
+      0.360222,
+      "-"
+    ],
+    [
+      0.239081,
+      "e"
+    ],
+    [
+      0.423983,
+      " "
+    ],
+    [
+      0.567886,
+      "'"
+    ],
+    [
+      0.352163,
+      "s"
+    ],
+    [
+      0.311856,
+      "/"
+    ],
+    [
+      0.848137,
+      "("
+    ],
+    [
+      0.3761,
+      "1"
+    ],
+    [
+      0.487785,
+      ")"
+    ],
+    [
+      1.584215,
+      "/"
+    ],
+    [
+      0.328255,
+      "/"
+    ],
+    [
+      0.735582,
+      "'"
+    ],
+    [
+      0.760372,
+      " "
+    ],
+    [
+      0.391648,
+      "|"
+    ],
+    [
+      0.224227,
+      " "
+    ],
+    [
+      0.175608,
+      "l"
+    ],
+    [
+      0.136462,
+      "e"
+    ],
+    [
+      0.279674,
+      "s"
+    ],
+    [
+      0.391973,
+      "s"
+    ],
+    [
+      0.504216,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.008396,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.023525,
+      "Highlight             - a universal sourcecode to formatted text converter\r\nVIT                   - Visual Interactive Taskwarrior\r\nWget                  - The non-interactive network downloader\r\naclocal               - manual page for aclocal 1.15\r\nacyclic               - make directed graph acyclic\r\nag                    - The Silver Searcher. Like ack, but faster\r\nasn1Coding            - ASN.1 DER encoder\r\nasn1Decoding          - ASN.1 DER decoder\r\nasn1Parser            - ASN.1 syntax tree generator for libtasn1\r\nautoconf              - Generate configuration scripts\r\nautoheader            - Create a template header for configure\r\nautom4te              - Generate files and scripts thanks to M4\r\nautomake              - manual page for automake 1.15\r\nautoreconf            - Update generated configuration files\r\nautoscan              - Generate a preliminary configure.in\r\nautoupdate            - Update a configure.in to a newer Autoconf\r\nbash                  - GNU Bourne-Again SHell\r\nbashbug               - "
+    ],
+    [
+      4.4e-05,
+      "report a bug in "
+    ],
+    [
+      0.00019,
+      "bash\r\nbcomps                - biconnected components filter for graphs\r\nbrew                  - The missing package manager for macOS\r\nbrew-cask             - a friendly binary installer for macOS\r\nccmake                - CMake Curses Dialog Command-Line Reference rst2man-indent-level 0 1 rstReportMargin \\$1 \\n[an-margin] level \\n[rst2man-indent-level] level margin: \\n[rst2man-indent\\n[rst2man-indent-level]] - \\n[rst2man-indent0] \\n[rst2man-indent1] \\n[rst2man-indent2] . 1 INDENT RS \\$1 nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \\n[rst2man-indent\\n[rst2man-indent-level]]u\r\nccomps                - connected components filter for graphs\r\ncluster               - find clusters in a graph and augment the graph with this information\r\n:\u001b[K"
+    ],
+    [
+      1.463589,
+      "\r\u001b[Kclusterdb             - cluster a PostgreSQL database\r\n:\u001b[K"
+    ],
+    [
+      0.432327,
+      "\r\u001b[Kcmake                 - CMake Command-Line Reference rst2man-indent-level 0 1 rstReportMargin \\$1 \\n[an-margin] level \\n[rst2man-indent-level] level margin: \\n[rst2man-indent\\n[rst2man-indent-level]] - \\n[rst2man-indent0] \\n[rst2man-indent1] \\n[rst2man-indent2] . 1 INDENT RS \\$1 nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \\n[rst2man-indent\\n[rst2man-indent-level]]u\r\n:\u001b[K"
+    ],
+    [
+      0.791536,
+      "\r\u001b[Kcomp_err              - compile MySQL error message file\r\n:\u001b[K"
+    ],
+    [
+      0.38386,
+      "\r\u001b[Kconfig.guess          - guess the build system triplet\r\n:\u001b[K"
+    ],
+    [
+      0.319987,
+      "\r\u001b[Kconfig.sub            - validate and canonicalize a configuration triplet\r\n:\u001b[K"
+    ],
+    [
+      0.25244,
+      "\r\u001b[Kcpack                 - CPack Command-Line Reference rst2man-indent-level 0 1 rstReportMargin \\$1 \\n[an-margin] level \\n[rst2man-indent-level] level margin: \\n[rst2man-indent\\n[rst2man-indent-level]] - \\n[rst2man-indent0] \\n[rst2man-indent1] \\n[rst2man-indent2] . 1 INDENT RS \\$1 nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \\n[rst2man-indent\\n[rst2man-indent-level]]u\r\n:\u001b[K"
+    ],
+    [
+      0.033229,
+      "\r\u001b[K"
+    ],
+    [
+      2.8e-05,
+      "createdb              - create a new PostgreSQL database\r\n:\u001b[K"
+    ],
+    [
+      0.036288,
+      "\r\u001b[Kcreatelang            - install a PostgreSQL procedural language\r\n:\u001b[K"
+    ],
+    [
+      0.334108,
+      "\r\u001b[Kcreateuser            - define a new PostgreSQL user account\r\n:\u001b[K"
+    ],
+    [
+      0.423853,
+      "\r\u001b[K"
+    ],
+    [
+      4e-05,
+      "cscope                - interactively examine a C program\r\n:\u001b[K"
+    ],
+    [
+      0.439748,
+      "\r\u001b[K"
+    ],
+    [
+      2.1e-05,
+      "ctest                 - CTest Command-Line Reference rst2man-indent-level 0 1 rstReportMargin \\$1 \\n[an-margin] level \\n[rst2man-indent-level] level margin: \\n[rst2man-indent\\n[rst2man-indent-level]] - \\n[rst2man-indent0] \\n[rst2man-indent1] \\n[rst2man-indent2] . 1 INDENT RS \\$1 nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \\n[rst2man-indent\\n[rst2man-indent-level]]u\r\n:\u001b[K"
+    ],
+    [
+      0.424417,
+      "\r\u001b[Kdayone2, dayone(1)    - Command line interface for the Day One journaling application\r\n:\u001b[K"
+    ],
+    [
+      0.335652,
+      "\r\u001b[Kdiffimg               - Calculates intersection between two images\r\n:\u001b[K"
+    ],
+    [
+      0.254483,
+      "\r\u001b[Kdijkstra              - single-source distance filter\r\n:\u001b[K"
+    ],
+    [
+      0.037716,
+      "\r\u001b[Kdot                   - filter for drawing directed graphs neato - filter for drawing undirected graphs twopi - filter for radial layouts of graphs circo - filter for circular layout of graphs fdp - filter for drawing undirected graphs sfdp - filter for drawing large undirected graphs patchwork - filter for tree maps\r\n:\u001b[K"
+    ],
+    [
+      0.042383,
+      "\r\u001b[Kdropdb                - remove a PostgreSQL database\r\n:\u001b[K"
+    ],
+    [
+      0.201828,
+      "\r\u001b[Kdroplang              - remove a PostgreSQL procedural language\r\n:\u001b[K"
+    ],
+    [
+      0.417929,
+      "\r\u001b[Kdropuser              - remove a PostgreSQL user account\r\n:\u001b[K"
+    ],
+    [
+      0.374039,
+      "\r\u001b[Kecpg                  - embedded SQL C preprocessor\r\n:\u001b[K"
+    ],
+    [
+      0.400043,
+      "\r\u001b[Kedgepaint             - edge coloring to disambiguate crossing edges\r\n:\u001b[K"
+    ],
+    [
+      0.383773,
+      "\r\u001b[K"
+    ],
+    [
+      2e-05,
+      "fasd                  - quick access to files and directories\r\n:\u001b[K"
+    ],
+    [
+      0.359862,
+      "\r\u001b[Kfzf                   - a command-line fuzzy finder\r\n:\u001b[K"
+    ],
+    [
+      0.352328,
+      "\r\u001b[Kgbase64, base64(1)    - base64 encode/decode data and print to standard output\r\n:\u001b[K"
+    ],
+    [
+      0.335987,
+      "\r\u001b[Kgbasename, basename(1) - strip directory and suffix from filenames\r\n:\u001b[K"
+    ],
+    [
+      0.487925,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.000371,
+      "sed: stdout: Broken pipe\r\n"
+    ],
+    [
+      0.003564,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.883756,
+      "m"
+    ],
+    [
+      0.071866,
+      "a"
+    ],
+    [
+      0.184296,
+      "n"
+    ],
+    [
+      0.191736,
+      " "
+    ],
+    [
+      0.408188,
+      "1"
+    ],
+    [
+      0.352174,
+      " "
+    ],
+    [
+      0.159598,
+      "i"
+    ],
+    [
+      0.112243,
+      "n"
+    ],
+    [
+      0.223938,
+      "f"
+    ],
+    [
+      0.168014,
+      "o"
+    ],
+    [
+      0.312073,
+      "\r\n"
+    ],
+    [
+      0.044053,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.032937,
+      "INFO(1)                          User Commands                         INFO(1)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       info - read Info documents\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       \u001b[1minfo\u001b[0m [\u001b[4mOPTION\u001b[24m]... [\u001b[4mMENU-ITEM\u001b[24m...]\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       Read documentation in Info format.\r\n\r\n\u001b[1mOPTIONS\u001b[0m\r\n       \u001b[1m--apropos\u001b[0m=\u001b[4mSTRING\u001b[24m\r\n              look up STRING in all indices of all manuals.\r\n\r\n       \u001b[1m-d\u001b[0m, \u001b[1m--directory\u001b[0m=\u001b[4mDIR\u001b[24m\r\n              add DIR to INFOPATH.\r\n\r\n       \u001b[1m--dribble\u001b[0m=\u001b[4mFILENAME\u001b[24m\r\n              remember user keystrokes in FILENAME.\r\n\r\n       \u001b[1m-f\u001b[0m, \u001b[1m--file\u001b[0m=\u001b[4mFILENAME\u001b[24m\r\n              specify Info file to visit.\r\n\r\n:\u001b[K"
+    ],
+    [
+      3.538449,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.003781,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.140596,
+      "m"
+    ],
+    [
+      0.119977,
+      "a"
+    ],
+    [
+      0.119978,
+      "n"
+    ],
+    [
+      0.119637,
+      " "
+    ],
+    [
+      0.528257,
+      "5"
+    ],
+    [
+      0.280496,
+      " "
+    ],
+    [
+      0.175226,
+      "i"
+    ],
+    [
+      0.072329,
+      "n"
+    ],
+    [
+      0.207511,
+      "f"
+    ],
+    [
+      0.136742,
+      "o"
+    ],
+    [
+      0.503835,
+      "\r\n"
+    ],
+    [
+      0.022207,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.018668,
+      "INFO(5)                                                                INFO(5)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       info - readable online documentation\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       The  Info  file  format is an easily-parsable representation for online\r\n       documents.  It can be read by \u001b[4memacs(1)\u001b[24m and  \u001b[4minfo(1)\u001b[24m  among  other  pro-\r\n       grams.\r\n\r\n       Info  files are usually created from \u001b[4mtexinfo(5)\u001b[24m sources by \u001b[4mmakeinfo(1)\u001b[24m,\r\n       but can be created from scratch if so desired.\r\n\r\n       For a full description of the Texinfo language  and  associated  tools,\r\n       please  see  the  Texinfo  manual  (written  in  Texinfo itself).  Most\r\n       likely, running this command from your shell:\r\n              \u001b[4minfo\u001b[24m \u001b[4mtexinfo\u001b[24m\r\n       or this key sequence from inside Emacs:\r\n              \u001b[4mM-x\u001b[24m \u001b[4minfo\u001b[24m \u001b[4mRET\u001b[24m \u001b[4mm\u001b[24m \u001b[4mtexinfo\u001b[24m \u001b[4mRET\u001b[24m\r\n       will get you there.\r\n\r\n\u001b[1mAVAILABILITY\u001b[0m\r\n       ftp://ftp.gnu.org/pub/gnu/texinfo-<version>.tar"
+    ],
+    [
+      7.3e-05,
+      ".gz\r\n       or any GNU mirror site.\r\n:\u001b[K"
+    ],
+    [
+      4.950278,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.003025,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

@@ -1,62 +1,446 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 41.313086,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.16681,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.780587,
+      "m"
     ],
     [
-      0.244881,
+      0.135505,
       "a"
     ],
     [
-      0.144528,
-      "y"
+      0.144227,
+      "n"
     ],
     [
-      0.751604,
+      0.200147,
       " "
     ],
     [
-      1.800467,
-      "h"
+      0.143561,
+      "a"
     ],
     [
-      0.11892,
-      "e"
+      0.152409,
+      "p"
     ],
     [
-      0.13619,
-      "l"
+      0.14385,
+      "r"
     ],
     [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.087896,
       "o"
     ],
     [
-      0.240611,
+      0.359829,
+      "p"
+    ],
+    [
+      0.304664,
+      "o"
+    ],
+    [
+      0.199335,
+      "s"
+    ],
+    [
+      0.648505,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.057139,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.034481,
+      "apropos(1)                                                          apropos(1)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       apropos - search the whatis database for strings\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       \u001b[1mapropos\u001b[0m keyword ...\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       apropos  searches a set of database files containing short descriptions\r\n       of system commands for keywords and displays the result on the standard\r\n       output.\r\n\r\n\u001b[1mAUTHOR\u001b[0m\r\n       John  W.  Eaton  was  the  original  author  of \u001b[1mman\u001b[0m.  Zeyd M. Ben-Halim\r\n       released man 1.2, and Andries Brouwer followed  up  with  versions  1.3\r\n       thru  1.5p.   Federico  Lucifredi  <flucifredi@acm.org>  is the current\r\n       maintainer.\r\n\r\n\u001b[1mSEE\u001b[0m \u001b[1mALSO\u001b[0m\r\n       whatis(1), man(1).\r\n\r\n                              September 19, 2005                    apropos(1)\r\n"
+    ],
+    [
+      0.001201,
+      "\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      4.66832,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.003483,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.546601,
+      "a"
+    ],
+    [
+      0.160298,
+      "p"
+    ],
+    [
+      0.080113,
+      "r"
+    ],
+    [
+      0.119705,
+      "o"
+    ],
+    [
+      0.176792,
+      "p"
+    ],
+    [
+      0.199301,
+      "o"
+    ],
+    [
+      0.160171,
+      "s"
+    ],
+    [
+      0.207872,
+      " "
+    ],
+    [
+      0.167998,
+      "a"
+    ],
+    [
+      0.136525,
+      "p"
+    ],
+    [
+      0.167597,
+      "r"
+    ],
+    [
+      0.375778,
+      "o"
+    ],
+    [
+      0.35975,
+      "p"
+    ],
+    [
+      0.232083,
+      "o"
+    ],
+    [
+      0.136314,
+      "s"
+    ],
+    [
+      0.599494,
+      "\r\n"
+    ],
+    [
+      0.030446,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.011774,
+      "apropos(1)               - search the whatis database for strings\r\n"
+    ],
+    [
+      0.000929,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.002774,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.330107,
+      "a"
+    ],
+    [
+      0.159945,
+      "p"
+    ],
+    [
+      0.167914,
+      "r"
+    ],
+    [
+      0.080433,
+      "o"
+    ],
+    [
+      0.151604,
+      "p"
+    ],
+    [
+      0.200296,
+      "o"
+    ],
+    [
+      0.128107,
+      "s"
+    ],
+    [
+      0.192099,
+      " "
+    ],
+    [
+      0.263821,
+      "g"
+    ],
+    [
+      0.783561,
+      "r"
+    ],
+    [
+      0.064266,
+      "e"
+    ],
+    [
+      0.279918,
+      "p"
+    ],
+    [
+      0.456048,
+      "\r\n"
+    ],
+    [
+      0.018299,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.004807,
+      "git-grep(1)              - Print lines matching a pattern\r\npcregrep(1)              - a grep with Perl-compatible regular expressions\r\nxzgrep(1)                - search compressed files for a regular expression\r\n"
+    ],
+    [
+      0.010396,
+      "grep(1), egrep(1), fgrep(1), zgrep(1), zegrep(1), zfgrep(1) - file pattern searc \bher\r\npgrep(1), pkill(1)       - find or signal processes by name\r\nptargrep(1)              - Apply pattern matching to the contents of files in a  \btar archive\r\nzipgrep(1)               - search files in a ZIP archive for lines matching a pa \bttern\r\n"
+    ],
+    [
+      0.000759,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.002485,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      4.203904,
+      "a"
+    ],
+    [
+      0.23916,
+      "p"
+    ],
+    [
+      0.200158,
+      "r"
+    ],
+    [
+      0.079997,
+      "o"
+    ],
+    [
+      0.255931,
+      "p"
+    ],
+    [
+      0.27972,
+      "o"
+    ],
+    [
+      0.391966,
+      "s"
+    ],
+    [
+      1.17838,
+      " "
+    ],
+    [
+      0.301623,
+      "."
+    ],
+    [
+      0.359976,
+      " "
+    ],
+    [
+      0.5205,
+      "|"
+    ],
+    [
+      0.391859,
+      " "
+    ],
+    [
+      0.447864,
+      "l"
+    ],
+    [
+      0.119997,
+      "e"
+    ],
+    [
+      0.279931,
+      "s"
+    ],
+    [
+      0.344102,
+      "s"
+    ],
+    [
+      1.53567,
+      "\r\n"
+    ],
+    [
+      0.005204,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.013204,
+      "ABORT(7)                 - abort the current transaction\r\nALTER_AGGREGATE(7)       - change the definition of an aggregate function\r\nALTER_COLLATION(7)       - change the definition of a collation\r\nALTER_CONVERSION(7)      - change the definition of a conversion\r\nALTER_DATABASE(7)        - change a database\r\nALTER_DEFAULT_PRIVILEGES(7) - define default access privileges\r\nALTER_DOMAIN(7)          - change the definition of a domain\r\nALTER_EVENT_TRIGGER(7)   - change the definition of an event trigger\r\nALTER_EXTENSION(7)       - change the definition of an extension\r\nALTER_FOREIGN_DATA_WRAPPER(7) - change the definition of a foreign-data wrapper\r\nALTER_FOREIGN_TABLE(7)   - change the definition of a foreign table\r\nALTER_FUNCTION(7)        - change the definition of a function\r\nALTER_GROUP(7)           - change role name or membership\r\nALTER_INDEX(7)           - change the definition of an index\r\nALTER_LANGUAGE(7)        - change the definition of a procedural language\r\n"
+    ],
+    [
+      6.2e-05,
+      "ALTER_LARGE_OBJECT(7)    - change the definition of a large object\r\nALTER_MATERIALIZED_VIEW(7) - change the definition of a materialized view\r\nALTER_OPERATOR(7)        - change the definition of an operator\r\nALTER_OPERATOR_CLASS(7)  - change the definition of an operator class\r\nALTER_OPERATOR_FAMILY(7) - change the definition of an operator family\r\nALTER_ROLE(7)            - change a database role\r\nALTER_RULE(7)            - change the definition of a rule\r\nALTER_SCHEMA(7)          - change the definition of a schema\r\nALTER_SEQUENCE(7)        - change the definition of a sequence generator\r\n:\u001b[K"
+    ],
+    [
+      1.101527,
+      "\r\u001b[KALTER_SERVER(7)          - change the definition of a foreign server\r\n:\u001b[K"
+    ],
+    [
+      0.375993,
+      "\r\u001b[KALTER_SYSTEM(7)          - change a server configuration parameter\r\n:\u001b[K"
+    ],
+    [
+      0.254464,
+      "\r\u001b[KALTER_TABLE(7)           - change the definition of a table\r\n:\u001b[K"
+    ],
+    [
+      0.036758,
+      "\r\u001b[K"
+    ],
+    [
+      1.9e-05,
+      "ALTER_TABLESPACE(7)      - change the definition of a tablespace\r\n:\u001b[K"
+    ],
+    [
+      0.37282,
+      "\r\u001b[KALTER_TEXT_SEARCH_CONFIGURATION(7) - change the definition of a text search configuration\r\n:\u001b[K"
+    ],
+    [
+      0.254777,
+      "\r\u001b[KALTER_TEXT_SEARCH_DICTIONARY(7) - change the definition of a text search dictionary\r\n:\u001b[K"
+    ],
+    [
+      0.03643,
+      "\r\u001b[KALTER_TEXT_SEARCH_PARSER(7) - change the definition of a text search parser\r\n:\u001b[K"
+    ],
+    [
+      0.031802,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "ALTER_TEXT_SEARCH_TEMPLATE(7) - change the definition of a text search template\r\n:\u001b[K"
+    ],
+    [
+      0.292869,
+      "\r\u001b[KALTER_TRIGGER(7)         - change the definition of a trigger\r\n:\u001b[K"
+    ],
+    [
+      0.250407,
+      "\r\u001b[KALTER_TYPE(7)            - change the definition of a type\r\n:\u001b[K"
+    ],
+    [
+      0.042323,
+      "\r\u001b[KALTER_USER(7)            - change a database role\r\n:\u001b[K"
+    ],
+    [
+      0.331439,
+      "\r\u001b[KALTER_USER_MAPPING(7)    - change the definition of a user mapping\r\n:\u001b[K"
+    ],
+    [
+      0.251397,
+      "\r\u001b[KALTER_VIEW(7)            - change the definition of a view\r\n:\u001b[K"
+    ],
+    [
+      0.03789,
+      "\r\u001b[KANALYZE(7)               - collect statistics about a database\r\n:\u001b[K"
+    ],
+    [
+      0.382695,
+      "\r\u001b[KBEGIN(7)                 - start a transaction block\r\n:\u001b[K"
+    ],
+    [
+      0.255121,
+      "\r\u001b[KCHECKPOINT(7)            - force a transaction log checkpoint\r\n:\u001b[K"
+    ],
+    [
+      0.042597,
+      "\r\u001b[KCLOSE(7)                 - close a cursor\r\n:\u001b[K"
+    ],
+    [
+      0.381949,
+      "\r\u001b[KCLUSTER(7)               - cluster a table according to an index\r\n:\u001b[K"
+    ],
+    [
+      0.251434,
+      "\r\u001b[KCOMMENT(7)               - define or change the comment of an object\r\n:\u001b[K"
+    ],
+    [
+      0.034791,
+      "\r\u001b[KCOMMIT(7)                - commit the current transaction\r\n:\u001b[K"
+    ],
+    [
+      0.034467,
+      "\r\u001b[KCOMMIT_PREPARED(7)       - commit a transaction that was earlier prepared for two-phase commit\r\n:\u001b[K"
+    ],
+    [
+      0.359304,
+      "\r\u001b[KCOPY(7)                  - copy data between a file and a table\r\n:\u001b[K"
+    ],
+    [
+      0.671797,
+      "\r\u001b[KCREATE_AGGREGATE(7)      - define a new aggregate function\r\n:\u001b[K"
+    ],
+    [
+      0.616522,
+      "\r\u001b[KCREATE_CAST(7)           - define a new cast\r\n:\u001b[K"
+    ],
+    [
+      0.439868,
+      "\r\u001b[KCREATE_COLLATION(7)      - define a new collation\r\n:\u001b[K"
+    ],
+    [
+      0.287672,
+      "\r\u001b[KCREATE_CONVERSION(7)     - define a new encoding conversion\r\n:\u001b[K"
+    ],
+    [
+      0.424245,
+      "\r\u001b[KCREATE_DATABASE(7)       - create a new database\r\n:\u001b[K"
+    ],
+    [
+      0.511892,
+      "\r\u001b[KCREATE_DOMAIN(7)         - define a new domain\r\n:\u001b[K"
+    ],
+    [
+      1.392232,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.005949,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

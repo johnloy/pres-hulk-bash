@@ -1,62 +1,94 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 13.869546,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.422991,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.828647,
+      "i"
     ],
     [
-      0.244881,
-      "a"
+      0.191521,
+      "n"
     ],
     [
-      0.144528,
-      "y"
+      0.136482,
+      "f"
     ],
     [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.159509,
       "o"
     ],
     [
-      0.240611,
+      0.160352,
+      " "
+    ],
+    [
+      0.311557,
+      "i"
+    ],
+    [
+      0.055952,
+      "n"
+    ],
+    [
+      0.192058,
+      "f"
+    ],
+    [
+      0.336088,
+      "o"
+    ],
+    [
+      1.127873,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.009415,
+      "\u001b[?1h\u001b=\u001b[?1049h"
+    ],
+    [
+      0.000326,
+      "\u001b[H\u001b[2J\u001b[25;1HWelcome to Info version 4.8. Type ? for help, m for menu item.\u001b[1;1HFile: info.info,  Node: Top,  Next: Getting Started,  Up: (dir)\u001b[3;1HInfo: An Introduction\u001b[4;1H*********************\u001b[6;1HThe GNU Project distributes most of its on-line manuals in the \"Info\u001b[7;1Hformat\", which you read using an \"Info reader\".  You are probably using\u001b[8;1Han Info reader to read this now."
+    ],
+    [
+      3.2e-05,
+      "\u001b[10;1H   There are two primary Info readers: `info', a stand-alone program\u001b[11;1Hdesigned just to read Info files, and the `info' package in GNU Emacs,\u001b[12;1Ha general-purpose editor.  At present, only the Emacs reader supports\u001b[13;1Husing a mouse.\u001b[15;1H   If you are new to the Info reader and want to learn how to use it,\u001b[16;1Htype the command `h' now.  It brings you to a programmed instruction\u001b[17;1Hsequence.\u001b[19;1H   To read about expert-level Info commands, type `n' twice.  This\u001b[20;1Hbrings you to `Info for Experts', skipping over the `Getting Started'\u001b[21;1Hchapter.\u001b[23;1H* Menu:\u001b[24;1H\u001b[7m-----Info: (info.info)Top, 29 lines --Top---------------------------------------\u001b[0m\u001b[1;1H"
+    ],
+    [
+      2.326818,
+      "\u001b[25;1H\u001b[K"
+    ],
+    [
+      2.7e-05,
+      "\u0007\u001b[25;1HUnknown command (j).\u001b[1;1H"
+    ],
+    [
+      4.007054,
+      "\u001b[25;1H\u001b[K\u0007\u001b[25;1HUnknown command (C-d).\u001b[1;1H"
+    ],
+    [
+      1.640513,
+      "\u001b[25;1H\u001b[K\u0007\u001b[25;1HUnknown command (C-d).\u001b[1;1H"
+    ],
+    [
+      0.959544,
+      "\u001b[25;1H\u001b[K\u001b[25;1H\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.001475,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

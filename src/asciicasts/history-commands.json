@@ -1,62 +1,622 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 37.33687,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.158817,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
-    ],
-    [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
+      0.825599,
       "h"
     ],
     [
-      0.11892,
-      "e"
+      0.176001,
+      "i"
     ],
     [
-      0.13619,
-      "l"
+      0.143625,
+      "s"
     ],
     [
-      0.144402,
-      "l"
+      0.160022,
+      "t"
     ],
     [
-      0.223923,
+      0.151774,
       "o"
     ],
     [
-      0.240611,
+      0.319974,
+      "r"
+    ],
+    [
+      0.184229,
+      "y"
+    ],
+    [
+      0.352266,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.000539,
+      "    1  2017-06-01 17:26:49 :> ~/.bash_history \r\n    2  2017-06-01 17:27:22 ls ~/src\r\n    3  2017-06-01 17:31:18 fc -e\r\n"
+    ],
+    [
+      2.6e-05,
+      "    4  2017-06-01 17:33:07 curl 'https://api.github.com/users/johnloy' -H 'Pragma: no-cache' -H 'Accept-Encoding: gzip, deflate, sdch, br' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: no-cache' -H 'Connection: keep-alive' --compressed\r\n    5  2017-06-01 17:32:58 asciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/src/asciicasts/history-commands.html \r\n"
+    ],
+    [
+      0.000167,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      5.760118,
+      "curl"
+    ],
+    [
+      0.00023,
+      " 'https://api.github.com/users/johnloy' \\\r\n"
+    ],
+    [
+      0.000174,
+      "> -H"
+    ],
+    [
+      5.9e-05,
+      " 'Pragma:"
+    ],
+    [
+      9.4e-05,
+      " no-cache' \\\r\n"
+    ],
+    [
+      0.000148,
+      "> -H"
+    ],
+    [
+      0.000142,
+      " 'Accept-Encoding:"
+    ],
+    [
+      3.2e-05,
+      " gzip,"
+    ],
+    [
+      5e-05,
+      " deflate,"
+    ],
+    [
+      8.5e-05,
+      " sdch,"
+    ],
+    [
+      3.8e-05,
+      " br' \\\r\n"
+    ],
+    [
+      0.000194,
+      "> -H"
+    ],
+    [
+      0.000133,
+      " 'Accept-Language:"
+    ],
+    [
+      2.2e-05,
+      " en-US,"
+    ],
+    [
+      7.9e-05,
+      "en;q=0.8' \\"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      0.000158,
+      "> -H"
+    ],
+    [
+      0.000176,
+      " 'Upgrade-Insecure-Requests: 1'"
+    ],
+    [
+      2e-05,
+      " \\\r\n"
+    ],
+    [
+      0.000146,
+      "> -H"
+    ],
+    [
+      0.000103,
+      " 'User-Agent:"
+    ],
+    [
+      8e-05,
+      " Mozilla/5.0"
+    ],
+    [
+      6.6e-05,
+      " (Macintosh;"
+    ],
+    [
+      2.8e-05,
+      " Intel"
+    ],
+    [
+      5.3e-05,
+      " Mac"
+    ],
+    [
+      1.9e-05,
+      " OS X"
+    ],
+    [
+      8e-05,
+      " 10_12_1)"
+    ],
+    [
+      0.000125,
+      " AppleWebKit/537\r7.36"
+    ],
+    [
+      6.8e-05,
+      " (KHTML,"
+    ],
+    [
+      2e-05,
+      " like"
+    ],
+    [
+      7.2e-05,
+      " Gecko)"
+    ],
+    [
+      0.000125,
+      " Chrome/58.0.3029.110"
+    ],
+    [
+      8.5e-05,
+      " Safari/537.36'"
+    ],
+    [
+      1.6e-05,
+      " \\\r\n"
+    ],
+    [
+      0.000102,
+      "> -H"
+    ],
+    [
+      7.1e-05,
+      " 'Accept:"
+    ],
+    [
+      5.5e-05,
+      " text/html,a"
+    ],
+    [
+      0.000181,
+      "pplication/xhtml+xml,"
+    ],
+    [
+      1.7e-05,
+      "a"
+    ],
+    [
+      0.000186,
+      "pplication/xml;q=0.9,"
+    ],
+    [
+      3.5e-05,
+      "image/webp"
+    ],
+    [
+      2.9e-05,
+      ","
+    ],
+    [
+      0.000126,
+      "*/\r/*;q=0.8'"
+    ],
+    [
+      2.8e-05,
+      " \\\r\n"
+    ],
+    [
+      9.9e-05,
+      "> "
+    ],
+    [
+      1.7e-05,
+      "-H"
+    ],
+    [
+      0.000108,
+      " 'Cache-Control:"
+    ],
+    [
+      3.2e-05,
+      " no-cache'"
+    ],
+    [
+      1.5e-05,
+      " \\\r\n"
+    ],
+    [
+      8e-05,
+      "> -H"
+    ],
+    [
+      0.0001,
+      " 'Connection:"
+    ],
+    [
+      7e-05,
+      " keep-alive'"
+    ],
+    [
+      6.2e-05,
+      " --compressed"
+    ],
+    [
+      1.706812,
+      "\r\n"
+    ],
+    [
+      1.136264,
+      "{\r\n  \"login\": \"johnloy\",\r\n  \"id\": 118049,\r\n  \"avatar_url\": \"https://avatars3.githubusercontent.com/u/118049?v=3\",\r\n  \"gravatar_id\": \"\",\r\n  \"url\": \"https://api.github.com/users/johnloy\",\r\n  \"html_url\": \"https://github.com/johnloy\",\r\n  \"followers_url\": \"https://api.github.com/users/johnloy/followers\",\r\n  \"following_url\": \"https://api.github.com/users/johnloy/following{/other_user}\",\r\n  \"gists_url\": \"https://api.github.com/users/johnloy/gists{/gist_id}\",\r\n  \"starred_url\": \"https://api.github.com/users/johnloy/starred{/owner}{/repo}\",\r\n  \"subscriptions_url\": \"https://api.github.com/users/johnloy/subscriptions\",\r\n  \"organizations_url\": \"https://api.github.com/users/johnloy/orgs\",\r\n  \"repos_url\": \"https://api.github.com/users/johnloy/repos\",\r\n  \"events_url\": \"https://api.github.com/users/johnloy/events{/privacy}\",\r\n  \"received_events_url\": \"https://api.github.com/users/johnloy/received_events\",\r\n  \"type\": \"User\",\r\n  \"site_admin\": false,\r\n  \"name\": \"John Loy\",\r\n  \"company\": \"WillowTree Apps\",\r\n  \"blog\": \"http://john"
+    ],
+    [
+      8.4e-05,
+      "loy.net\",\r\n  \"location\": \"Charlottesville, VA, U.S.A\",\r\n  \"email\": null,\r\n  \"hireable\": null,\r\n  \"bio\": null,\r\n  \"public_repos\": 164,\r\n  \"public_gists\": 11,\r\n  \"followers\": 3,\r\n  \"following\": 0,\r\n  \"created_at\": \"2009-08-21T20:10:59Z\",\r\n  \"updated_at\": \"2017-01-30T01:42:32Z\"\r\n}\r\n"
+    ],
+    [
+      0.001943,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.788864,
+      "f"
+    ],
+    [
+      0.367723,
+      "c"
+    ],
+    [
+      0.248393,
+      " "
+    ],
+    [
+      0.367737,
+      "-"
+    ],
+    [
+      0.408343,
+      "e"
+    ],
+    [
+      0.175912,
+      " "
+    ],
+    [
+      0.263717,
+      "n"
+    ],
+    [
+      0.112117,
+      "a"
+    ],
+    [
+      0.159752,
+      "n"
+    ],
+    [
+      0.288606,
+      "o"
+    ],
+    [
+      1.224008,
+      "\r\n"
+    ],
+    [
+      0.006121,
+      "\u001b[?1049h\u001b[1;25r\u001b(B\u001b[m\u001b[4l\u001b[?7h\u001b[?12l\u001b[?25h"
+    ],
+    [
+      6.2e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4e-05,
+      "\u001b[?1h\u001b=\u001b[?1h\u001b="
+    ],
+    [
+      0.001009,
+      "\u001b[39;49m\u001b[39;49m\u001b(B\u001b[m\u001b[H\u001b[2J\u001b(B\u001b[0;7m  GNU nano 2.0.6 File: ...l1140qdmx2g46hzwrk40000gp/T//bash-fc.ibx3TU           \u001b[3;1H\u001b(B\u001b[mcurl 'https://api.github.com/users/johnloy' -H 'Pragma: no-cache' -H 'Accept-En$\u001b[23;33H\u001b(B\u001b[0;7m[ Read 1 line ]\r\u001b[24d^G\u001b(B\u001b[m Get Help  \u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut  \u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File \u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page \u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text  \u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\r\u001b[25d\u001b(B\u001b[0;7m^X\u001b(B\u001b[m Exit\u001b[14G\u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify   \u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is  \u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page \u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\r\u001b[3d"
+    ],
+    [
+      1.96803,
+      "c"
+    ],
+    [
+      0.272319,
+      "u"
+    ],
+    [
+      0.184299,
+      "r"
+    ],
+    [
+      0.25297,
+      "l"
+    ],
+    [
+      0.035992,
+      " "
+    ],
+    [
+      0.037659,
+      "'"
+    ],
+    [
+      0.036642,
+      "h"
+    ],
+    [
+      0.036244,
+      "t"
+    ],
+    [
+      0.034885,
+      "t"
+    ],
+    [
+      0.037408,
+      "p"
+    ],
+    [
+      0.035038,
+      "s"
+    ],
+    [
+      0.036868,
+      ":"
+    ],
+    [
+      0.033044,
+      "/"
+    ],
+    [
+      0.03592,
+      "/"
+    ],
+    [
+      0.033587,
+      "a"
+    ],
+    [
+      0.036539,
+      "p"
+    ],
+    [
+      0.033045,
+      "i"
+    ],
+    [
+      0.039266,
+      "."
+    ],
+    [
+      0.036311,
+      "g"
+    ],
+    [
+      0.034524,
+      "i"
+    ],
+    [
+      0.035041,
+      "t"
+    ],
+    [
+      0.034704,
+      "h"
+    ],
+    [
+      0.037679,
+      "u"
+    ],
+    [
+      0.037866,
+      "b"
+    ],
+    [
+      0.034661,
+      "."
+    ],
+    [
+      0.035104,
+      "\r\u001b[23d\u001b[K\u001b[3;26Hc"
+    ],
+    [
+      0.034954,
+      "o"
+    ],
+    [
+      0.034972,
+      "m"
+    ],
+    [
+      0.034389,
+      "/"
+    ],
+    [
+      0.038153,
+      "u"
+    ],
+    [
+      0.032895,
+      "s"
+    ],
+    [
+      0.037157,
+      "e"
+    ],
+    [
+      0.036264,
+      "r"
+    ],
+    [
+      0.149313,
+      "s"
+    ],
+    [
+      0.264154,
+      "/"
+    ],
+    [
+      0.464416,
+      "\u001b[1;71H\u001b(B\u001b[0;7mModified\u001b[3;36H\u001b(B\u001b[mxjohnloy' -H 'Pragma: no-cache' -H 'Accept-E\u001b[3;37H"
+    ],
+    [
+      1.160524,
+      "\bjohnloy' -H 'Pragma: no-cache' -H 'Accept-En\u001b[3;36H"
+    ],
+    [
+      0.359242,
+      "j"
+    ],
+    [
+      0.251342,
+      "o"
+    ],
+    [
+      0.033574,
+      "h"
+    ],
+    [
+      0.035011,
+      "n"
+    ],
+    [
+      0.037212,
+      "l"
+    ],
+    [
+      0.038297,
+      "o"
+    ],
+    [
+      0.292167,
+      "y"
+    ],
+    [
+      0.400293,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Enc\u001b[3;42H"
+    ],
+    [
+      0.192245,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Enco\u001b[3;41H"
+    ],
+    [
+      0.184349,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Encod\u001b[3;40H"
+    ],
+    [
+      0.175889,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Encodi\u001b[3;39H"
+    ],
+    [
+      0.143983,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Encodin\u001b[3;38H"
+    ],
+    [
+      0.151543,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Encoding\u001b[3;37H"
+    ],
+    [
+      0.200391,
+      "\b' -H 'Pragma: no-cache' -H 'Accept-Encoding:\u001b[3;36H"
+    ],
+    [
+      0.495504,
+      "e' -H 'Pragma: no-cache' -H 'Accept-Encoding\u001b[3;37H"
+    ],
+    [
+      0.224349,
+      "l' -H 'Pragma: no-cache' -H 'Accept-Encodin\u001b[3;38H"
+    ],
+    [
+      0.175818,
+      "o' -H 'Pragma: no-cache' -H 'Accept-Encodi\u001b[3;39H"
+    ],
+    [
+      0.096229,
+      "n' -H 'Pragma: no-cache' -H 'Accept-Encod\u001b[3;40H"
+    ],
+    [
+      0.583603,
+      "m' -H 'Pragma: no-cache' -H 'Accept-Enco\u001b[3;41H"
+    ],
+    [
+      0.232221,
+      "u' -H 'Pragma: no-cache' -H 'Accept-Enc\u001b[3;42H"
+    ],
+    [
+      0.136208,
+      "s' -H 'Pragma: no-cache' -H 'Accept-En\u001b[3;43H"
+    ],
+    [
+      0.264024,
+      "k' -H 'Pragma: no-cache' -H 'Accept-E\u001b[3;44H"
+    ],
+    [
+      2.127942,
+      "\r\u001b[23d\u001b(B\u001b[0;7mFile Name to Write:$x3TU                                                        \u001b[24;14H\u001b(B\u001b[m       \u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Files         \u001b(B\u001b[0;7mM-M\u001b(B\u001b[m Mac Format      \u001b(B\u001b[0;7mM-P\u001b(B\u001b[m Prepend\u001b[K\u001b[25;2H\u001b(B\u001b[0;7mC\u001b(B\u001b[m Cancel           \u001b(B\u001b[0;7mM-D\u001b(B\u001b[m DOS Format      \u001b(B\u001b[0;7mM-A\u001b(B\u001b[m Append          \u001b(B\u001b[0;7mM-B\u001b(B\u001b[m Backup File\u001b[K\u001b[23;25H"
+    ],
+    [
+      0.679483,
+      "\u0007"
+    ],
+    [
+      1.920704,
+      "\u0007"
+    ],
+    [
+      1.385393,
+      "\u001b[1;71H\u001b[39;49m\u001b(B\u001b[0;7m        \u001b[23;32H\u001b(B\u001b[m\u001b[1K \u001b(B\u001b[0;7m[ Wrote 1 line ]\u001b(B\u001b[m\u001b[K\u001b[24;14H\u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut  \u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File \u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page \u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text  \u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\u001b[25;2H\u001b(B\u001b[0;7mX\u001b(B\u001b[m Exit      \u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify   \u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is  \u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page \u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\u001b[3;44H"
+    ],
+    [
+      1.053697,
+      "\r\u001b[24d\u001b[J\u001b[25;80H\u001b[25;1H\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.000881,
+      "curl 'https://api.github.com/users/elonmusk' -H 'Pragma: no-cache' -H 'Accept-Encoding: gzip, deflate, sdch, br' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: no-cache' -H 'Connection: keep-alive' --compressed\r\n"
+    ],
+    [
+      0.213936,
+      "{\r\n  \"login\": \"ElonMusk\",\r\n  \"id\": 4688214,\r\n  \"avatar_url\": \"https://avatars0.githubusercontent.com/u/4688214?v=3\",\r\n  \"gravatar_id\": \"\",\r\n  \"url\": \"https://api.github.com/users/ElonMusk\",\r\n  \"html_url\": \"https://github.com/ElonMusk\",\r\n  \"followers_url\": \"https://api.github.com/users/ElonMusk/followers\",\r\n  \"following_url\": \"https://api.github.com/users/ElonMusk/following{/other_user}\",\r\n  \"gists_url\": \"https://api.github.com/users/ElonMusk/gists{/gist_id}\",\r\n  \"starred_url\": \"https://api.github.com/users/ElonMusk/starred{/owner}{/repo}\",\r\n  \"subscriptions_url\": \"https://api.github.com/users/ElonMusk/subscriptions\",\r\n  \"organizations_url\": \"https://api.github.com/users/ElonMusk/orgs\",\r\n  \"repos_url\": \"https://api.github.com/users/ElonMusk/repos\",\r\n  \"events_url\": \"https://api.github.com/users/ElonMusk/events{/privacy}\",\r\n  \"received_events_url\": \"https://api.github.com/users/ElonMusk/received_events\",\r\n  \"type\": \"User\",\r\n  \"site_admin\": false,\r\n  \"name\": null,\r\n  \"company\": null,\r\n  \"blog\": \"\",\r\n  \"location\""
+    ],
+    [
+      8e-05,
+      ": null,\r\n  \"email\": null,\r\n  \"hireable\": null,\r\n  \"bio\": null,\r\n  \"public_repos\": 1,\r\n  \"public_gists\": 0,\r\n  \"followers\": 4,\r\n  \"following\": 0,\r\n  \"created_at\": \"2013-06-13T11:41:06Z\",\r\n  \"updated_at\": \"2017-05-26T02:24:59Z\"\r\n}\r\n"
+    ],
+    [
+      0.002128,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }
