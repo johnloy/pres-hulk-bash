@@ -1,62 +1,90 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 81,
+  "height": 25,
+  "duration": 12.97716,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.173824,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.727023,
+      "m"
     ],
     [
-      0.244881,
+      0.167747,
       "a"
     ],
     [
-      0.144528,
-      "y"
+      0.163195,
+      "n"
     ],
     [
-      0.751604,
+      0.260798,
       " "
     ],
     [
-      1.800467,
-      "h"
+      0.432321,
+      "n"
     ],
     [
-      0.11892,
+      0.191269,
+      "c"
+    ],
+    [
+      0.232398,
+      "u"
+    ],
+    [
+      0.121347,
+      "r"
+    ],
+    [
+      0.183104,
+      "s"
+    ],
+    [
+      0.176085,
       "e"
     ],
     [
-      0.13619,
-      "l"
+      0.303821,
+      "s"
     ],
     [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.247554,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.042898,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.037076,
+      "ncurses(3X)                                                  ncurses(3X)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       \u001b[1mncurses\u001b[0m - CRT screen handling and optimization package\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       \u001b[1m#include\u001b[0m \u001b[1m<curses.h>\u001b[0m\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       The \u001b[1mncurses\u001b[0m library routines give the user a terminal-independent\r\n       method of updating character screens  with  reasonable  optimiza-\r\n       tion.  This implementation is ``new curses'' (ncurses) and is the\r\n       approved replacement for 4.4BSD classic curses,  which  has  been\r\n       discontinued.    This   describes   \u001b[1mncurses\u001b[0m  version  5.7  (patch\r\n       20081102).\r\n\r\n       The \u001b[1mncurses\u001b[0m library emulates the \u001b[1mcurses\u001b[0m(3X) library of  System  V\r\n       Release  4 UNIX, and XPG4 (X/Open Portability Guide) curses (also\r\n       known as XSI curses).  XSI stands for  X/Open  System  Interfaces\r\n       Extension.   The  \u001b[1mncurses\u001b[0m  library  is  freely redistributable in\r\n       source form.  Differences from the  SVr4  "
+    ],
+    [
+      3.9e-05,
+      "curses  are  summar"
+    ],
+    [
+      8.4e-05,
+      "ized\r\n       under the \u001b[1mEXTENSIONS\u001b[0m and \u001b[1mPORTABILITY\u001b[0m sections below and described\r\n       in detail in the respective \u001b[1mEXTENSIONS\u001b[0m, \u001b[1mPORTABILITY\u001b[0m and \u001b[1mBUGS\u001b[0m sec-\r\n       tions of individual man pages.\r\n:\u001b[K"
+    ],
+    [
+      8.512216,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.003131,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

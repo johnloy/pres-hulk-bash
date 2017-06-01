@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 4.377431,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.179988,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.115725,
+      "k"
+    ],
+    [
+      0.223638,
+      "i"
+    ],
+    [
+      0.223794,
+      "l"
+    ],
+    [
+      0.128245,
+      "l"
+    ],
+    [
+      0.472133,
+      " "
+    ],
+    [
+      0.271687,
+      "-"
+    ],
+    [
+      0.304101,
+      "l"
+    ],
+    [
+      0.456148,
+      "\r\n"
+    ],
+    [
+      8.7e-05,
+      " 1) SIGHUP\t 2) SIGINT\t 3) SIGQUIT\t 4) SIGILL\t 5) SIGTRAP\r\n 6) SIGABRT\t 7) SIGEMT\t 8) SIGFPE\t 9) SIGKILL\t10) SIGBUS\r\n11) SIGSEGV\t12) SIGSYS\t13) SIGPIPE\t14) SIGALRM\t15) SIGTERM\r\n16) SIGURG\t17) SIGSTOP\t18) SIGTSTP\t19) SIGCONT\t20) SIGCHLD\r\n21) SIGTTIN\t22) SIGTTOU\t23) SIGIO\t24) SIGXCPU\t25) SIGXFSZ\r\n26) SIGVTALRM\t27) SIGPROF\t28) SIGWINCH\t29) SIGINFO\t30) SIGUSR1\r\n31) SIGUSR2\t\r\n"
+    ],
+    [
+      0.000495,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}

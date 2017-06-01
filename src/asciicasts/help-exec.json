@@ -1,62 +1,70 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 5.415305,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.123672,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
-    ],
-    [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
+      0.999928,
       "h"
     ],
     [
-      0.11892,
+      0.135357,
       "e"
     ],
     [
-      0.13619,
+      0.112294,
       "l"
     ],
     [
-      0.144402,
-      "l"
+      0.183932,
+      "p"
     ],
     [
-      0.223923,
-      "o"
+      0.247857,
+      " "
     ],
     [
-      0.240611,
+      0.168004,
+      "e"
+    ],
+    [
+      0.232176,
+      "x"
+    ],
+    [
+      0.239658,
+      "e"
+    ],
+    [
+      0.288435,
+      "c"
+    ],
+    [
+      1.679896,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.00013,
+      "exec: exec [-cl] [-a name] [command [arguments ...]] [redirection ...]\r\n"
+    ],
+    [
+      0.001923,
+      "    Replace the shell with the given command.\r\n    \r\n    Execute COMMAND, replacing this shell with the specified program.\r\n    ARGUMENTS become the arguments to COMMAND.  If COMMAND is not specified,\r\n    any redirections take effect in the current shell.\r\n    \r\n    Options:\r\n      -a name\tpass NAME as the zeroth argument to COMMAND\r\n      -c\texecute COMMAND with an empty environment\r\n      -l\tplace a dash in the zeroth argument to COMMAND\r\n    \r\n    If the command cannot be executed, a non-interactive shell exits, unless\r\n    the shell option `execfail' is set.\r\n    \r\n    Exit Status:\r\n    Returns success unless COMMAND is not found or a redirection error occurs.\r\n"
+    ],
+    [
+      0.000738,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

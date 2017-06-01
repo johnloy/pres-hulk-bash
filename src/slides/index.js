@@ -76,7 +76,8 @@ import SignalMeaning from "./4-processes-and-signals/7-signal-meanings.js";
 // The shell and subshell environments
 import ShellEnvironment from "./5-shell-environment/1-shell-environment.js";
 import ShellTypesIntro from "./5-shell-environment/2-shell-types-intro.js";
-import StartupFiles_1 from "./5-shell-environment/3-startup-files-1.js";
+import StartupFiles_1a from "./5-shell-environment/3-startup-files-1.js";
+import StartupFiles_1b from "./5-shell-environment/3b-startup-files-1.js";
 import StartupFiles_2 from "./5-shell-environment/4-startup-files-2.js";
 import StartupFiles_3 from "./5-shell-environment/5-startup-files-3.js";
 import StartupFiles_4 from "./5-shell-environment/6-startup-files-4.js";
@@ -347,7 +348,8 @@ const slides = [
   // The shell and subshell environments
   ShellEnvironment,
   ShellTypesIntro,
-  StartupFiles_1,
+  StartupFiles_1a,
+  StartupFiles_1b,
   StartupFiles_2,
   StartupFiles_3,
   StartupFiles_4,

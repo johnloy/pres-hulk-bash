@@ -81,6 +81,14 @@ h1 {
   overflow: hidden;
 }
 
+.asciinema-terminal .line {
+  width: 100%;
+}
+
+.asciinema-terminal .line span {
+  display: inline;
+}
+
 .spectacle-slide {
   box-shadow: inset 0px 0px 11px 3px rgb(8, 62, 18);
   border: 2px solid #000;

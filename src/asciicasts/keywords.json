@@ -1,62 +1,74 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 81,
+  "height": 25,
+  "duration": 5.88994,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.595541,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.933186,
+      "c"
     ],
     [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.167552,
       "o"
     ],
     [
-      0.240611,
+      0.192114,
+      "m"
+    ],
+    [
+      0.456599,
+      "p"
+    ],
+    [
+      0.255631,
+      "g"
+    ],
+    [
+      0.159708,
+      "e"
+    ],
+    [
+      0.112257,
+      "n"
+    ],
+    [
+      0.223905,
+      " "
+    ],
+    [
+      0.512036,
+      "-"
+    ],
+    [
+      0.336042,
+      "k"
+    ],
+    [
+      0.943681,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      9.6e-05,
+      "if\r\nthen\r\nelse\r\nelif\r\nfi\r\ncase\r\nesac\r\nfor\r\nselect\r\nwhile\r\nuntil\r\ndo\r\ndone\r\nin\r\nfunction\r\ntime\r\n{\r\n}\r\n!\r\n[[\r\n"
+    ],
+    [
+      2.4e-05,
+      "]]\r\ncoproc\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

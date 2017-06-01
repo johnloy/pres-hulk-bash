@@ -2,7 +2,7 @@
   "version": 1,
   "width": 80,
   "height": 25,
-  "duration": 5.339272,
+  "duration": 5.022107,
   "command": null,
   "title": null,
   "env": {
@@ -11,63 +11,63 @@
   },
   "stdout": [
     [
-      1.205892,
+      1.16555,
       "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      1.323521,
+      1.315869,
       "p"
     ],
     [
-      0.135039,
+      0.167888,
       "s"
     ],
     [
-      0.176802,
+      0.192028,
       " "
     ],
     [
-      0.167958,
+      0.192998,
       "-"
     ],
     [
-      0.20745,
+      0.215157,
       "t"
     ],
     [
-      0.192128,
+      0.152408,
       " "
     ],
     [
-      0.520344,
+      0.615996,
       "/dev/ttys009"
     ],
     [
-      1.399296,
+      0.991787,
       "\r\n"
     ],
     [
-      0.005494,
+      0.005304,
       "  PID TTY           TIME CMD\r\n"
     ],
     [
-      0.000907,
+      0.000946,
       "53019 ttys009    0:00.02 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server\r\n"
     ],
     [
-      0.00071,
+      0.000751,
       "53020 ttys009    0:00.01 login -fqp johnloy\r\n"
     ],
     [
-      0.000694,
-      "53021 ttys009    0:00.22 -bash\r\n"
+      0.000726,
+      "53021 ttys009    0:00.21 -bash\r\n"
     ],
     [
-      0.000699,
-      "53868 ttys009    0:00.21 /usr/local/Cellar/python3/3.6.1/Frameworks/Python.fram\r\n"
+      0.000806,
+      "53571 ttys009    0:00.22 /usr/local/Cellar/python3/3.6.1/Frameworks/Python.fram\r\n"
     ],
     [
-      0.001075,
+      0.002597,
       "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]

@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "width": 81,
+  "height": 25,
+  "duration": 13.300491,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.290748,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.763125,
+      "m"
+    ],
+    [
+      0.200395,
+      "a"
+    ],
+    [
+      0.359245,
+      "n"
+    ],
+    [
+      0.183909,
+      " "
+    ],
+    [
+      0.696202,
+      "t"
+    ],
+    [
+      0.151654,
+      "e"
+    ],
+    [
+      0.072222,
+      "r"
+    ],
+    [
+      0.120126,
+      "m"
+    ],
+    [
+      0.159355,
+      "i"
+    ],
+    [
+      0.080386,
+      "n"
+    ],
+    [
+      0.176004,
+      "f"
+    ],
+    [
+      0.167851,
+      "o"
+    ],
+    [
+      0.512169,
+      "\r\n"
+    ],
+    [
+      0.061045,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.046629,
+      "terminfo(5)                   File Formats                   terminfo(5)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       terminfo - terminal capability data base\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       /usr/share/terminfo/*/*\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       \u001b[4mTerminfo\u001b[24m is a data base describing terminals, used by screen-ori-\r\n       ented programs such as \u001b[1mnvi\u001b[0m(1), \u001b[1mrogue\u001b[0m(1)  and  libraries  such  as\r\n       \u001b[1mcurses\u001b[0m(3X).   \u001b[4mTerminfo\u001b[24m  describes  terminals  by  giving a set of\r\n       capabilities which they have, by specifying how to perform screen\r\n       operations,  and  by specifying padding requirements and initial-\r\n       ization sequences.  This describes  \u001b[1mncurses\u001b[0m  version  5.7  (patch\r\n       20081102).\r\n\r\n       Entries in \u001b[4mterminfo\u001b[24m consist of a sequence of `,' separated fields\r\n       (embedded commas may be escaped with a backslash  or  notated  as\r\n       \\054).   White  space  after  the  `,' separator is ignored.  The\r\n       first entry for each terminal gives the names which are k"
+    ],
+    [
+      2.7e-05,
+      "nown for\r\n       the"
+    ],
+    [
+      7.5e-05,
+      "  terminal, separated by `|' characters.  The first name given\r\n       is the most common abbreviation for the terminal, the  last  name\r\n       given  should  be a long name fully identifying the terminal, and\r\n:\u001b[K"
+    ],
+    [
+      1.693051,
+      "\r\u001b[K"
+    ],
+    [
+      4.2e-05,
+      "       all others are understood as synonyms for the terminal name.  All\r\n:\u001b[K"
+    ],
+    [
+      0.252196,
+      "\r\u001b[K       names but the last should be in lower case and contain no blanks;\r\n:\u001b[K"
+    ],
+    [
+      0.035134,
+      "\r\u001b[K       the last name may well contain upper case and  blanks  for  read-\r\n:\u001b[K"
+    ],
+    [
+      0.036145,
+      "\r\u001b[K       ability.\r\n:\u001b[K"
+    ],
+    [
+      0.035445,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.03551,
+      "\r\u001b[K"
+    ],
+    [
+      3.5e-05,
+      "       Lines  beginning  with  a  `#' in the first column are treated as\r\n:\u001b[K"
+    ],
+    [
+      0.041534,
+      "\r\u001b[K       comments.  While comment lines are legal at any point, the output\r\n:\u001b[K"
+    ],
+    [
+      0.027027,
+      "\r\u001b[K"
+    ],
+    [
+      3e-05,
+      "       of  \u001b[1mcaptoinfo\u001b[0m  and \u001b[1minfotocap\u001b[0m (aliases for \u001b[1mtic\u001b[0m) will move comments\r\n:\u001b[K"
+    ],
+    [
+      0.034683,
+      "\r\u001b[K       so they occur only between entries.\r\n:\u001b[K"
+    ],
+    [
+      0.038482,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.034034,
+      "\r\u001b[K       Newlines and leading tabs may be used for formatting entries  for\r\n:\u001b[K"
+    ],
+    [
+      0.036179,
+      "\r\u001b[K       readability.    These  are  removed  from  parsed  entries.   The\r\n:\u001b[K"
+    ],
+    [
+      0.034625,
+      "\r\u001b[K       \u001b[1minfocmp\u001b[0m \u001b[1m-f\u001b[0m option relies on this to format  if-then-else  expres-\r\n:\u001b[K"
+    ],
+    [
+      0.034208,
+      "\r\u001b[K       sions: the result can be read by \u001b[1mtic\u001b[0m.\r\n:\u001b[K"
+    ],
+    [
+      0.339848,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.252913,
+      "\r\u001b[K       Terminal  names  (except  for  the last, verbose entry) should be\r\n:\u001b[K"
+    ],
+    [
+      0.035746,
+      "\r\u001b[K       chosen using the following conventions.  The particular piece  of\r\n:\u001b[K"
+    ],
+    [
+      0.033455,
+      "\r\u001b[K       hardware  making  up  the  terminal should have a root name, thus\r\n:\u001b[K"
+    ],
+    [
+      0.035355,
+      "\r\u001b[K       ``hp2621''.  This name should not contain  hyphens.   Modes  that\r\n:\u001b[K"
+    ],
+    [
+      0.034236,
+      "\r\u001b[K       the  hardware can be in, or user preferences, should be indicated\r\n:\u001b[K"
+    ],
+    [
+      0.03524,
+      "\r\u001b[K       by appending a hyphen and a mode suffix.  Thus, a  vt100  in  132\r\n:\u001b[K"
+    ],
+    [
+      0.034207,
+      "\r\u001b[K       column  mode  would be vt100-w.  The following suffixes should be\r\n:\u001b[K"
+    ],
+    [
+      0.033943,
+      "\r\u001b[K       used where possible:\r\n:\u001b[K"
+    ],
+    [
+      0.036593,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.039128,
+      "\r\u001b[K         \u001b[1mSuffix\u001b[0m                  \u001b[1mMeaning\u001b[0m                   \u001b[1mExample\u001b[0m\r\n:\u001b[K"
+    ],
+    [
+      0.033676,
+      "\r\u001b[K         -\u001b[4mnn\u001b[24m      Number of lines on the screen            aaa-60\r\n:\u001b[K"
+    ],
+    [
+      0.034292,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "         -\u001b[4mn\u001b[24mp      Number of pages of memory                c100-4p\r\n:\u001b[K"
+    ],
+    [
+      0.032522,
+      "\r\u001b[K         -am      With automargins (usually the default)   vt100-am\r\n:\u001b[K"
+    ],
+    [
+      0.033673,
+      "\r\u001b[K         -m       Mono mode; suppress color                ansi-m\r\n:\u001b[K"
+    ],
+    [
+      0.034227,
+      "\r\u001b[K         -mc      Magic cookie; spaces when highlighting   wy30-mc\r\n:\u001b[K"
+    ],
+    [
+      0.032711,
+      "\r\u001b[K         -na      No arrow keys (leave them in local)      c100-na\r\n:\u001b[K"
+    ],
+    [
+      0.032545,
+      "\r\u001b[K"
+    ],
+    [
+      1.8e-05,
+      "         -nam     Without automatic margins                vt100-nam\r\n:\u001b[K"
+    ],
+    [
+      0.036641,
+      "\r\u001b[K         -nl      No status line                           att4415-nl\r\n:\u001b[K"
+    ],
+    [
+      0.034322,
+      "\r\u001b[K         -ns      No status line                           hp2626-ns\r\n:\u001b[K"
+    ],
+    [
+      0.03349,
+      "\r\u001b[K         -rv      Reverse video                            c100-rv\r\n:\u001b[K"
+    ],
+    [
+      0.036487,
+      "\r\u001b[K"
+    ],
+    [
+      2.1e-05,
+      "         -s       Enable status line                       vt100-s\r\n:\u001b[K"
+    ],
+    [
+      0.035943,
+      "\r\u001b[K         -vb      Use visible bell instead of beep         wy370-vb\r\n:\u001b[K"
+    ],
+    [
+      0.039907,
+      "\r\u001b[K         -w       Wide mode (> 80 columns, usually 132)    vt100-w\r\n:\u001b[K"
+    ],
+    [
+      0.030171,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.037691,
+      "\r\u001b[K       For more on terminal naming conventions, see the  \u001b[1mterm(7)\u001b[0m  manual\r\n:\u001b[K"
+    ],
+    [
+      0.032364,
+      "\r\u001b[K       page.\r\n:\u001b[K"
+    ],
+    [
+      0.034507,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.94805,
+      "\r\u001b[K   \u001b[1mCapabilities\u001b[0m\r\n:\u001b[K"
+    ],
+    [
+      0.250301,
+      "\r\u001b[K       The following is a complete table of the capabilities included in\r\n:\u001b[K"
+    ],
+    [
+      0.034749,
+      "\r\u001b[K"
+    ],
+    [
+      2.6e-05,
+      "       a terminfo description  block  and  available  to  terminfo-using\r\n:\u001b[K"
+    ],
+    [
+      0.031815,
+      "\r\u001b[K       code.  In each line of the table,\r\n:\u001b[K"
+    ],
+    [
+      0.033697,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.034447,
+      "\r\u001b[K       The \u001b[1mvariable\u001b[0m is the name by which the programmer (at the terminfo\r\n:\u001b[K"
+    ],
+    [
+      0.035344,
+      "\r\u001b[K       level) accesses the capability.\r\n:\u001b[K"
+    ],
+    [
+      0.034843,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.035768,
+      "\r\u001b[K       The \u001b[1mcapname\u001b[0m is the short name used in the text of  the  database,\r\n:\u001b[K"
+    ],
+    [
+      0.037947,
+      "\r\u001b[K       and  is  used by a person updating the database.  Whenever possi-\r\n:\u001b[K"
+    ],
+    [
+      0.037994,
+      "\r\u001b[K       ble, capnames are chosen to be the same as or similar to the ANSI\r\n:\u001b[K"
+    ],
+    [
+      0.033424,
+      "\r\u001b[K       X3.64-1979  standard (now superseded by ECMA-48, which uses iden-\r\n:\u001b[K"
+    ],
+    [
+      0.033958,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "       tical or very similar names).  Semantics  are  also  intended  to\r\n:\u001b[K"
+    ],
+    [
+      0.613124,
+      "\r\u001b[K       match those of the specification.\r\n:\u001b[K"
+    ],
+    [
+      0.253441,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.033817,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "       The  termcap  code is the old \u001b[1mtermcap\u001b[0m capability name (some capa-\r\n:\u001b[K"
+    ],
+    [
+      0.034287,
+      "\r\u001b[K       bilities are new, and have names which  termcap  did  not  origi-\r\n:\u001b[K"
+    ],
+    [
+      0.038344,
+      "\r\u001b[K       nate).\r\n:\u001b[K"
+    ],
+    [
+      0.033594,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.034925,
+      "\r\u001b[K       Capability names have no hard length limit, but an informal limit\r\n:\u001b[K"
+    ],
+    [
+      0.041033,
+      "\r\u001b[K       of 5 characters has been adopted to keep them short and to  allow\r\n:\u001b[K"
+    ],
+    [
+      0.48254,
+      "\r\u001b[K       the tabs in the source file \u001b[1mCaps\u001b[0m to line up nicely.\r\n:\u001b[K"
+    ],
+    [
+      0.250886,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.03601,
+      "\r\u001b[K"
+    ],
+    [
+      2.9e-05,
+      "       Finally,  the  description field attempts to convey the semantics\r\n:\u001b[K"
+    ],
+    [
+      0.038069,
+      "\r\u001b[K       of the capability.  You may find some codes  in  the  description\r\n:\u001b[K"
+    ],
+    [
+      0.041799,
+      "\r\u001b[K       field:\r\n:\u001b[K"
+    ],
+    [
+      0.031942,
+      "\r\u001b[K"
+    ],
+    [
+      9.2e-05,
+      "\r\n:\u001b[K"
+    ],
+    [
+      0.036694,
+      "\r\u001b[K       (P)    indicates that padding may be specified\r\n:\u001b[K"
+    ],
+    [
+      0.032023,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.033422,
+      "\r\u001b[K       #[1-9] in  the  description  field  indicates  that the string is\r\n:\u001b[K"
+    ],
+    [
+      0.038748,
+      "\r\u001b[K              passed through tparm with parms as given (#\u001b[4mi\u001b[24m).\r\n:\u001b[K"
+    ],
+    [
+      0.035905,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.040891,
+      "\r\u001b[K       (P*)   indicates that padding may vary in proportion to the  num-\r\n:\u001b[K"
+    ],
+    [
+      0.032141,
+      "\r\u001b[K              ber of lines affected\r\n:\u001b[K"
+    ],
+    [
+      0.037152,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.034643,
+      "\r\u001b[K       (#\u001b[4mi\u001b[24m)   indicates the \u001b[4mi\u001b[24mth parameter.\r\n:\u001b[K"
+    ],
+    [
+      0.03541,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.035059,
+      "\r\u001b[K       These are the boolean capabilities:\r\n:\u001b[K"
+    ],
+    [
+      0.034315,
+      "\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.406786,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.011895,
+      "grotty:<standard input> (<standard input>):34280:fatal error: output error\r\n"
+    ],
+    [
+      0.002535,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}

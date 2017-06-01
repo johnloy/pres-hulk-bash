@@ -1,62 +1,82 @@
 {
   "version": 1,
-  "width": 81,
-  "height": 25,
-  "duration": 9.767696,
+  "width": 171,
+  "height": 49,
+  "duration": 3.336599,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.330322,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      1.04032,
+      "echo; find ./src -name \".git\" 2> /dev/null | sed 's/\\/.git/\\//g' |\r\n\rawk '\r\n\r{\r\n\r    print \"-------------------------\\n\\033[1;32m Git Repo: \\033[0m \" $1;\r\n\r    system(\"git --git-dir=\"$1\".git --work-tree=\"$1\" status\")\r\n\r}'; echo"
     ],
     [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.920491,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.00014,
+      "\r\n"
+    ],
+    [
+      0.008505,
+      "-------------------------\r\n\u001b[1;32m Git Repo: \u001b[0m ./src/chalk/\r\n"
+    ],
+    [
+      0.011431,
+      "On branch master\r\n"
+    ],
+    [
+      2.5e-05,
+      "Your branch is up-to-date with 'origin/master'.\r\nChanges not staged for commit:\r\n"
+    ],
+    [
+      4.1e-05,
+      "\t\u001b[31mmodified:   readme.md\u001b[m\r\n\r\nno changes added to commit\r\n"
+    ],
+    [
+      0.00047,
+      "-------------------------\r\n\u001b[1;32m Git Repo: \u001b[0m ./src/shelljs/\r\n"
+    ],
+    [
+      0.012149,
+      "On branch master\r\n"
+    ],
+    [
+      7.9e-05,
+      "Your branch is up-to-date with 'origin/master'.\r\nnothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.000365,
+      "-------------------------\r\n\u001b[1;32m Git Repo: \u001b[0m ./src/yargs/\r\n"
+    ],
+    [
+      0.009814,
+      "On branch master\r\n"
+    ],
+    [
+      0.000164,
+      "Your branch is up-to-date with 'origin/master'.\r\n"
+    ],
+    [
+      2.8e-05,
+      "nothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.000732,
+      "\r\n"
+    ],
+    [
+      0.000404,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

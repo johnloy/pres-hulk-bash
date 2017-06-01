@@ -1,62 +1,62 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 81,
+  "height": 25,
+  "duration": 4.365186,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.337758,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
+      0.829941,
       "s"
     ],
     [
-      0.244881,
-      "a"
+      0.3286,
+      "t"
     ],
     [
-      0.144528,
+      0.21609,
+      "t"
+    ],
+    [
+      0.279419,
       "y"
     ],
     [
-      0.751604,
+      0.368172,
       " "
     ],
     [
-      1.800467,
-      "h"
+      0.208022,
+      "-"
     ],
     [
-      0.11892,
-      "e"
+      0.255857,
+      "a"
     ],
     [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.527949,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.01049,
+      "speed 9600 baud; 25 rows; 81 columns;\r\nlflags: icanon isig iexten echo echoe -echok echoke -echonl echoctl\r\n\t-echoprt -altwerase -noflsh -tostop -flusho pendin -nokerninfo\r\n\t-extproc\r\niflags: -istrip icrnl -inlcr -igncr ixon -ixoff ixany imaxbel -iutf8\r\n\t-ignbrk brkint -inpck -ignpar -parmrk\r\noflags: opost onlcr -oxtabs -onocr -onlret\r\ncflags: cread cs8 -parenb -parodd hupcl -clocal -cstopb -crtscts -dsrflow\r\n\t-dtrflow -mdmbuf\r\n"
+    ],
+    [
+      0.000136,
+      "cchars: discard = ^O; dsusp = ^Y; eof = ^D; eol = <undef>;\r\n\teol2 = <undef>; erase = ^?; intr = ^C; kill = ^U; lnext = ^V;\r\n\tmin = 1; quit = ^\\; reprint = ^R; start = ^Q; status = ^T;\r\n\tstop = ^S; susp = ^Z; time = 0; werase = ^W;\r\n"
+    ],
+    [
+      0.001369,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

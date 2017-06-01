@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 4.848783,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.17422,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.998493,
+      "h"
+    ],
+    [
+      0.175696,
+      "e"
+    ],
+    [
+      0.16026,
+      "l"
+    ],
+    [
+      0.303921,
+      "p"
+    ],
+    [
+      0.248045,
+      " "
+    ],
+    [
+      0.543909,
+      "["
+    ],
+    [
+      0.264037,
+      "["
+    ],
+    [
+      0.976023,
+      "\r\n"
+    ],
+    [
+      0.000139,
+      "[[ ... ]]: [[ expression ]]\r\n    Execute conditional command.\r\n    \r\n    Returns a status of 0 or 1 depending on the evaluation of the conditional\r\n    expression EXPRESSION.  Expressions are composed of the same primaries used\r\n    by the `test' builtin, and may be combined using the following operators:\r\n    \r\n      ( EXPRESSION )\tReturns the value of EXPRESSION\r\n      ! EXPRESSION\t\tTrue if EXPRESSION is false; else false\r\n      EXPR1 && EXPR2\tTrue if both EXPR1 and EXPR2 are true; else false\r\n      EXPR1 || EXPR2\tTrue if either EXPR1 or EXPR2 is true; else false\r\n    \r\n    When the `==' and `!=' operators are used, the string to the right of\r\n    the operator is used as a pattern and pattern matching is performed.\r\n    When the `=~' operator is used, the string to the right of the operator\r\n    is matched as a regular expression.\r\n    \r\n    The && and || operators do not evaluate EXPR2 if EXPR1 is sufficient to\r\n    determine the expression's value.\r\n    \r\n    Exit Status:\r\n    0 or 1 depending on value of"
+    ],
+    [
+      7.5e-05,
+      " EXPRESSION.\r\n"
+    ],
+    [
+      0.00265,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}

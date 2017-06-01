@@ -6,7 +6,7 @@ import SlideTitleComic from "../../components/slide-title-comic";
 class TerminalSlide extends React.Component {
   render() {
     return (
-      <Terminal id="env-vars-with-processes"/>
+      <Terminal id="inspecting-env-vars"/>
     );
   }
 }

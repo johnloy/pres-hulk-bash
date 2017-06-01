@@ -1,62 +1,266 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 81,
+  "height": 25,
+  "duration": 21.46007,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.225404,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.782179,
+      "c"
     ],
     [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.167984,
       "o"
     ],
     [
-      0.240611,
+      0.168147,
+      "m"
+    ],
+    [
+      0.344774,
+      "p"
+    ],
+    [
+      0.303366,
+      "g"
+    ],
+    [
+      0.167936,
+      "e"
+    ],
+    [
+      0.136198,
+      "n"
+    ],
+    [
+      0.239995,
+      " "
+    ],
+    [
+      0.176083,
+      "-"
+    ],
+    [
+      0.503542,
+      "b"
+    ],
+    [
+      0.647922,
+      " "
+    ],
+    [
+      0.312137,
+      "|"
+    ],
+    [
+      0.159847,
+      " "
+    ],
+    [
+      0.176197,
+      "l"
+    ],
+    [
+      0.112018,
+      "e"
+    ],
+    [
+      0.191883,
+      "s"
+    ],
+    [
+      0.207765,
+      "s"
+    ],
+    [
+      0.688365,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.005132,
+      "\u001b[?1049h\u001b[?1h\u001b=\r.\r\n:\r\n[\r\nalias\r\nbg\r\nbind\r\nbreak\r\nbuiltin\r\ncaller\r\ncd\r\ncommand\r\ncompgen\r\ncomplete\r\ncompopt\r\ncontinue\r\ndeclare\r\ndirs\r\ndisown\r\necho\r\nenable\r\neval\r\nexec\r\nexit\r\nexport\r\n:\u001b[K"
+    ],
+    [
+      2.714944,
+      "\r\u001b[Kfalse\r\n:\u001b[K"
+    ],
+    [
+      0.439521,
+      "\r\u001b[Kfc\r\n:\u001b[K"
+    ],
+    [
+      0.295946,
+      "\r\u001b[Kfg\r\n:\u001b[K"
+    ],
+    [
+      0.296159,
+      "\r\u001b[Kgetopts\r\n:\u001b[K"
+    ],
+    [
+      0.23214,
+      "\r\u001b[Khash\r\n:\u001b[K"
+    ],
+    [
+      0.208094,
+      "\r\u001b[Khelp\r\n:\u001b[K"
+    ],
+    [
+      0.143774,
+      "\r\u001b[Khistory\r\n:\u001b[K"
+    ],
+    [
+      0.247851,
+      "\r\u001b[Kjobs\r\n:\u001b[K"
+    ],
+    [
+      0.22423,
+      "\r\u001b[Kkill\r\n:\u001b[K"
+    ],
+    [
+      0.207829,
+      "\r\u001b[Klet\r\n:\u001b[K"
+    ],
+    [
+      0.199952,
+      "\r\u001b[Klocal\r\n:\u001b[K"
+    ],
+    [
+      0.183913,
+      "\r\u001b[Klogout\r\n:\u001b[K"
+    ],
+    [
+      0.224343,
+      "\r\u001b[Kmapfile\r\n:\u001b[K"
+    ],
+    [
+      0.223548,
+      "\r\u001b[Kpopd\r\n:\u001b[K"
+    ],
+    [
+      0.225018,
+      "\r\u001b[Kprintf\r\n:\u001b[K"
+    ],
+    [
+      0.231328,
+      "\r\u001b[Kpushd\r\n:\u001b[K"
+    ],
+    [
+      0.231676,
+      "\r\u001b[Kpwd\r\n:\u001b[K"
+    ],
+    [
+      0.304311,
+      "\r\u001b[Kread\r\n:\u001b[K"
+    ],
+    [
+      0.431404,
+      "\r\u001b[Kreadarray\r\n:\u001b[K"
+    ],
+    [
+      0.176523,
+      "\r\u001b[Kreadonly\r\n:\u001b[K"
+    ],
+    [
+      0.256455,
+      "\r\u001b[Kreturn\r\n:\u001b[K"
+    ],
+    [
+      0.327503,
+      "\r\u001b[Kset\r\n:\u001b[K"
+    ],
+    [
+      0.392118,
+      "\r\u001b[Kshift\r\n:\u001b[K"
+    ],
+    [
+      0.343884,
+      "\r\u001b[Kshopt\r\n:\u001b[K"
+    ],
+    [
+      0.215706,
+      "\r\u001b[Ksource\r\n:\u001b[K"
+    ],
+    [
+      0.216073,
+      "\r\u001b[Ksuspend\r\n:\u001b[K"
+    ],
+    [
+      0.232035,
+      "\r\u001b[Ktest\r\n:\u001b[K"
+    ],
+    [
+      0.20008,
+      "\r\u001b[Ktimes\r\n:\u001b[K"
+    ],
+    [
+      0.223999,
+      "\r\u001b[Ktrap\r\n:\u001b[K"
+    ],
+    [
+      0.20009,
+      "\r\u001b[Ktrue\r\n:\u001b[K"
+    ],
+    [
+      0.303907,
+      "\r\u001b[Ktype\r\n:\u001b[K"
+    ],
+    [
+      0.264218,
+      "\r\u001b[Ktypeset\r\n:\u001b[K"
+    ],
+    [
+      0.239325,
+      "\r\u001b[Kulimit\r\n:\u001b[K"
+    ],
+    [
+      0.192005,
+      "\r\u001b[Kumask\r\n:\u001b[K"
+    ],
+    [
+      0.256458,
+      "\r\u001b[Kunalias\r\n:\u001b[K"
+    ],
+    [
+      0.271631,
+      "\r\u001b[Kunset\r\n:\u001b[K"
+    ],
+    [
+      0.30405,
+      "\r\u001b[Kwait\r\n:\u001b[K"
+    ],
+    [
+      0.263945,
+      "\r\u001b[K"
+    ],
+    [
+      2.3e-05,
+      "\u0007\r\u001b[K\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.270707,
+      "\r\u001b[K"
+    ],
+    [
+      1.7e-05,
+      "\u0007\r\u001b[K\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      2.32195,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.00305,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

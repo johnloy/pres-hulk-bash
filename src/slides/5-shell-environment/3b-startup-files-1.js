@@ -13,7 +13,7 @@ import styles from "../../styles";
 class BulletsSlide extends React.Component {
   render() {
     return (
-      <div className="content zoom-in">
+      <div className="content">
         <List textSize="24px" textColor="white" style={styles.list}>
           <ListItem>
             <span style={styles.listItemText}>
@@ -21,7 +21,7 @@ class BulletsSlide extends React.Component {
             </span>
           </ListItem>
           <ListItem>
-            <span style={{ ...styles.listItemText }}>
+            <span style={{ ...styles.listItemText, textDecoration: "line-through" }}>
               Login, non-interactive
             </span>
           </ListItem>
@@ -42,7 +42,7 @@ class BulletsSlide extends React.Component {
 }
 
 export default (
-  <Slide key="startup-files-1">
+  <Slide key="b-startup-files-1">
     <SlideTitleComic>Startup files</SlideTitleComic>
     <BulletsSlide/>
   </Slide>

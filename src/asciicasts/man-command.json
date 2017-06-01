@@ -1,62 +1,594 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 49.339789,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.133671,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.968466,
+      "m"
     ],
     [
-      0.244881,
+      0.208182,
       "a"
     ],
     [
-      0.144528,
-      "y"
+      0.152021,
+      "n"
     ],
     [
-      0.751604,
+      0.162301,
       " "
     ],
     [
-      1.800467,
-      "h"
+      0.221435,
+      "m"
     ],
     [
-      0.11892,
-      "e"
+      0.200615,
+      "a"
     ],
     [
-      0.13619,
-      "l"
+      0.144558,
+      "n"
     ],
     [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.591284,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.021499,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.027104,
+      "man(1)                                                                  man(1)\r\n\r\n\u001b[1mNAME\u001b[0m\r\n       man - format and display the on-line manual pages\r\n\r\n\u001b[1mSYNOPSIS\u001b[0m\r\n       \u001b[1mman\u001b[0m  [\u001b[1m-acdfFhkKtwW\u001b[0m]  [\u001b[1m--path\u001b[0m]  [\u001b[1m-m\u001b[0m \u001b[4msystem\u001b[24m] [\u001b[1m-p\u001b[0m \u001b[4mstring\u001b[24m] [\u001b[1m-C\u001b[0m \u001b[4mconfig_file\u001b[24m]\r\n       [\u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m] [\u001b[1m-P\u001b[0m \u001b[4mpager\u001b[24m] [\u001b[1m-B\u001b[0m \u001b[4mbrowser\u001b[24m] [\u001b[1m-H\u001b[0m \u001b[4mhtmlpager\u001b[24m] [\u001b[1m-S\u001b[0m  \u001b[4msection_list\u001b[24m]\r\n       [\u001b[4msection\u001b[24m] \u001b[4mname\u001b[24m \u001b[4m...\u001b[24m\r\n\r\n\u001b[1mDESCRIPTION\u001b[0m\r\n       \u001b[1mman\u001b[0m formats and displays the on-line manual pages.  If you specify \u001b[4msec-\u001b[24m\r\n       \u001b[4mtion\u001b[24m, \u001b[1mman\u001b[0m only looks in that section of the manual.  \u001b[4mname\u001b[24m  is  normally\r\n       the  name of the manual page, which is typically the name of a command,\r\n       function, or file.  However, if \u001b[4mname\u001b[24m contains  a  slash  (\u001b[1m/\u001b[0m)  then  \u001b[1mman\u001b[0m\r\n       interprets  it  as a file specification, so that you can d"
+    ],
+    [
+      2.6e-05,
+      "o \u001b[1mman\u001b[0m "
+    ],
+    [
+      6.4e-05,
+      "\u001b[1m./foo.5\u001b[0m\r\n       or even \u001b[1mman\u001b[0m \u001b[1m/cd/foo/bar.1.gz\u001b[0m.\r\n\r\n       See below for a description of where \u001b[1mman\u001b[0m  looks  for  the  manual  page\r\n       files.\r\n\r\n\u001b[1mOPTIONS\u001b[0m\r\n       \u001b[1m-C\u001b[0m  \u001b[1mconfig_file\u001b[0m\r\n              Specify  the  configuration  file  to  use; the default is \u001b[1m/pri-\u001b[0m\r\n:\u001b[K"
+    ],
+    [
+      1.391396,
+      "\r\u001b[K/"
+    ],
+    [
+      0.75939,
+      "\u001b[KS\bS"
+    ],
+    [
+      0.223885,
+      "\u001b[KE\bE"
+    ],
+    [
+      0.112023,
+      "\u001b[KA\bA"
+    ],
+    [
+      0.152014,
+      "\u001b[KR\bR"
+    ],
+    [
+      0.328037,
+      "\u001b[KC\bC"
+    ],
+    [
+      0.352066,
+      "\u001b[KH\bH"
+    ],
+    [
+      0.384268,
+      "\u001b[K \b "
+    ],
+    [
+      0.591725,
+      "\u001b[KP\bP"
+    ],
+    [
+      0.368679,
+      "\u001b[KA\bA"
+    ],
+    [
+      0.191003,
+      "\u001b[KT\bT"
+    ],
+    [
+      0.624444,
+      "\u001b[KH\bH"
+    ],
+    [
+      0.311994,
+      "\u001b[K \b "
+    ],
+    [
+      0.30366,
+      "\u001b[KF\bF"
+    ],
+    [
+      0.328157,
+      "\u001b[KO\bO"
+    ],
+    [
+      0.783728,
+      "\u001b[KR\bR"
+    ],
+    [
+      0.328429,
+      "\r\u001b[K"
+    ],
+    [
+      0.000421,
+      "\u001b[1;1Hman(1)                                                                  man(1)\r\n\u001b[2;1H\r\n\u001b[3;1H\u001b[1mNAME\u001b[0m\r\n\u001b[4;1H       man - format and display the on-line manual pages\r\n\u001b[5;1H\r\n\u001b[6;1H\u001b[1mSYNOPSIS\u001b[0m\r\n\u001b[7;1H       \u001b[1mman\u001b[0m  [\u001b[1m-acdfFhkKtwW\u001b[0m]  [\u001b[1m--path\u001b[0m]  [\u001b[1m-m\u001b[0m \u001b[4msystem\u001b[24m] [\u001b[1m-p\u001b[0m \u001b[4mstring\u001b[24m] [\u001b[1m-C\u001b[0m \u001b[4mconfig_file\u001b[24m]\r\n\u001b[8;1H       [\u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m] [\u001b[1m-P\u001b[0m \u001b[4mpager\u001b[24m] [\u001b[1m-B\u001b[0m \u001b[4mbrowser\u001b[24m] [\u001b[1m-H\u001b[0m \u001b[4mhtmlpager\u001b[24m] [\u001b[1m-S\u001b[0m  \u001b[4msection_list\u001b[24m]\r\n\u001b[9;1H       [\u001b[4msection\u001b[24m] \u001b[4mname\u001b[24m \u001b[4m...\u001b[24m\r\n\u001b[10;1H\r\n\u001b[11;1H\u001b[1mDESCRIPTION\u001b[0m\r\n\u001b[12;1H       \u001b[1mman\u001b[0m formats and displays the on-line manual pages.  If you specify \u001b[4msec-\u001b[24m\r\n\u001b[13;1H       \u001b[4mtion\u001b[24m, \u001b[1mman\u001b[0m only looks in that section of the manual.  \u001b[4mname\u001b[24m  is  normally\r\n\u001b[14;1H       the  name of the manual page, which is typically the name of a command,\r\n\u001b[15;1H       function, or file.  However, if \u001b[4mname\u001b[24m contains  a  slash  ("
+    ],
+    [
+      4.6e-05,
+      "\u001b[1m/\u001b[0m)  t"
+    ],
+    [
+      0.000311,
+      "hen  \u001b[1mman\u001b[0m\r\n\u001b[16;1H       interprets  it  as a file specification, so that you can do \u001b[1mman\u001b[0m \u001b[1m./foo.5\u001b[0m\r\n\u001b[17;1H       or even \u001b[1mman\u001b[0m \u001b[1m/cd/foo/bar.1.gz\u001b[0m.\r\n\u001b[18;1H\r\n\u001b[19;1H       See below for a description of where \u001b[1mman\u001b[0m  looks  for  the  manual  page\r\n\u001b[20;1H       files.\r\n\u001b[21;1H\r\n\u001b[22;1H\u001b[1mOPTIONS\u001b[0m\r\n\u001b[23;1H       \u001b[1m-C\u001b[0m  \u001b[1mconfig_file\u001b[0m\r\n\u001b[24;1H              Specify  the  configuration  file  to  use; the default is \u001b[1m/pri-\u001b[0m\r\n\u001b[25;1H\u001b[1;1Hman(1)                                                                  man(1)\r\n\u001b[2;1H\r\n\u001b[3;1H\u001b[1mNAME\u001b[0m\r\n\u001b[4;1H       man - format and display the on-line manual pages\r\n\u001b[5;1H\r\n\u001b[6;1H\u001b[1mSYNOPSIS\u001b[0m\r\n\u001b[7;1H       \u001b[1mman\u001b[0m  [\u001b[1m-acdfFhkKtwW\u001b[0m]  [\u001b[1m--path\u001b[0m]  [\u001b[1m-m\u001b[0m \u001b[4msystem\u001b[24m] [\u001b[1m-p\u001b[0m \u001b[4mstring\u001b[24m] [\u001b[1m-C\u001b[0m \u001b[4mconfig_file\u001b[24m]\r\n\u001b[8;1H       [\u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m] [\u001b[1m-P\u001b[0m \u001b[4mpager\u001b[24m] [\u001b[1m-B\u001b[0m \u001b[4mbrowser\u001b[24m] [\u001b[1m-H\u001b[0m \u001b[4mhtmlpager\u001b[24m] [\u001b[1m-S\u001b[0m  \u001b[4msection_list"
+    ],
+    [
+      7.5e-05,
+      "\u001b[24m]\r\n\u001b[9;1H   "
+    ],
+    [
+      0.000301,
+      "    [\u001b[4msection\u001b[24m] \u001b[4mname\u001b[24m \u001b[4m...\u001b[24m\r\n\u001b[10;1H\r\n\u001b[11;1H\u001b[1mDESCRIPTION\u001b[0m\r\n\u001b[12;1H       \u001b[1mman\u001b[0m formats and displays the on-line manual pages.  If you specify \u001b[4msec-\u001b[24m\r\n\u001b[13;1H       \u001b[4mtion\u001b[24m, \u001b[1mman\u001b[0m only looks in that section of the manual.  \u001b[4mname\u001b[24m  is  normally\r\n\u001b[14;1H       the  name of the manual page, which is typically the name of a command,\r\n\u001b[15;1H       function, or file.  However, if \u001b[4mname\u001b[24m contains  a  slash  (\u001b[1m/\u001b[0m)  then  \u001b[1mman\u001b[0m\r\n\u001b[16;1H       interprets  it  as a file specification, so that you can do \u001b[1mman\u001b[0m \u001b[1m./foo.5\u001b[0m\r\n\u001b[17;1H       or even \u001b[1mman\u001b[0m \u001b[1m/cd/foo/bar.1.gz\u001b[0m.\r\n\u001b[18;1H\r\n\u001b[19;1H       See below for a description of where \u001b[1mman\u001b[0m  looks  for  the  manual  page\r\n\u001b[20;1H       files.\r\n\u001b[21;1H\r\n\u001b[22;1H\u001b[1mOPTIONS\u001b[0m\r\n\u001b[23;1H       \u001b[1m-C\u001b[0m  \u001b[1mconfig_file\u001b[0m\r\n\u001b[24;1H              Specify  the  configuration  file  to  use; the default is \u001b[1m/pri-\u001b[0m\r\n\u001b[25;1H...skipping...\r\n              not specifying \u001b[1"
+    ],
+    [
+      7.3e-05,
+      "m-M\u001b[0m at all. "
+    ],
+    [
+      0.000131,
+      " See \u001b[1m\u001b[7mSEARCH\u001b[27m\u001b[0m\u001b[7m \u001b[27m\u001b[1m\u001b[7mPATH\u001b[27m\u001b[0m\u001b[7m \u001b[27m\u001b[1m\u001b[7mFOR\u001b[27m\u001b[0m \u001b[1mMANUAL\u001b[0m \u001b[1mPAGES\u001b[0m.\r\n\r\n       \u001b[1m-P\u001b[0m  \u001b[1mpager\u001b[0m\r\n              Specify which pager to use.  This option overrides the  \u001b[1mMANPAGER\u001b[0m\r\n              environment  variable,  which  in turn overrides the \u001b[1mPAGER\u001b[0m vari-\r\n              able.  By default, \u001b[1mman\u001b[0m uses \u001b[1m/usr/bin/less\u001b[0m \u001b[1m-is\u001b[0m.\r\n\r\n       \u001b[1m-B\u001b[0m     Specify which browser to use on HTML files.  This  option  over-\r\n              rides  the  \u001b[1mBROWSER\u001b[0m  environment  variable. By default, \u001b[1mman\u001b[0m uses\r\n              \u001b[1m/usr/bin/less\u001b[0m-is\u001b[1m,\u001b[0m\r\n\r\n       \u001b[1m-H\u001b[0m     Specify a command that renders HTML files as text.  This  option\r\n              overrides  the  \u001b[1mHTMLPAGER\u001b[0m  environment variable. By default, \u001b[1mman\u001b[0m\r\n              uses \u001b[1m/bin/cat\u001b[0m,\r\n\r\n       \u001b[1m-S\u001b[0m  \u001b[1msection_list\u001b[0m\r\n              List is a colon separated list of  manual  sections  to  search.\r\n              This opti"
+    ],
+    [
+      3.3e-05,
+      "on overrides the"
+    ],
+    [
+      6.3e-05,
+      " \u001b[1mMANSECT\u001b[0m environment variable.\r\n\r\n       \u001b[1m-a\u001b[0m     By default, \u001b[1mman\u001b[0m will exit after displaying the first manual page\r\n              it finds.  Using this option forces \u001b[1mman\u001b[0m to display all the  man-\r\n              ual pages that match \u001b[1mname,\u001b[0m not just the first.\r\n\r\n       \u001b[1m-c\u001b[0m     Reformat  the  source man page, even when an up-to-date cat page\r\n:\u001b[K"
+    ],
+    [
+      1.62254,
+      "\r\u001b[K/\r\u001b[K"
+    ],
+    [
+      0.000264,
+      "...skipping...\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[1m\u001b[7mSEARCH\u001b[27m\u001b[0m\u001b[7m \u001b[27m\u001b[1m\u001b[7mPATH\u001b[27m\u001b[0m\u001b[7m \u001b[27m\u001b[1m\u001b[7mFOR\u001b[27m\u001b[0m \u001b[1mMANUAL\u001b[0m \u001b[1mPAGES\u001b[0m\r\n       \u001b[1mman\u001b[0m uses a sophisticated method of finding manual page files, based  on\r\n       the   invocation   options   and   environment   variables,  the  \u001b[1m/pri-\u001b[0m\r\n       \u001b[1mvate/etc/man.conf\u001b[0m configuration file, and some built in conventions and\r\n       heuristics.\r\n\r\n       First  of  all, when the \u001b[4mname\u001b[24m argument to \u001b[1mman\u001b[0m contains a slash (\u001b[1m/\u001b[0m), \u001b[1mman\u001b[0m\r\n       assumes it is a file specification itself, and there  is  no  searching\r\n       involved.\r\n\r\n       But in the normal case where \u001b[4mname\u001b[24m doesn't contain a slash, \u001b[1mman\u001b[0m searches\r\n       a variety of directories for a file that could be a manual page for the\r\n       topic named.\r\n\r\n       If  you  specify  the \u001b[1m-M\u001b[0m \u001b[4mpathlist\u001b[24m option, \u001b[4mpathlist\u001b[24m is a colon-separated\r\n       list of the directories that \u001b[1mman\u001b[0m searches.\r\n\r\n       If you don't specify \u001b[1m-M\u001b[0m but "
+    ],
+    [
+      6.9e-05,
+      "set the \u001b[1mMANP"
+    ],
+    [
+      3.1e-05,
+      "ATH\u001b[0m environment  variable,  the\r\n       value  of  that  variable  is  the  list  of  the  directories that \u001b[1mman\u001b[0m\r\n       searches.\r\n\r\n       If you don't specify an explicit path list  with  \u001b[1m-M\u001b[0m  or  \u001b[1mMANPATH\u001b[0m,  \u001b[1mman\u001b[0m\r\n       develops  its  own path list based on the contents of the configuration\r\n       file \u001b[1m/private/etc/man.conf\u001b[0m.  The \u001b[1mMANPATH\u001b[0m statements in  the  configura-\r\n:\u001b[K"
+    ],
+    [
+      6.806489,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.002953,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.716174,
+      "e"
+    ],
+    [
+      0.232163,
+      "c"
+    ],
+    [
+      0.128309,
+      "h"
+    ],
+    [
+      0.111763,
+      "o"
+    ],
+    [
+      0.535782,
+      " "
+    ],
+    [
+      0.512197,
+      "$"
+    ],
+    [
+      0.360255,
+      "M"
+    ],
+    [
+      0.384035,
+      "A"
+    ],
+    [
+      0.335897,
+      "N"
+    ],
+    [
+      0.280056,
+      "P"
+    ],
+    [
+      0.351949,
+      "A"
+    ],
+    [
+      0.200092,
+      "T"
+    ],
+    [
+      0.439791,
+      "H"
+    ],
+    [
+      0.422899,
+      "\r\n"
+    ],
+    [
+      0.000125,
+      "/Users/johnloy/.nvm/versions/node/v6.10.1/share/man:/Users/johnloy/.homebrew/share/man:/Users/johnloy/.homebrew/share/man:\r\n"
+    ],
+    [
+      0.000757,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      4.959698,
+      "c"
+    ],
+    [
+      0.184341,
+      "a"
+    ],
+    [
+      0.160052,
+      "t"
+    ],
+    [
+      0.279772,
+      " "
+    ],
+    [
+      0.288189,
+      "/"
+    ],
+    [
+      0.599896,
+      "p"
+    ],
+    [
+      0.167455,
+      "r"
+    ],
+    [
+      0.168464,
+      "i"
+    ],
+    [
+      0.135976,
+      "v"
+    ],
+    [
+      0.144203,
+      "a"
+    ],
+    [
+      0.127846,
+      "t"
+    ],
+    [
+      0.128328,
+      "e"
+    ],
+    [
+      0.327481,
+      "/"
+    ],
+    [
+      0.288114,
+      "e"
+    ],
+    [
+      0.199671,
+      "t"
+    ],
+    [
+      0.240103,
+      "c"
+    ],
+    [
+      0.298607,
+      "/"
+    ],
+    [
+      0.509917,
+      "m"
+    ],
+    [
+      0.255531,
+      "a"
+    ],
+    [
+      0.160117,
+      "n"
+    ],
+    [
+      0.264275,
+      "."
+    ],
+    [
+      0.215867,
+      "c"
+    ],
+    [
+      0.127912,
+      "o"
+    ],
+    [
+      0.055817,
+      "n"
+    ],
+    [
+      0.248733,
+      "f"
+    ],
+    [
+      0.775333,
+      " "
+    ],
+    [
+      0.327906,
+      "|"
+    ],
+    [
+      0.248261,
+      " "
+    ],
+    [
+      0.20742,
+      "l"
+    ],
+    [
+      0.079993,
+      "e"
+    ],
+    [
+      0.208269,
+      "s"
+    ],
+    [
+      0.208438,
+      "s"
+    ],
+    [
+      0.887814,
+      "\r\n"
+    ],
+    [
+      0.004336,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.000135,
+      "#\r\n# Generated automatically from man.conf.in by the\r\n# configure script.\r\n#\r\n# man.conf from man-1.6c\r\n#\r\n# For more information about this file, see the man pages man(1)\r\n# and man.conf(5).\r\n#\r\n# This file is read by man to configure the default manpath (also used\r\n# when MANPATH contains an empty substring), to find out where the cat\r\n# pages corresponding to given man pages should be stored,\r\n# and to map each PATH element to a manpath element.\r\n# It may also record the pathname of the man binary. [This is unused.]\r\n# The format is:\r\n#\r\n# MANBIN                pathname\r\n# MANPATH               manpath_element [corresponding_catdir]\r\n# MANPATH_MAP           path_element    manpath_element\r\n#\r\n# If no catdir is given, it is assumed to be equal to the mandir\r\n# (so that this dir has both man1 etc. and cat1 etc. subdirs).\r\n# This is the traditional Unix setup.\r\n# Certain versions of the FSSTND recommend putting formatted versions\r\n:\u001b[K"
+    ],
+    [
+      1.011504,
+      "\r\u001b[K# of /usr/.../man/manx/page.x into /var/catman/.../catx/page.x.\r\n:\u001b[K"
+    ],
+    [
+      0.319991,
+      "\r\u001b[K# The keyword FSSTND will cause this behaviour.\r\n:\u001b[K"
+    ],
+    [
+      0.252321,
+      "\r\u001b[K# Certain versions of the FHS recommend putting formatted versions of\r\n:\u001b[K"
+    ],
+    [
+      0.034623,
+      "\r\u001b[K# /usr/.../share/man/[locale/]manx/page.x into\r\n:\u001b[K"
+    ],
+    [
+      0.032845,
+      "\r\u001b[K# /var/cache/man/.../[locale/]catx/page.x.\r\n:\u001b[K"
+    ],
+    [
+      0.036038,
+      "\r\u001b[K# The keyword FHS will cause this behaviour (and overrides FSSTND).\r\n:\u001b[K"
+    ],
+    [
+      0.038081,
+      "\r\u001b[K# Explicitly given catdirs override.\r\n:\u001b[K"
+    ],
+    [
+      0.034656,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.032806,
+      "\r\u001b[K# FSSTND\r\n:\u001b[K"
+    ],
+    [
+      0.039077,
+      "\r\u001b[K"
+    ],
+    [
+      2.9e-05,
+      "FHS\r\n:\u001b[K"
+    ],
+    [
+      0.032272,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.035501,
+      "\r\u001b[K"
+    ],
+    [
+      2.2e-05,
+      "# This file is also read by man in order to find how to call nroff, less, etc.,\r\n:\u001b[K"
+    ],
+    [
+      0.037101,
+      "\r\u001b[K# and to determine the correspondence between extensions and decompressors.\r\n:\u001b[K"
+    ],
+    [
+      0.038338,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.034852,
+      "\r\u001b[K# MANBIN                /usr/local/bin/man\r\n:\u001b[K"
+    ],
+    [
+      0.03664,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.140701,
+      "\r\u001b[K# Every automatically generated MANPATH includes these fields\r\n:\u001b[K"
+    ],
+    [
+      0.239912,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.252502,
+      "\r\u001b[K"
+    ],
+    [
+      2.5e-05,
+      "MANPATH /usr/share/man\r\n:\u001b[K"
+    ],
+    [
+      0.034973,
+      "\r\u001b[KMANPATH /usr/local/share/man\r\n:\u001b[K"
+    ],
+    [
+      0.033574,
+      "\r\u001b[K"
+    ],
+    [
+      1.8e-05,
+      "MANPATH /usr/X11/man\r\n:\u001b[K"
+    ],
+    [
+      0.034759,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.034431,
+      "\r\u001b[K"
+    ],
+    [
+      2.2e-05,
+      "# Uncomment if you want to include one of these by default\r\n:\u001b[K"
+    ],
+    [
+      0.153672,
+      "\r\u001b[K#\r\n:\u001b[K"
+    ],
+    [
+      0.254724,
+      "\r\u001b[K# MANPATH       /opt/*/man\r\n:\u001b[K"
+    ],
+    [
+      0.033941,
+      "\r\u001b[K# MANPATH       /usr/lib/*/man\r\n:\u001b[K"
+    ],
+    [
+      0.150927,
+      "\r\u001b[K# MANPATH       /usr/share/*/man\r\n:\u001b[K"
+    ],
+    [
+      4.120314,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.004322,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.363566,
+      "m"
+    ],
+    [
+      0.192446,
+      "a"
+    ],
+    [
+      0.11124,
+      "n"
+    ],
+    [
+      0.144407,
+      " "
+    ],
+    [
+      0.25589,
+      "-"
+    ],
+    [
+      0.239899,
+      "d"
+    ],
+    [
+      1.192049,
+      "\r\n"
+    ],
+    [
+      0.003159,
+      "Reading config file /private/etc/man.conf\r\n"
+    ],
+    [
+      0.000179,
+      "Looked whether there exists a message catalog man, but there is none\r\n(and for English messages none is needed)\r\n\r\nfound man directory /usr/share/man\r\n"
+    ],
+    [
+      2.5e-05,
+      "found man directory /usr/local/share/man\r\nfound man directory /usr/X11/man\r\n"
+    ],
+    [
+      4.5e-05,
+      "found manpath map /bin --> /usr/share/man\r\nfound manpath map /sbin --> /usr/share/man\r\nfound manpath map /usr/bin --> /usr/share/man\r\nfound manpath map /usr/sbin --> /usr/share/man\r\nfound manpath map /usr/local/bin --> /usr/local/share/man\r\n"
+    ],
+    [
+      5e-05,
+      "found manpath map /usr/local/sbin --> /usr/local/share/man\r\nfound manpath map /usr/X11/bin --> /usr/X11/man\r\nfound manpath map /usr/bin/X11 --> /usr/X11/man\r\nfound manpath map /usr/bin/mh --> /usr/share/man\r\n"
+    ],
+    [
+      5.9e-05,
+      "\r\nusing /usr/bin/less -is as pager\r\n\r\nusing /usr/bin/less -is as browser\r\n\r\nusing /bin/cat to dump HTML pages as textWhat manual page do you want?\r\n"
+    ],
+    [
+      0.003261,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

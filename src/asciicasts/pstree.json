@@ -1,62 +1,206 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 19.636042,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.343408,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
+      0.631131,
+      "p"
+    ],
+    [
+      0.176114,
       "s"
     ],
     [
-      0.244881,
-      "a"
+      0.240354,
+      "t"
     ],
     [
-      0.144528,
-      "y"
+      0.256201,
+      "r"
     ],
     [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
+      0.063381,
       "e"
     ],
     [
-      0.13619,
-      "l"
+      0.223869,
+      "e"
     ],
     [
-      0.144402,
-      "l"
+      0.440457,
+      " "
     ],
     [
-      0.223923,
-      "o"
+      0.31167,
+      "-"
     ],
     [
-      0.240611,
+      0.320199,
+      "p"
+    ],
+    [
+      0.21618,
+      " "
+    ],
+    [
+      0.463788,
+      "$"
+    ],
+    [
+      0.183869,
+      "$"
+    ],
+    [
+      0.432303,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.055258,
+      "-+= 00001 root /sbin/launchd\r\n \\-+= 01391 johnloy /Applications/iTerm.app/Contents/MacOS/iTerm2\r\n   \\-+= 53019 johnloy /Applications/iTerm.app/Contents/MacOS/iTerm2 --server lo\r\n     \\-+= 53020 root login -fqp johnloy\r\n"
+    ],
+    [
+      2.5e-05,
+      "       \\-+= 53021 johnloy -bash\r\n         \\-+= 53868 johnloy /usr/local/Cellar/python3/3.6.1/Frameworks/Python.f\r\n           \\-+= 53869 johnloy bash\r\n             \\-+= 54939 johnloy /usr/local/Cellar/python3/3.6.1/Frameworks/Pyth\r\n               \\-+= 54940 johnloy /usr/local/bin/bash\r\n                 \\-+= 55194 johnloy pstree -p 54940\r\n                   \\--- 55195 root ps -axwwo user,pid,ppid,pgid,command\r\n"
+    ],
+    [
+      0.001517,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.662557,
+      "e"
+    ],
+    [
+      0.240469,
+      "c"
+    ],
+    [
+      0.144069,
+      "h"
+    ],
+    [
+      0.215883,
+      "o"
+    ],
+    [
+      0.295682,
+      " "
+    ],
+    [
+      0.376242,
+      "$"
+    ],
+    [
+      0.183535,
+      "$"
+    ],
+    [
+      0.39202,
+      "\r\n"
+    ],
+    [
+      0.000134,
+      "54940\r\n"
+    ],
+    [
+      0.00057,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.38379,
+      "e"
+    ],
+    [
+      0.31176,
+      "c"
+    ],
+    [
+      0.159715,
+      "h"
+    ],
+    [
+      0.176003,
+      "o"
+    ],
+    [
+      0.232164,
+      " "
+    ],
+    [
+      0.584137,
+      "$"
+    ],
+    [
+      0.440106,
+      "P"
+    ],
+    [
+      0.279761,
+      "P"
+    ],
+    [
+      0.303956,
+      "I"
+    ],
+    [
+      0.432405,
+      "D"
+    ],
+    [
+      0.455986,
+      "\r\n"
+    ],
+    [
+      0.000142,
+      "54939\r\n"
+    ],
+    [
+      0.00228,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.492793,
+      "\r\u001b[9@(reverse-i-search)`':\u001b[C"
+    ],
+    [
+      0.680903,
+      "\b\b\bp': pstree -p $$\b\b\b\b"
+    ],
+    [
+      0.159602,
+      "\b\b\b\b\b\b\b\b\b\b\b\u001b[1@s\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.200459,
+      "\b\b\b\u001b[1@t\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.407178,
+      "\r\u001b[12P\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m \r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  \r\n"
+    ],
+    [
+      0.057184,
+      "-+= 00001 root /sbin/launchd\r\n \\-+= 01391 johnloy /Applications/iTerm.app/Contents/MacOS/iTerm2\r\n   \\-+= 53019 johnloy /Applications/iTerm.app/Contents/MacOS/iTerm2 --server lo\r\n     \\-+= 53020 root login -fqp johnloy\r\n       \\-+= 53021 johnloy -bash\r\n         \\-+= 53868 johnloy /usr/local/Cellar/python3/3.6.1/Frameworks/Python.f\r\n           \\-+= 53869 johnloy bash\r\n"
+    ],
+    [
+      5.1e-05,
+      "             \\-+= 54939 johnloy /usr/local/Cellar/python3/3.6.1/Frameworks/Pyth\r\n               \\-+= 54940 johnloy /usr/local/bin/bash\r\n                 \\-+= 55208 johnloy pstree -p 54940\r\n                   \\--- 55209 root ps -axwwo user,pid,ppid,pgid,command\r\n"
+    ],
+    [
+      0.003351,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }
