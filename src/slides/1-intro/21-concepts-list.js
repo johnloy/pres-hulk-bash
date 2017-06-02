@@ -72,7 +72,7 @@ class BulletsSlide extends React.Component {
 
 export default (
   <Slide key="intro-concepts-list">
-    <SlideTitleComic>Concepts (a totally non-arbitrary selection)</SlideTitleComic>
+    <SlideTitleComic>Key concepts</SlideTitleComic>
     <BulletsSlide/>
   </Slide>
 );

@@ -6,14 +6,14 @@ import SlideTitleComic from "../../components/slide-title-comic";
 class TerminalSlide extends React.Component {
   render() {
     return (
-      <Terminal id="2-foo"/>
+      <Terminal id="inputrc"/>
     );
   }
 }
 
 export default (
   <Slide key="bind-v">
-    <SlideTitleComic>The Bourne Shell...</SlideTitleComic>
+    <SlideTitleComic>~/.inputrc</SlideTitleComic>
     <TerminalSlide/>
   </Slide>
 );

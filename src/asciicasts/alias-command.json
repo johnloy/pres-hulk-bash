@@ -1,62 +1,338 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 32.109182,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.330806,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
-    ],
-    [
-      0.244881,
+      1.370586,
       "a"
     ],
     [
-      0.144528,
-      "y"
+      0.168542,
+      "l"
     ],
     [
-      0.751604,
+      0.229994,
+      "i"
+    ],
+    [
+      0.14417,
+      "a"
+    ],
+    [
+      0.328208,
+      "s"
+    ],
+    [
+      0.816039,
       " "
     ],
     [
-      1.800467,
+      0.199905,
       "h"
     ],
     [
-      0.11892,
-      "e"
+      0.575812,
+      "f"
     ],
     [
-      0.13619,
-      "l"
+      1.080046,
+      "="
     ],
     [
-      0.144402,
-      "l"
+      1.016406,
+      "\""
     ],
     [
-      0.223923,
+      0.319526,
+      "h"
+    ],
+    [
+      0.127689,
+      "i"
+    ],
+    [
+      0.175978,
+      "s"
+    ],
+    [
+      0.17658,
+      "t"
+    ],
+    [
+      0.16788,
       "o"
     ],
     [
-      0.240611,
+      0.159536,
+      "r"
+    ],
+    [
+      0.1525,
+      "y"
+    ],
+    [
+      0.471668,
+      " "
+    ],
+    [
+      0.391836,
+      "|"
+    ],
+    [
+      0.216443,
+      " "
+    ],
+    [
+      0.11189,
+      "g"
+    ],
+    [
+      0.240203,
+      "r"
+    ],
+    [
+      0.031597,
+      "e"
+    ],
+    [
+      0.176153,
+      "p"
+    ],
+    [
+      0.575916,
+      "\""
+    ],
+    [
+      1.712349,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.002364,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.861217,
+      "h"
+    ],
+    [
+      0.423584,
+      "f"
+    ],
+    [
+      0.192214,
+      " "
+    ],
+    [
+      0.536325,
+      "n"
+    ],
+    [
+      0.15993,
+      "p"
+    ],
+    [
+      0.208145,
+      "m"
+    ],
+    [
+      1.103725,
+      "\r\n"
+    ],
+    [
+      0.004645,
+      "    8  2017-06-01 19:50:06 hf npm\r\n"
+    ],
+    [
+      0.001044,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.55402,
+      "a"
+    ],
+    [
+      0.143868,
+      "l"
+    ],
+    [
+      0.224127,
+      "i"
+    ],
+    [
+      0.224047,
+      "a"
+    ],
+    [
+      0.216202,
+      "s"
+    ],
+    [
+      0.136113,
+      " "
+    ],
+    [
+      0.383691,
+      "|"
+    ],
+    [
+      0.263935,
+      " "
+    ],
+    [
+      0.320349,
+      "l"
+    ],
+    [
+      0.279556,
+      "e"
+    ],
+    [
+      0.215721,
+      "s"
+    ],
+    [
+      0.200531,
+      "s"
+    ],
+    [
+      0.735954,
+      "\r\n"
+    ],
+    [
+      0.009321,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      2.6e-05,
+      "alias ae='vim /Users/johnloy/sh/aliases'\r\nalias ar='source ${ENV_DIR}/sh/aliases.zsh'\r\nalias cdb='cd -'\r\nalias cl='clear'\r\nalias co='git co'\r\nalias df='df -h'\r\nalias du='du -h -d 2'\r\nalias ga='git add -A'\r\nalias gam='git amend --reset-author'\r\nalias gb='git b'\r\nalias gbb='git bisect bad'\r\nalias gbd='git b -D -w'\r\nalias gbg='git bisect good'\r\nalias gbi='git rebase --interactive'\r\nalias gcb='git symbolic-ref --short HEAD'\r\nalias gci='git ci'\r\nalias gcim='git ci -m'\r\nalias gcln='git clean'\r\nalias gclndf='git clean -df'\r\nalias gclndfx='git clean -dfx'\r\nalias gcm='git ci -m'\r\nalias gco='git co'\r\nalias gcp='git cp'\r\nalias gd='git diff'\r\n:\u001b[K"
+    ],
+    [
+      1.230652,
+      "\r\u001b[Kalias gdc='git diff --cached -w'\r\n:\u001b[K"
+    ],
+    [
+      0.343948,
+      "\r\u001b[Kalias gf='git fetch'\r\n:\u001b[K"
+    ],
+    [
+      0.41621,
+      "\r\u001b[Kalias gfch='git fetch'\r\n:\u001b[K"
+    ],
+    [
+      0.400112,
+      "\r\u001b[Kalias ggrc='git rebase --continue'\r\n:\u001b[K"
+    ],
+    [
+      0.251956,
+      "\r\u001b[Kalias gho='hub browse `repopath` commits/`sha`'\r\n:\u001b[K"
+    ],
+    [
+      0.033384,
+      "\r\u001b[Kalias gi='vim .gitignore'\r\n:\u001b[K"
+    ],
+    [
+      0.034327,
+      "\r\u001b[Kalias gl='git l'\r\n:\u001b[K"
+    ],
+    [
+      0.032886,
+      "\r\u001b[K"
+    ],
+    [
+      2.6e-05,
+      "alias glg='git l'\r\n:\u001b[K"
+    ],
+    [
+      0.033402,
+      "\r\u001b[Kalias glog='git l'\r\n:\u001b[K"
+    ],
+    [
+      0.033537,
+      "\r\u001b[Kalias gm='git merge'\r\n:\u001b[K"
+    ],
+    [
+      0.03362,
+      "\r\u001b[Kalias gms='git merge --squash'\r\n:\u001b[K"
+    ],
+    [
+      0.043082,
+      "\r\u001b[Kalias gnb='git nb'\r\n:\u001b[K"
+    ],
+    [
+      0.319148,
+      "\r\u001b[Kalias gpl='git pull'\r\n:\u001b[K"
+    ],
+    [
+      0.253583,
+      "\r\u001b[Kalias gplr='git pull --rebase'\r\n:\u001b[K"
+    ],
+    [
+      0.033074,
+      "\r\u001b[Kalias gpm='git pull origin master'\r\n:\u001b[K"
+    ],
+    [
+      0.035944,
+      "\r\u001b[Kalias gps='git push'\r\n:\u001b[K"
+    ],
+    [
+      0.035359,
+      "\r\u001b[Kalias gpsh='git push'\r\n:\u001b[K"
+    ],
+    [
+      0.038309,
+      "\r\u001b[Kalias gpub='grb publish'\r\n:\u001b[K"
+    ],
+    [
+      0.035652,
+      "\r\u001b[Kalias gr='git rebase'\r\n:\u001b[K"
+    ],
+    [
+      0.036505,
+      "\r\u001b[Kalias gra='git rebase --abort'\r\n:\u001b[K"
+    ],
+    [
+      0.275788,
+      "\r\u001b[Kalias grad='git remote add'\r\n:\u001b[K"
+    ],
+    [
+      0.343864,
+      "\r\u001b[Kalias grr='git remote rm'\r\n:\u001b[K"
+    ],
+    [
+      0.250394,
+      "\r\u001b[Kalias grs='git reset'\r\n:\u001b[K"
+    ],
+    [
+      0.042467,
+      "\r\u001b[Kalias grsh='git reset --hard'\r\n:\u001b[K"
+    ],
+    [
+      0.523211,
+      "\r\u001b[Kalias grv='git remote -v'\r\nalias gs='git status'\r\nalias gsa='git stash apply'\r\nalias gsh='git show'\r\nalias gshow='git show'\r\nalias gshw='git show'\r\nalias gsm='git submodule'\r\nalias gsmi='git submodule init'\r\nalias gsmu='git submodule update'\r\nalias gsp='git stash pop'\r\nalias gst='git stash'\r\nalias gstsh='git stash'\r\nalias gt='git t'\r\n:\u001b[K"
+    ],
+    [
+      1.73532,
+      "\u0007\r\u001b[K:\u001b[K"
+    ],
+    [
+      1.392296,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.00096,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

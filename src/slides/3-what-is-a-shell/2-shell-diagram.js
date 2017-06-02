@@ -14,7 +14,7 @@ class ImageSlide extends React.Component {
 
 export default (
   <Slide key="shell-diagram" bgImage={bgImage}>
-    <SlideTitleComic>What is a shell, really?</SlideTitleComic>
+    <SlideTitleComic>Shells interpret</SlideTitleComic>
     <ImageSlide/>
   </Slide>
 );

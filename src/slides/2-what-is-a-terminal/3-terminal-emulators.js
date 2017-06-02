@@ -18,14 +18,42 @@ class BulletsSlide extends React.Component {
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                Use source control (git, svn, mercurial)
+                xterm — X-Windows
               </span>
             </ListItem>
           </Appear>
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                Run servers (http, database))
+                Terminal - macOS
+              </span>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <span style={styles.listItemText}>
+                gnome-terminal - Gnome
+              </span>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <span style={styles.listItemText}>
+                SSH
+              </span>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <span style={styles.listItemText}>
+                Screen and Tmux
+              </span>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <span style={styles.listItemText}>
+                Asciinema player
               </span>
             </ListItem>
           </Appear>

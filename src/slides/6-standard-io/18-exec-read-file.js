@@ -6,7 +6,7 @@ import {
   CodePane
 } from "spectacle";
 
-import code from "../../code/echo.sh";
+import code from "../../code/exec-read-file.sh";
 
 @Radium
 class CodeSlide extends React.Component {

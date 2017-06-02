@@ -1,62 +1,518 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 56.505337,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.493545,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.867982,
+      "b"
     ],
     [
-      0.244881,
-      "a"
+      0.200356,
+      "i"
     ],
     [
-      0.144528,
-      "y"
+      0.128106,
+      "n"
     ],
     [
-      0.751604,
+      0.207823,
+      "d"
+    ],
+    [
+      0.183987,
       " "
     ],
     [
-      1.800467,
-      "h"
+      0.511866,
+      "-"
     ],
     [
-      0.11892,
+      0.519841,
+      "P"
+    ],
+    [
+      1.464544,
+      " "
+    ],
+    [
+      0.359954,
+      "|"
+    ],
+    [
+      0.183771,
+      " "
+    ],
+    [
+      0.687804,
+      "l"
+    ],
+    [
+      0.183869,
       "e"
     ],
     [
-      0.13619,
-      "l"
+      0.312047,
+      "s"
     ],
     [
-      0.144402,
-      "l"
+      0.256328,
+      "s"
     ],
     [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.367987,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.016653,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      5.1e-05,
+      "\r\nabort is not bound to any keys\r\naccept-line can be found on \"\\C-j\", \"\\C-m\".\r\nalias-expand-line is not bound to any keys\r\narrow-key-prefix is not bound to any keys\r\nbackward-byte is not bound to any keys\r\nbackward-char can be found on \"\\eOD\", \"\\e[D\".\r\nbackward-delete-char can be found on \"\\C-h\", \"\\C-?\".\r\nbackward-kill-line is not bound to any keys\r\nbackward-kill-word is not bound to any keys\r\nbackward-word is not bound to any keys\r\nbeginning-of-history is not bound to any keys\r\nbeginning-of-line can be found on \"\\eOH\", \"\\e[H\".\r\nbracketed-paste-begin can be found on \"\\e[200~\".\r\ncall-last-kbd-macro is not bound to any keys\r\ncapitalize-word is not bound to any keys\r\ncharacter-search is not bound to any keys\r\ncharacter-search-backward is not bound to any keys\r\nclear-screen is not bound to any keys\r\ncomplete can be found on \"\\C-i\".\r\ncomplete-command is not bound to any keys\r\ncomplete-filename is not bound to any keys\r\ncomplete-hostname is not bound to any keys\r\ncomplete-into-braces is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      1.575671,
+      "\r\u001b[Kcomplete-username is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.687149,
+      "\r\u001b[Kcomplete-variable is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.488364,
+      "\r\u001b[Kcopy-backward-word is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.623984,
+      "\r\u001b[Kcopy-forward-word is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.655817,
+      "\r\u001b[Kcopy-region-as-kill is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.455927,
+      "\r\u001b[K"
+    ],
+    [
+      2.8e-05,
+      "dabbrev-expand is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.50376,
+      "\r\u001b[Kdelete-char can be found on \"\\e[3~\".\r\n:\u001b[K"
+    ],
+    [
+      0.3929,
+      "\r\u001b[Kdelete-char-or-list is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.391573,
+      "\r\u001b[Kdelete-horizontal-space is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.471662,
+      "\r\u001b[Kdigit-argument is not bound to any keys\r\n:\u001b[K"
+    ],
+    [
+      0.648078,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.00332,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.700681,
+      "s"
+    ],
+    [
+      0.207624,
+      "a"
+    ],
+    [
+      0.248405,
+      "y"
+    ],
+    [
+      0.448125,
+      "_"
+    ],
+    [
+      0.199833,
+      "h"
+    ],
+    [
+      0.136033,
+      "e"
+    ],
+    [
+      0.143808,
+      "l"
+    ],
+    [
+      0.136004,
+      "l"
+    ],
+    [
+      0.528066,
+      "o"
+    ],
+    [
+      1.080117,
+      "("
+    ],
+    [
+      0.223935,
+      ")"
+    ],
+    [
+      0.424027,
+      " "
+    ],
+    [
+      0.279956,
+      "{"
+    ],
+    [
+      0.296011,
+      "\r\n"
+    ],
+    [
+      0.000116,
+      "> "
+    ],
+    [
+      1.424113,
+      "e"
+    ],
+    [
+      0.247511,
+      "c"
+    ],
+    [
+      0.144145,
+      "h"
+    ],
+    [
+      0.111938,
+      "o"
+    ],
+    [
+      0.22406,
+      " "
+    ],
+    [
+      0.279913,
+      "\""
+    ],
+    [
+      0.36015,
+      "G"
+    ],
+    [
+      0.207902,
+      "r"
+    ],
+    [
+      0.079759,
+      "e"
+    ],
+    [
+      0.256176,
+      "e"
+    ],
+    [
+      0.240043,
+      "t"
+    ],
+    [
+      0.129952,
+      "i"
+    ],
+    [
+      0.061653,
+      "n"
+    ],
+    [
+      0.064309,
+      "g"
+    ],
+    [
+      0.192219,
+      "s"
+    ],
+    [
+      0.575842,
+      "."
+    ],
+    [
+      0.167999,
+      " "
+    ],
+    [
+      0.256117,
+      "H"
+    ],
+    [
+      0.232896,
+      "o"
+    ],
+    [
+      0.174559,
+      "w"
+    ],
+    [
+      0.144225,
+      " "
+    ],
+    [
+      0.208323,
+      "d"
+    ],
+    [
+      0.09602,
+      "o"
+    ],
+    [
+      0.191723,
+      " "
+    ],
+    [
+      0.18399,
+      "y"
+    ],
+    [
+      0.136062,
+      "o"
+    ],
+    [
+      0.103421,
+      "u"
+    ],
+    [
+      0.07264,
+      " "
+    ],
+    [
+      0.127766,
+      "d"
+    ],
+    [
+      0.11189,
+      "o"
+    ],
+    [
+      0.560311,
+      "?"
+    ],
+    [
+      0.471794,
+      "\""
+    ],
+    [
+      0.736279,
+      "\r\n"
+    ],
+    [
+      0.000128,
+      "> "
+    ],
+    [
+      0.647237,
+      "}"
+    ],
+    [
+      0.344535,
+      "\r\n"
+    ],
+    [
+      0.002536,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.589072,
+      "b"
+    ],
+    [
+      0.143916,
+      "i"
+    ],
+    [
+      0.088268,
+      "n"
+    ],
+    [
+      0.087714,
+      "d"
+    ],
+    [
+      0.280276,
+      " "
+    ],
+    [
+      0.319974,
+      "-"
+    ],
+    [
+      0.424338,
+      "x"
+    ],
+    [
+      0.551754,
+      " "
+    ],
+    [
+      0.319726,
+      "\""
+    ],
+    [
+      1.66426,
+      "\b\u001b[K"
+    ],
+    [
+      0.927796,
+      "'"
+    ],
+    [
+      1.039616,
+      "\""
+    ],
+    [
+      0.272265,
+      "h"
+    ],
+    [
+      0.608007,
+      "i"
+    ],
+    [
+      1.207647,
+      "\""
+    ],
+    [
+      0.688032,
+      ":"
+    ],
+    [
+      1.143851,
+      "s"
+    ],
+    [
+      0.185013,
+      "a"
+    ],
+    [
+      0.151314,
+      "y"
+    ],
+    [
+      0.543746,
+      "_"
+    ],
+    [
+      0.24044,
+      "h"
+    ],
+    [
+      0.375903,
+      "e"
+    ],
+    [
+      0.215764,
+      "l"
+    ],
+    [
+      0.175693,
+      "l"
+    ],
+    [
+      0.279965,
+      "o"
+    ],
+    [
+      1.624119,
+      "'"
+    ],
+    [
+      0.847827,
+      "\r\n"
+    ],
+    [
+      0.002548,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.945686,
+      "h"
+    ],
+    [
+      1.083724,
+      "i"
+    ],
+    [
+      0.664244,
+      "\r\n"
+    ],
+    [
+      0.000893,
+      "bash: hi: command not found\r\n"
+    ],
+    [
+      0.002998,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.219713,
+      "\r\u001b[K"
+    ],
+    [
+      5.1e-05,
+      "Greetings. How do you do?\r\n"
+    ],
+    [
+      1.5e-05,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.207954,
+      "\r\u001b[K"
+    ],
+    [
+      7.4e-05,
+      "Greetings. How do you do?\r\n\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.968229,
+      "\r\u001b[K"
+    ],
+    [
+      7.3e-05,
+      "Greetings. How do you do?\r\n"
+    ],
+    [
+      3.8e-05,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.943627,
+      "\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "Greetings. How do you do?\r\n\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

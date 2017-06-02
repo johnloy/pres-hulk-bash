@@ -1,19 +1,22 @@
 import * as React from "react";
 import Slide from "../../components/slide";
-import Terminal from "../../components/terminal";
-import SlideTitleComic from "../../components/slide-title-comic";
 
-class TerminalSlide extends React.Component {
+class SectionSlide extends React.Component {
   render() {
     return (
-      <Terminal id="standard-io"/>
+      <div className="content content-section-title zoom-in">
+        <h1 className="section-title">
+          Standard I/O and redirection
+        </h1>
+      </div>
     );
   }
 }
 
 export default (
   <Slide key="standard-io">
-    <SlideTitleComic>Standard I/O and redirection</SlideTitleComic>
-    <TerminalSlide/>
+    <SectionSlide/>
   </Slide>
 );
+
+

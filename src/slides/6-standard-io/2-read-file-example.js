@@ -1,12 +1,20 @@
 import * as React from "react";
+import Radium from "radium";
 import Slide from "../../components/slide";
-import Terminal from "../../components/terminal";
 import SlideTitleComic from "../../components/slide-title-comic";
+import {
+  CodePane
+} from "spectacle";
 
-class TerminalSlide extends React.Component {
+import code from "../../code/read-from-file.sh";
+
+@Radium
+class CodeSlide extends React.Component {
   render() {
     return (
-      <Terminal id="2-foo"/>
+      <div className="content zoom-in">
+        <CodePane lang="bash" source={code} className="big-code" />
+      </div>
     );
   }
 }
@@ -14,6 +22,6 @@ class TerminalSlide extends React.Component {
 export default (
   <Slide key="read-file-example">
     <SlideTitleComic>Standard I/O: read from a file</SlideTitleComic>
-    <TerminalSlide/>
+    <CodeSlide/>
   </Slide>
 );

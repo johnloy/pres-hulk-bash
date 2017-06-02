@@ -13,7 +13,7 @@ class TerminalSlide extends React.Component {
 
 export default (
   <Slide key="line-continuation">
-    <SlideTitleComic>Line continuation</SlideTitleComic>
+    <SlideTitleComic>Multiline editing</SlideTitleComic>
     <TerminalSlide/>
   </Slide>
 );

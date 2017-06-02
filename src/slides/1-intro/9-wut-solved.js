@@ -13,7 +13,7 @@ class TerminalSlide extends React.Component {
 
 export default (
   <Slide key="intro-wut-solved">
-    <SlideTitleComic>Git status for $HOME</SlideTitleComic>
+    <SlideTitleComic>Git status for all repos in a directory</SlideTitleComic>
     <TerminalSlide/>
   </Slide>
 );

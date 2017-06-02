@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 19.56041,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.329054,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.951865,
+      "b"
+    ],
+    [
+      0.152046,
+      "i"
+    ],
+    [
+      0.087878,
+      "n"
+    ],
+    [
+      0.151822,
+      "d"
+    ],
+    [
+      0.400117,
+      " "
+    ],
+    [
+      0.271874,
+      "-"
+    ],
+    [
+      0.832137,
+      "V"
+    ],
+    [
+      1.367935,
+      " "
+    ],
+    [
+      0.304292,
+      "|"
+    ],
+    [
+      0.20006,
+      " "
+    ],
+    [
+      0.167966,
+      "l"
+    ],
+    [
+      0.143757,
+      "e"
+    ],
+    [
+      0.199806,
+      "s"
+    ],
+    [
+      0.192404,
+      "s"
+    ],
+    [
+      0.560232,
+      "\r\n"
+    ],
+    [
+      0.009753,
+      "\u001b[?1049h\u001b[?1h\u001b=\rbind-tty-special-chars is set to `on'\r\nblink-matching-paren is set to `off'\r\nbyte-oriented is set to `off'\r\ncolored-completion-prefix is set to `on'\r\ncolored-stats is set to `off'\r\ncompletion-ignore-case is set to `off'\r\ncompletion-map-case is set to `off'\r\nconvert-meta is set to `off'\r\ndisable-completion is set to `off'\r\necho-control-characters is set to `on'\r\nenable-bracketed-paste is set to `off'\r\nenable-keypad is set to `off'\r\nenable-meta-key is set to `on'\r\nexpand-tilde is set to `off'\r\nhistory-preserve-point is set to `off'\r\nhorizontal-scroll-mode is set to `off'\r\ninput-meta is set to `on'\r\nmark-directories is set to `on'\r\nmark-modified-lines is set to `off'\r\nmark-symlinked-directories is set to `off'\r\nmatch-hidden-files is set to `on'\r\nmenu-complete-display-prefix is set to `off'\r\nmeta-flag is set to `on'\r\noutput-meta is set to `on'\r\n:\u001b[K"
+    ],
+    [
+      1.269645,
+      "\r\u001b[Kpage-completions is set to `on'\r\n:\u001b[K"
+    ],
+    [
+      0.383925,
+      "\r\u001b[Kprefer-visible-bell is set to `on'\r\n:\u001b[K"
+    ],
+    [
+      0.408415,
+      "\r\u001b[Kprint-completions-horizontally is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.391749,
+      "\r\u001b[Krevert-all-at-newline is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.25017,
+      "\r\u001b[Kshow-all-if-ambiguous is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.043782,
+      "\r\u001b[Kshow-all-if-unmodified is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.242264,
+      "\r\u001b[Kshow-mode-in-prompt is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.251926,
+      "\r\u001b[Kskip-completed-text is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.24382,
+      "\r\u001b[Kvisible-stats is set to `off'\r\n:\u001b[K"
+    ],
+    [
+      0.253509,
+      "\r\u001b[K"
+    ],
+    [
+      2.8e-05,
+      "bell-style is set to `audible'\r\n:\u001b[K"
+    ],
+    [
+      0.031674,
+      "\r\u001b[Kcomment-begin is set to `#'\r\n:\u001b[K"
+    ],
+    [
+      0.034381,
+      "\r\u001b[Kcompletion-display-width is set to `-1'\r\n:\u001b[K"
+    ],
+    [
+      0.304538,
+      "\r\u001b[Kcompletion-prefix-display-length is set to `0'\r\n:\u001b[K"
+    ],
+    [
+      0.415591,
+      "\r\u001b[Kcompletion-query-items is set to `100'\r\n:\u001b[K"
+    ],
+    [
+      0.688331,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.003239,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      1.988941,
+      "c"
+    ],
+    [
+      0.191751,
+      "a"
+    ],
+    [
+      0.168523,
+      "t"
+    ],
+    [
+      0.159542,
+      " "
+    ],
+    [
+      1.079541,
+      "~"
+    ],
+    [
+      0.296149,
+      "/"
+    ],
+    [
+      0.360083,
+      "."
+    ],
+    [
+      0.464095,
+      "i"
+    ],
+    [
+      0.088138,
+      "n"
+    ],
+    [
+      0.215529,
+      "p"
+    ],
+    [
+      0.146494,
+      "u"
+    ],
+    [
+      0.197825,
+      "t"
+    ],
+    [
+      0.67967,
+      "r"
+    ],
+    [
+      0.44027,
+      "c"
+    ],
+    [
+      0.536062,
+      "\r\n"
+    ],
+    [
+      0.005552,
+      "# Colorizes common prefix in all tab-completion matches\r\nset colored-completion-prefix on\r\n\r\n# Use the awesomest key bindings ever\r\nset editing-mode vi\r\n# OR...\r\n# set editing mode emacs\r\n\r\n# Simply use arrow keys to fuzzy-search history\r\n\"\\e[A\": history-search-backward\r\n\"\\e[B\": history-search-forward\r\n\"\\e[C\": forward-char\r\n\"\\e[D\": backward-char\r\n\r\n# Kick ass replacement for reverse history search\r\n\"\\C-r\": 'hh\\n' # https://github.com/dvorka/hstr\r\n\r\n# Automagically expand history abbreviataions like !-2\r\n\" \": magic-space\r\n\r\n# Custom shortcut that runs without typing enter\r\n\",aa\": 'alias_append'\r\n\r\n# Quickly jump into the node repl\r\n\",gn\": 'node'\r\n\r\n"
+    ],
+    [
+      0.001087,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}

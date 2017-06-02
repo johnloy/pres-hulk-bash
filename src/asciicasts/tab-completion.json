@@ -1,62 +1,530 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 56.367851,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.196233,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
-    ],
-    [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
+      0.650917,
       "e"
     ],
     [
-      0.13619,
-      "l"
+      0.280029,
+      "c"
     ],
     [
-      0.144402,
-      "l"
+      0.191531,
+      "h"
     ],
     [
-      0.223923,
+      0.048181,
       "o"
     ],
     [
-      0.240611,
+      0.199945,
+      " "
+    ],
+    [
+      0.288153,
+      "\""
+    ],
+    [
+      0.351476,
+      "s"
+    ],
+    [
+      0.184151,
+      "e"
+    ],
+    [
+      0.224762,
+      "t"
+    ],
+    [
+      0.183538,
+      " "
+    ],
+    [
+      0.144131,
+      "s"
+    ],
+    [
+      0.079629,
+      "h"
+    ],
+    [
+      0.096231,
+      "o"
+    ],
+    [
+      0.13584,
+      "w"
+    ],
+    [
+      0.312026,
+      " "
+    ],
+    [
+      0.504063,
+      "\b\u001b[K"
+    ],
+    [
+      0.272054,
+      "-"
+    ],
+    [
+      0.207795,
+      "a"
+    ],
+    [
+      0.128226,
+      "l"
+    ],
+    [
+      0.176303,
+      "l"
+    ],
+    [
+      0.199707,
+      "-"
+    ],
+    [
+      0.200651,
+      "i"
+    ],
+    [
+      0.111338,
+      "f"
+    ],
+    [
+      0.16,
+      "-"
+    ],
+    [
+      0.176107,
+      "a"
+    ],
+    [
+      0.128113,
+      "m"
+    ],
+    [
+      0.191921,
+      "b"
+    ],
+    [
+      0.167935,
+      "i"
+    ],
+    [
+      0.327473,
+      "g"
+    ],
+    [
+      0.992123,
+      "u"
+    ],
+    [
+      0.296291,
+      "o"
+    ],
+    [
+      0.23947,
+      "u"
+    ],
+    [
+      0.304295,
+      "s"
+    ],
+    [
+      0.80771,
+      " "
+    ],
+    [
+      0.152432,
+      "o"
+    ],
+    [
+      0.135609,
+      "n"
+    ],
+    [
+      0.807958,
+      "\""
+    ],
+    [
+      0.519951,
+      " "
+    ],
+    [
+      0.304078,
+      ">"
+    ],
+    [
+      0.208442,
+      ">"
+    ],
+    [
+      0.351713,
+      " "
+    ],
+    [
+      0.456303,
+      "~"
+    ],
+    [
+      0.295537,
+      "/"
+    ],
+    [
+      0.272765,
+      "."
+    ],
+    [
+      0.303099,
+      "i"
+    ],
+    [
+      0.080583,
+      "n"
+    ],
+    [
+      0.183718,
+      "p"
+    ],
+    [
+      0.112281,
+      "u"
+    ],
+    [
+      0.183829,
+      "t"
+    ],
+    [
+      0.399939,
+      "r"
+    ],
+    [
+      0.415878,
+      "c"
+    ],
+    [
+      1.287967,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.002218,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.261589,
+      "z"
+    ],
+    [
+      1.25116,
+      "\r\n\u001b[01;35mz\u001b[0m\u001b[Kcat            \u001b[01;35mz\u001b[0m\u001b[Kforce          \u001b[01;35mz\u001b[0m\u001b[Kipdetails5.16  \u001b[01;35mz\u001b[0m\u001b[Kless\r\n"
+    ],
+    [
+      2.5e-05,
+      "\u001b[01;35mz\u001b[0m\u001b[Kcmp            \u001b[01;35mz\u001b[0m\u001b[Kgrep           \u001b[01;35mz\u001b[0m\u001b[Kipdetails5.18  \u001b[01;35mz\u001b[0m\u001b[Kmore\r\n\u001b[01;35mz\u001b[0m\u001b[Kdiff           \u001b[01;35mz\u001b[0m\u001b[Kic             \u001b[01;35mz\u001b[0m\u001b[Kipgrep         \u001b[01;35mz\u001b[0m\u001b[Knew\r\n\u001b[01;35mz\u001b[0m\u001b[Kdump           \u001b[01;35mz\u001b[0m\u001b[Kip             \u001b[01;35mz\u001b[0m\u001b[Kipinfo         \u001b[01;35mz\u001b[0m\u001b[Kprint\r\n"
+    ],
+    [
+      1.2e-05,
+      "\u001b[01;35mz\u001b[0m\u001b[Kegrep          \u001b[01;35mz\u001b[0m\u001b[Kipcloak        \u001b[01;35mz\u001b[0m\u001b[Kipnote         \u001b[01;35mz\u001b[0m\u001b[Ksh\r\n"
+    ],
+    [
+      1.8e-05,
+      "\u001b[01;35mz\u001b[0m\u001b[Kfgrep          \u001b[01;35mz\u001b[0m\u001b[Kipdetails      \u001b[01;35mz\u001b[0m\u001b[Kipsplit        \r\n"
+    ],
+    [
+      2.7e-05,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  z"
+    ],
+    [
+      1.404783,
+      "\b\u001b[K"
+    ],
+    [
+      1.727928,
+      "l"
+    ],
+    [
+      0.335754,
+      "s"
+    ],
+    [
+      0.2643,
+      " "
+    ],
+    [
+      0.895722,
+      "\r\n.DS_Store                    my-iterm/\r\nThe-Web-SDK/                 my-node/\r\nautocrat-state-machine-demo/ my-perl/\r\nmy-ansible/                  my-rerun/\r\n"
+    ],
+    [
+      3.3e-05,
+      "my-app/                      my-ruby/\r\nmy-bash/                     my-self/\r\nmy-bin/                      my-sh/\r\nmy-brews/                    my-todos/\r\nmy-dotfiles/                 my-vim/\r\nmy-env/                      old-my-envs/\r\nmy-git/                      pres-hulk-bash/\r\nmy-hosts/                    website2017/\r\n\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  ls "
+    ],
+    [
+      2.447729,
+      "\b\u001b[K"
+    ],
+    [
+      0.252084,
+      "\b\u001b[K"
+    ],
+    [
+      0.036603,
+      "\b\u001b[K"
+    ],
+    [
+      0.038307,
+      "\u0007"
+    ],
+    [
+      0.035678,
+      "\u0007"
+    ],
+    [
+      0.049327,
+      "\u0007"
+    ],
+    [
+      1.540535,
+      "c"
+    ],
+    [
+      0.255235,
+      "d"
+    ],
+    [
+      0.200125,
+      " "
+    ],
+    [
+      0.765333,
+      "\r\nThe-Web-SDK/                 my-node/\r\nautocrat-state-machine-demo/ my-perl/\r\nmy-ansible/                  my-rerun/\r\nmy-app/                      my-ruby/\r\nmy-bash/                     my-self/\r\nmy-bin/                      my-sh/\r\n"
+    ],
+    [
+      3.2e-05,
+      "my-brews/                    my-todos/\r\nmy-dotfiles/                 my-vim/\r\nmy-env/                      old-my-envs/\r\nmy-git/                      pres-hulk-bash/\r\nmy-hosts/                    website2017/\r\nmy-iterm/                    \r\n\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  cd "
+    ],
+    [
+      1.586802,
+      "\b\u001b[K"
+    ],
+    [
+      0.271738,
+      "\b\u001b[K"
+    ],
+    [
+      0.264081,
+      "\b\u001b[K"
+    ],
+    [
+      3.312053,
+      "$"
+    ],
+    [
+      0.928461,
+      "\r\nDisplay all 114 possibilities? (y or n)"
+    ],
+    [
+      0.919597,
+      "\r\n\u001b[01;35m$\u001b[0m\u001b[KASCIINEMA_REC                        \u001b[01;35m$\u001b[0m\u001b[KPERL_LOCAL_LIB_ROOT\r\n\u001b[01;35m$\u001b[0m\u001b[KApple_PubSub_Socket_Render           \u001b[01;35m$\u001b[0m\u001b[KPERL_MB_OPT\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH                                 \u001b[01;35m$\u001b[0m\u001b[KPERL_MM_OPT\r\n\u001b[01;35m$\u001b[0m\u001b[KBASHOPTS                             \u001b[01;35m$\u001b[0m\u001b[KPIPESTATUS\r\n\u001b[01;35m$\u001b[0m\u001b[KBASHPID                              \u001b[01;35m$\u001b[0m\u001b[KPPID\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_ALIASES                         \u001b[01;35m$\u001b[0m\u001b[KPROMPT_COMMAND\r\n"
+    ],
+    [
+      4e-05,
+      "\u001b[01;35m$\u001b[0m\u001b[KBASH_ARGC                            \u001b[01;35m$\u001b[0m\u001b[KPS1\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_ARGV                            \u001b[01;35m$\u001b[0m\u001b[KPS2\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_CMDS                            \u001b[01;35m$\u001b[0m\u001b[KPS4\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_COMMAND                         \u001b[01;35m$\u001b[0m\u001b[KPWD\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_COMPLETION                      \u001b[01;35m$\u001b[0m\u001b[KPYTHONPATH\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_COMPLETION_COMPAT_DIR           \u001b[01;35m$\u001b[0m\u001b[KRANDOM\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_COMPLETION_DIR                  \u001b[01;35m$\u001b[0m\u001b[KRBENV_ROOT\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_LINENO                          \u001b[01;35m$\u001b[0m\u001b[KSECONDS\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_SOURCE                          \u001b[01;35m$\u001b[0m\u001b[KSHELL\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_SUBSHELL                        \u001b[01;35m$\u001b[0m\u001b[KSHELLOPTS\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_VERSINFO                        \u001b[01;35m$\u001b[0m\u001b[KSHLVL\r\n\u001b[01;35m$\u001b[0m\u001b[KBASH_VERSION                         \u001b[01;35m$\u001b[0m\u001b[KSSH_AUTH_SOCK\r\n"
+    ],
+    [
+      2.4e-05,
+      "\u001b[01;35m$\u001b[0m\u001b[KCOLORFGBG                            \u001b[01;35m$\u001b[0m\u001b[KTERM\r\n\u001b[01;35m$\u001b[0m\u001b[KCOLUMNS                              \u001b[01;35m$\u001b[0m\u001b[KTERM_PROGRAM\r\n\u001b[01;35m$\u001b[0m\u001b[KCOMP_WORDBREAKS                      \u001b[01;35m$\u001b[0m\u001b[KTERM_PROGRAM_VERSION\r\n\u001b[01;35m$\u001b[0m\u001b[KDIRSTACK                             \u001b[01;35m$\u001b[0m\u001b[KTERM_SESSION_ID\r\n\u001b[01;35m$\u001b[0m\u001b[KEDITOR                               \u001b[01;35m$\u001b[0m\u001b[KTMPDIR\r\n\u001b[01;35m$\u001b[0m\u001b[KEUID                                 \u001b[01;35m$\u001b[0m\u001b[KUID\r\n--More--"
+    ],
+    [
+      2.008111,
+      "\r\u001b[K\r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  $"
+    ],
+    [
+      0.999367,
+      "\b\u001b[K"
+    ],
+    [
+      3.735984,
+      "~"
+    ],
+    [
+      0.87715,
+      "\r\n"
+    ],
+    [
+      0.000382,
+      "\u001b[01;35m~\u001b[0m\u001b[KGuest/                 \u001b[01;35m~\u001b[0m\u001b[K_geod/                 \u001b[01;35m~\u001b[0m\u001b[K_qtss/\r\n"
+    ],
+    [
+      0.000281,
+      "\u001b[01;35m~\u001b[0m\u001b[K_amavisd               \u001b[01;35m~\u001b[0m\u001b[K_hidd/                 \u001b[01;35m~\u001b[0m\u001b[K_sandbox/\r\n"
+    ],
+    [
+      0.000293,
+      "\u001b[01;35m~\u001b[0m\u001b[K_appleevents/          \u001b[01;35m~\u001b[0m\u001b[K_iconservices/         \u001b[01;35m~\u001b[0m\u001b[K_screensaver/\r\n"
+    ],
+    [
+      0.000295,
+      "\u001b[01;35m~\u001b[0m\u001b[K_applepay/             \u001b[01;35m~\u001b[0m\u001b[K_installassistant/     \u001b[01;35m~\u001b[0m\u001b[K_scsd/\r\n"
+    ],
+    [
+      0.000288,
+      "\u001b[01;35m~\u001b[0m\u001b[K_appowner/             \u001b[01;35m~\u001b[0m\u001b[K_installer/            \u001b[01;35m~\u001b[0m\u001b[K_securityagent/\r\n"
+    ],
+    [
+      0.000266,
+      "\u001b[01;35m~\u001b[0m\u001b[K_appserver/            \u001b[01;35m~\u001b[0m\u001b[K_jabber/               \u001b[01;35m~\u001b[0m\u001b[K_sentinel/\r\n"
+    ],
+    [
+      0.000235,
+      "\u001b[01;35m~\u001b[0m\u001b[K_ard/                  \u001b[01;35m~\u001b[0m\u001b[K_kadmin_admin/         \u001b[01;35m~\u001b[0m\u001b[K_serialnumberd/\r\n"
+    ],
+    [
+      0.000457,
+      "\u001b[01;35m~\u001b[0m\u001b[K_assetcache/           \u001b[01;35m~\u001b[0m\u001b[K_kadmin_changepw/      \u001b[01;35m~\u001b[0m\u001b[K_softwareupdate/\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[01;35m~\u001b[0m\u001b[K_astris/               \u001b[01;35m~\u001b[0m\u001b[K_krb_anonymous/        \u001b[01;35m~\u001b[0m\u001b[K_spotlight/\r\n"
+    ],
+    [
+      0.000299,
+      "\u001b[01;35m~\u001b[0m\u001b[K_atsserver/            \u001b[01;35m~\u001b[0m\u001b[K_krb_changepw/         \u001b[01;35m~\u001b[0m\u001b[K_sshd/\r\n"
+    ],
+    [
+      0.000319,
+      "\u001b[01;35m~\u001b[0m\u001b[K_avbdeviced/           \u001b[01;35m~\u001b[0m\u001b[K_krb_kadmin/           \u001b[01;35m~\u001b[0m\u001b[K_svn/\r\n"
+    ],
+    [
+      0.000295,
+      "\u001b[01;35m~\u001b[0m\u001b[K_calendar/             \u001b[01;35m~\u001b[0m\u001b[K_krb_kerberos/         \u001b[01;35m~\u001b[0m\u001b[K_taskgated/\r\n"
+    ],
+    [
+      0.000274,
+      "\u001b[01;35m~\u001b[0m\u001b[K_captiveagent/         \u001b[01;35m~\u001b[0m\u001b[K_krb_krbtgt/           \u001b[01;35m~\u001b[0m\u001b[K_teamsserver\r\n"
+    ],
+    [
+      0.000293,
+      "\u001b[01;35m~\u001b[0m\u001b[K_ces/                  \u001b[01;35m~\u001b[0m\u001b[K_krbfast/              \u001b[01;35m~\u001b[0m\u001b[K_timezone/\r\n"
+    ],
+    [
+      0.000337,
+      "\u001b[01;35m~\u001b[0m\u001b[K_clamav                \u001b[01;35m~\u001b[0m\u001b[K_krbtgt/               \u001b[01;35m~\u001b[0m\u001b[K_tokend/\r\n"
+    ],
+    [
+      0.000304,
+      "\u001b[01;35m~\u001b[0m\u001b[K_coreaudiod/           \u001b[01;35m~\u001b[0m\u001b[K_launchservicesd/      \u001b[01;35m~\u001b[0m\u001b[K_trustevaluationagent/\r\n"
+    ],
+    [
+      0.000295,
+      "\u001b[01;35m~\u001b[0m\u001b[K_coremediaiod/         \u001b[01;35m~\u001b[0m\u001b[K_lda/                  \u001b[01;35m~\u001b[0m\u001b[K_unknown/\r\n"
+    ],
+    [
+      0.0004,
+      "\u001b[01;35m~\u001b[0m\u001b[K_ctkd/                 \u001b[01;35m~\u001b[0m\u001b[K_locationd/            \u001b[01;35m~\u001b[0m\u001b[K_update_sharing/\r\n"
+    ],
+    [
+      0.000304,
+      "\u001b[01;35m~\u001b[0m\u001b[K_cvmsroot/             \u001b[01;35m~\u001b[0m\u001b[K_lp/                   \u001b[01;35m~\u001b[0m\u001b[K_usbmuxd/\r\n"
+    ],
+    [
+      0.000286,
+      "\u001b[01;35m~\u001b[0m\u001b[K_cvs/                  \u001b[01;35m~\u001b[0m\u001b[K_mailman/              \u001b[01;35m~\u001b[0m\u001b[K_uucp/\r\n"
+    ],
+    [
+      0.000274,
+      "\u001b[01;35m~\u001b[0m\u001b[K_cyrus                 \u001b[01;35m~\u001b[0m\u001b[K_mbsetupuser           \u001b[01;35m~\u001b[0m\u001b[K_warmd/\r\n"
+    ],
+    [
+      0.000282,
+      "\u001b[01;35m~\u001b[0m\u001b[K_datadetectors/        \u001b[01;35m~\u001b[0m\u001b[K_mcxalr/               \u001b[01;35m~\u001b[0m\u001b[K_webauthserver/\r\n"
+    ],
+    [
+      0.000261,
+      "\u001b[01;35m~\u001b[0m\u001b[K_devdocs/              \u001b[01;35m~\u001b[0m\u001b[K_mdnsresponder/        \u001b[01;35m~\u001b[0m\u001b[K_windowserver/\r\n"
+    ],
+    [
+      0.000264,
+      "\u001b[01;35m~\u001b[0m\u001b[K_devicemgr/            \u001b[01;35m~\u001b[0m\u001b[K_mobileasset/          \u001b[01;35m~\u001b[0m\u001b[K_www/\r\n--More--"
+    ],
+    [
+      2.531295,
+      "\r\u001b[K\r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  ~"
+    ],
+    [
+      0.560051,
+      "\b\u001b[K"
+    ],
+    [
+      1.696596,
+      "s"
+    ],
+    [
+      0.2392,
+      "s"
+    ],
+    [
+      0.432088,
+      "h"
+    ],
+    [
+      0.24799,
+      " "
+    ],
+    [
+      0.664127,
+      "@"
+    ],
+    [
+      1.320005,
+      "\r\n\u001b[01;35m@\u001b[0m\u001b[K192.168.143.164\r\n\u001b[01;35m@\u001b[0m\u001b[K192.168.143.66\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.120\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.121\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.122\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.123\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.128\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.129\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.130\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.131\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.140\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.141\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.142\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.252.143\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.253.112\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.253.113\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.253.118\r\n\u001b[01;35m@\u001b[0m\u001b[K192.30.253.119\r\n\u001b[01;35m@\u001b[0m\u001b[K50.116.54.172\r\n"
+    ],
+    [
+      2.9e-05,
+      "\u001b[01;35m@\u001b[0m\u001b[K::1\r\n\u001b[01;35m@\u001b[0m\u001b[Kbroadcasthost\r\n\u001b[01;35m@\u001b[0m\u001b[Kdev2\r\n\u001b[01;35m@\u001b[0m\u001b[Kdev2.willowtreeapps.com\r\n\u001b[01;35m@\u001b[0m\u001b[Kgist.github.com\r\n--More--"
+    ],
+    [
+      2.103914,
+      "\r\u001b[K\r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  ssh @"
+    ],
+    [
+      0.871866,
+      "\b\u001b[K"
+    ],
+    [
+      0.250651,
+      "\b\u001b[K"
+    ],
+    [
+      0.035735,
+      "\b\u001b[K"
+    ],
+    [
+      0.03473,
+      "\b\u001b[K"
+    ],
+    [
+      0.034856,
+      "\b\u001b[K"
+    ],
+    [
+      0.03751,
+      "\u0007"
     ]
   ]
 }

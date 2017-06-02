@@ -5,7 +5,7 @@ import {
   Appear
 } from "spectacle";
 
-const bgImage = require("../../images/hulk-feriggno-bixby.jpg");
+const bgImage = require("../../images/vt100.jpg");
 
 class ImageSlide extends React.Component {
   render() {

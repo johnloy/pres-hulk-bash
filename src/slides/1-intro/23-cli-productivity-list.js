@@ -18,20 +18,6 @@ class BulletsSlide extends React.Component {
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                Getting help
-              </span>
-            </ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>
-              <span style={styles.listItemText}>
-                The cli prompt
-              </span>
-            </ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>
-              <span style={styles.listItemText}>
                 Shell history
               </span>
             </ListItem>
@@ -54,13 +40,6 @@ class BulletsSlide extends React.Component {
             <ListItem>
               <span style={styles.listItemText}>
                 Tab completion
-              </span>
-            </ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>
-              <span style={styles.listItemText}>
-                Command lists and pipelines
               </span>
             </ListItem>
           </Appear>

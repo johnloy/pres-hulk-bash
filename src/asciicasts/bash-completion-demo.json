@@ -1,62 +1,218 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 19.920299,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.196334,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
+      0.841539,
       "s"
     ],
     [
-      0.244881,
-      "a"
+      0.200547,
+      "s"
     ],
     [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
+      0.215408,
       "h"
     ],
     [
-      0.11892,
-      "e"
+      0.393769,
+      " "
     ],
     [
-      0.13619,
+      0.238413,
+      "-"
+    ],
+    [
+      0.494843,
+      "\r\n\u001b[01;35m-\u001b[0m\u001b[K1  \u001b[01;35m-\u001b[0m\u001b[K4  \u001b[01;35m-\u001b[0m\u001b[KA  \u001b[01;35m-\u001b[0m\u001b[KD  \u001b[01;35m-\u001b[0m\u001b[KK  \u001b[01;35m-\u001b[0m\u001b[KM  \u001b[01;35m-\u001b[0m\u001b[KO  \u001b[01;35m-\u001b[0m\u001b[KS  \u001b[01;35m-\u001b[0m\u001b[KV  \u001b[01;35m-\u001b[0m\u001b[KY  \u001b[01;35m-\u001b[0m\u001b[Kb  \u001b[01;35m-\u001b[0m\u001b[Ke  \u001b[01;35m-\u001b[0m\u001b[Kg  \u001b[01;35m-\u001b[0m\u001b[Kk  \u001b[01;35m-\u001b[0m\u001b[Km  \u001b[01;35m-\u001b[0m\u001b[Ko  \u001b[01;35m-\u001b[0m\u001b[Kq  \u001b[01;35m-\u001b[0m\u001b[Kt  \u001b[01;35m-\u001b[0m\u001b[Kw\r\n\u001b[01;35m-\u001b[0m\u001b[K2  \u001b[01;35m-\u001b[0m\u001b[K6  \u001b[01;35m-\u001b[0m\u001b[KC  \u001b[01;35m-\u001b[0m\u001b[KF  \u001b[01;35m-\u001b[0m\u001b[KL  \u001b[01;35m-\u001b[0m\u001b[KN  \u001b[01;35m-\u001b[0m\u001b[KR  \u001b[01;35m-\u001b[0m\u001b[KT  \u001b[01;35m-\u001b[0m\u001b[KX  \u001b[01;35m-\u001b[0m\u001b[Ka  \u001b[01;35m-\u001b[0m\u001b[Kc  \u001b[01;35m-\u001b[0m\u001b[Kf  \u001b[01;35m-\u001b[0m\u001b[Ki  \u001b[01;35m-\u001b[0m\u001b[Kl  \u001b[01;35m-\u001b[0m\u001b[Kn  \u001b[01;35m-\u001b[0m\u001b[Kp  \u001b[01;35m-\u001b[0m\u001b[Ks  \u001b[01;35m-\u001b[0m\u001b[Kv  \u001b[01;35m-\u001b[0m\u001b[Ky\r\n\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  ssh -"
+    ],
+    [
+      1.400854,
+      "\b\u001b[K"
+    ],
+    [
+      0.252498,
+      "\b\u001b[K"
+    ],
+    [
+      0.034835,
+      "\b\u001b[K"
+    ],
+    [
+      0.036018,
+      "\b\u001b[K"
+    ],
+    [
+      0.036759,
+      "\b\u001b[K"
+    ],
+    [
+      0.033354,
+      "\u0007"
+    ],
+    [
+      0.044466,
+      "\u0007"
+    ],
+    [
+      1.674081,
+      "c"
+    ],
+    [
+      0.192076,
+      "u"
+    ],
+    [
+      0.080013,
+      "r"
+    ],
+    [
+      0.191541,
       "l"
     ],
     [
-      0.144402,
-      "l"
+      0.664886,
+      " "
     ],
     [
-      0.223923,
-      "o"
+      0.279534,
+      "-"
     ],
     [
-      0.240611,
-      "\r\n"
+      0.409106,
+      "\r\nDisplay all 179 possibilities? (y or n)"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.822671,
+      "\r\n\u001b[01;35m--\u001b[0m\u001b[Kanyauth                  \u001b[01;35m--\u001b[0m\u001b[Knext\r\n\u001b[01;35m--\u001b[0m\u001b[Kappend                   \u001b[01;35m--\u001b[0m\u001b[Kno-alpn\r\n\u001b[01;35m--\u001b[0m\u001b[Kbasic                    \u001b[01;35m--\u001b[0m\u001b[Kno-buffer\r\n\u001b[01;35m--\u001b[0m\u001b[Kcacert                   \u001b[01;35m--\u001b[0m\u001b[Kno-keepalive\r\n\u001b[01;35m--\u001b[0m\u001b[Kcapath                   \u001b[01;35m--\u001b[0m\u001b[Kno-npn\r\n\u001b[01;35m--\u001b[0m\u001b[Kcert                     \u001b[01;35m--\u001b[0m\u001b[Kno-sessionid\r\n\u001b[01;35m--\u001b[0m\u001b[Kcert-status              \u001b[01;35m--\u001b[0m\u001b[Knoproxy\r\n\u001b[01;35m--\u001b[0m\u001b[Kcert-type                \u001b[01;35m--\u001b[0m\u001b[Kntlm\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[01;35m--\u001b[0m\u001b[Kciphers                  \u001b[01;35m--\u001b[0m\u001b[Kntlm-wb\r\n\u001b[01;35m--\u001b[0m\u001b[Kcompressed               \u001b[01;35m--\u001b[0m\u001b[Koauth2-bearer\r\n\u001b[01;35m--\u001b[0m\u001b[Kconfig                   \u001b[01;35m--\u001b[0m\u001b[Koutput\r\n\u001b[01;35m--\u001b[0m\u001b[Kconnect-timeout          \u001b[01;35m--\u001b[0m\u001b[Kpass\r\n\u001b[01;35m--\u001b[0m\u001b[Kconnect-to               \u001b[01;35m--\u001b[0m\u001b[Kpath-as-is\r\n\u001b[01;35m--\u001b[0m\u001b[Kcontinue-at              \u001b[01;35m--\u001b[0m\u001b[Kpinnedpubkey\r\n\u001b[01;35m--\u001b[0m\u001b[Kcookie                   \u001b[01;35m--\u001b[0m\u001b[Kpost301\r\n\u001b[01;35m--\u001b[0m\u001b[Kcookie-jar               \u001b[01;35m--\u001b[0m\u001b[Kpost302\r\n\u001b[01;35m--\u001b[0m\u001b[Kcreate-dirs              \u001b[01;35m--\u001b[0m\u001b[Kpost303\r\n\u001b[01;35m--\u001b[0m\u001b[Kcrlf                     \u001b[01;35m--\u001b[0m\u001b[Kprogress-bar\r\n\u001b[01;35m--\u001b[0m\u001b[Kcrlfile                  \u001b[01;35m--\u001b[0m\u001b[Kproto\r\n\u001b[01;35m--\u001b[0m\u001b[Kdata                     \u001b[01;35m--\u001b[0m\u001b[Kproto-default\r\n\u001b[01;35m--\u001b[0m\u001b[Kdata-ascii               \u001b[01;35m--\u001b[0m\u001b[Kproto-redir\r\n"
+    ],
+    [
+      2.9e-05,
+      "\u001b[01;35m--\u001b[0m\u001b[Kdata-binary              \u001b[01;35m--\u001b[0m\u001b[Kproxy\r\n\u001b[01;35m--\u001b[0m\u001b[Kdata-raw                 \u001b[01;35m--\u001b[0m\u001b[Kproxy-anyauth\r\n\u001b[01;35m--\u001b[0m\u001b[Kdata-urlencode           \u001b[01;35m--\u001b[0m\u001b[Kproxy-basic\r\n--More--"
+    ],
+    [
+      1.751681,
+      "\r\u001b[K\r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  curl --"
+    ],
+    [
+      0.752306,
+      "\b\u001b[K"
+    ],
+    [
+      0.254554,
+      "\b\u001b[K"
+    ],
+    [
+      0.03292,
+      "\b\u001b[K"
+    ],
+    [
+      0.232063,
+      "\b\u001b[K"
+    ],
+    [
+      0.184371,
+      "\b\u001b[K"
+    ],
+    [
+      0.192355,
+      "\b\u001b[K"
+    ],
+    [
+      0.215338,
+      "\b\u001b[K"
+    ],
+    [
+      2.008429,
+      "g"
+    ],
+    [
+      0.255561,
+      "z"
+    ],
+    [
+      0.199839,
+      "i"
+    ],
+    [
+      0.167996,
+      "p"
+    ],
+    [
+      0.31217,
+      " "
+    ],
+    [
+      0.264808,
+      "-"
+    ],
+    [
+      0.841185,
+      "\r\n\u001b[01;35m-\u001b[0m\u001b[K-best        \u001b[01;35m-\u001b[0m\u001b[K-quiet       \u001b[01;35m-\u001b[0m\u001b[K1            \u001b[01;35m-\u001b[0m\u001b[KN            \u001b[01;35m-\u001b[0m\u001b[Kn\r\n\u001b[01;35m-\u001b[0m\u001b[K-decompress  \u001b[01;35m-\u001b[0m\u001b[K-recursive   \u001b[01;35m-\u001b[0m\u001b[K2            \u001b[01;35m-\u001b[0m\u001b[KS            \u001b[01;35m-\u001b[0m\u001b[Kq\r\n\u001b[01;35m-\u001b[0m\u001b[K-fast        \u001b[01;35m-\u001b[0m\u001b[K-stdout      \u001b[01;35m-\u001b[0m\u001b[K3            \u001b[01;35m-\u001b[0m\u001b[KV            \u001b[01;35m-\u001b[0m\u001b[Kr\r\n\u001b[01;35m-\u001b[0m\u001b[K-force       \u001b[01;35m-\u001b[0m\u001b[K-suffix      \u001b[01;35m-\u001b[0m\u001b[K4            \u001b[01;35m-\u001b[0m\u001b[Kc            \u001b[01;35m-\u001b[0m\u001b[Kt\r\n"
+    ],
+    [
+      5.2e-05,
+      "\u001b[01;35m-\u001b[0m\u001b[K-help        \u001b[01;35m-\u001b[0m\u001b[K-test        \u001b[01;35m-\u001b[0m\u001b[K5            \u001b[01;35m-\u001b[0m\u001b[Kd            \u001b[01;35m-\u001b[0m\u001b[Kv\r\n\u001b[01;35m-\u001b[0m\u001b[K-keep        \u001b[01;35m-\u001b[0m\u001b[K-to-stdout   \u001b[01;35m-\u001b[0m\u001b[K6            \u001b[01;35m-\u001b[0m\u001b[Kf            \r\n\u001b[01;35m-\u001b[0m\u001b[K-list        \u001b[01;35m-\u001b[0m\u001b[K-uncompress  \u001b[01;35m-\u001b[0m\u001b[K7            \u001b[01;35m-\u001b[0m\u001b[Kh            \r\n\u001b[01;35m-\u001b[0m\u001b[K-name        \u001b[01;35m-\u001b[0m\u001b[K-verbose     \u001b[01;35m-\u001b[0m\u001b[K8            \u001b[01;35m-\u001b[0m\u001b[Kk            \r\n\u001b[01;35m-\u001b[0m\u001b[K-no-name     \u001b[01;35m-\u001b[0m\u001b[K-version     \u001b[01;35m-\u001b[0m\u001b[K9            \u001b[01;35m-\u001b[0m\u001b[Kl            \r\n"
+    ],
+    [
+      6.1e-05,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  gzip -"
+    ],
+    [
+      1.974501,
+      "\b\u001b[K"
+    ],
+    [
+      0.252336,
+      "\b\u001b[K"
+    ],
+    [
+      0.037631,
+      "\b\u001b[K"
+    ],
+    [
+      0.035397,
+      "\b\u001b[K"
+    ],
+    [
+      0.034863,
+      "\b\u001b[K"
+    ],
+    [
+      0.034945,
+      "\b\u001b[K"
+    ],
+    [
+      0.036947,
+      "\u0007"
+    ],
+    [
+      0.037923,
+      "\u0007"
+    ],
+    [
+      0.047233,
+      "\u0007"
+    ],
+    [
+      0.028103,
+      "\u0007"
     ]
   ]
 }

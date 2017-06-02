@@ -12,8 +12,8 @@ class TerminalSlide extends React.Component {
 }
 
 export default (
-  <Slide key="exit-status">
-    <SlideTitleComic>The anatomy of a cli script: exit status</SlideTitleComic>
+  <Slide key="splitting-subcommands">
+    <SlideTitleComic>Splitting subcommands</SlideTitleComic>
     <TerminalSlide/>
   </Slide>
 );

@@ -39,9 +39,9 @@ import TerminalEmulators from "./2-what-is-a-terminal/3-terminal-emulators.js";
 import Vt100 from "./2-what-is-a-terminal/4-vt100.js";
 import TTYDiagram from "./2-what-is-a-terminal/5-tty-diagram.js";
 import EscapeSequences from "./2-what-is-a-terminal/6-escape-sequences.js";
-import TermInfo from "./2-what-is-a-terminal/7-terminfo.js";
+// import TermInfo from "./2-what-is-a-terminal/7-terminfo.js";
 import TermEnvVar from "./2-what-is-a-terminal/8-term-env-var.js";
-import TermInfo2 from "./2-what-is-a-terminal/9-terminfo-2.js";
+import TermInfo from "./2-what-is-a-terminal/9-terminfo-2.js";
 import Ncurses from "./2-what-is-a-terminal/10-ncurses.js";
 import Tput from "./2-what-is-a-terminal/11-tput.js";
 import TputArguments from "./2-what-is-a-terminal/12-tput-arguments.js";
@@ -51,9 +51,9 @@ import TTYFile from "./2-what-is-a-terminal/15-tty-file.js";
 
 // What is a shell, really
 import WhatIsAShellSection from "./3-what-is-a-shell/0-what-is-a-shell.js";
-import WhatIsAShell from "./3-what-is-a-shell/1-what-is-a-shell.js";
+// import WhatIsAShell from "./3-what-is-a-shell/1-what-is-a-shell.js";
 import ShellDiagram from "./3-what-is-a-shell/2-shell-diagram.js";
-import ShellAsInterpreter from "./3-what-is-a-shell/3-shell-as-interpreter.js";
+// import ShellAsInterpreter from "./3-what-is-a-shell/3-shell-as-interpreter.js";
 import EndOfInput from "./3-what-is-a-shell/4-end-of-input.js";
 import Tokens from "./3-what-is-a-shell/5-tokens.js";
 import Metacharacters from "./3-what-is-a-shell/6-metacharacters.js";
@@ -82,17 +82,17 @@ import StartupFiles_2 from "./5-shell-environment/4-startup-files-2.js";
 import StartupFiles_3 from "./5-shell-environment/5-startup-files-3.js";
 import StartupFiles_4 from "./5-shell-environment/6-startup-files-4.js";
 import MacBashrc from "./5-shell-environment/7-mac-bashrc.js";
-import StartupAsSh from "./5-shell-environment/8-startup-as-sh.js";
+// import StartupAsSh from "./5-shell-environment/8-startup-as-sh.js";
 import EnvVarsIntro from "./5-shell-environment/9-env-vars-intro.js";
 import SettingEnvVars from "./5-shell-environment/10-setting-env-vars.js";
 import EnvVarsWithSudo from "./5-shell-environment/11-env-vars-with-sudo.js";
 import EnvVarsInheritance from "./5-shell-environment/12-env-vars-inheritance.js";
 import EnvVarsWithProcess from "./5-shell-environment/13-env-vars-with-process.js";
-import EnvVarsKeyValuePairs from "./5-shell-environment/14-env-vars-kv-pairs.js";
-import EnvVarsDeclare from "./5-shell-environment/15-env-vars-declare.js";
-import EnvVarsFunctions from "./5-shell-environment/16-env-vars-functions.js";
-import EnvVarsNames from "./5-shell-environment/17-env-vars-names.js";
-import EnvVarsInScope from "./5-shell-environment/18-env-vars-in-scope.js";
+// import EnvVarsKeyValuePairs from "./5-shell-environment/14-env-vars-kv-pairs.js";
+// import EnvVarsDeclare from "./5-shell-environment/15-env-vars-declare.js";
+// import EnvVarsFunctions from "./5-shell-environment/16-env-vars-functions.js";
+// import EnvVarsNames from "./5-shell-environment/17-env-vars-names.js";
+// import EnvVarsInScope from "./5-shell-environment/18-env-vars-in-scope.js";
 import EnvVarsAutoSet from "./5-shell-environment/19-env-vars-auto-set.js";
 import EnvVarsEveryScript from "./5-shell-environment/20-env-vars-every-script.js";
 import SubshellInheritedEnv from "./5-shell-environment/21-subshell-inherited-env.js";
@@ -285,36 +285,36 @@ const slides = [
   Title,
   ThankYouShell,
   WutCode,
-  WutHulk,
+  // WutHulk,
   WutSolved,
-  BashGuru,
+  // BashGuru,
   RealLanguages,
-  ThreeAmigo,
+  // ThreeAmigo,
   ShowOfHands,
-  GammaRays,
-  GettingAngry,
+  // GammaRays,
+  // GettingAngry,
   WhyBash,
-  BashIsEverywhere,
+  // BashIsEverywhere,
   SimplestDSLEver,
-  Duality,
-  ConceptsIllustration,
+  // Duality,
+  // ConceptsIllustration,
   ConceptsList,
-  CliProductivityIllustration,
+  // CliProductivityIllustration,
   CliProductivityList,
-  AutomationIllustration,
-  AutomationList,
+  // AutomationIllustration,
+  // AutomationList,
 
   // What is a terminal, really
   WhatIsATerminalSection,
   // WhatIsATerminal,
-  TheTerminalWeKnow,
+  // TheTerminalWeKnow,
   TerminalEmulators,
   Vt100,
   TTYDiagram,
   EscapeSequences,
-  TermInfo,
+  // TermInfo,
   TermEnvVar,
-  TermInfo2,
+  TermInfo,
   Ncurses,
   Tput,
   TputArguments,
@@ -324,9 +324,9 @@ const slides = [
 
   // What is a shell, really
   WhatIsAShellSection,
-  WhatIsAShell,
-  ShellDiagram,
-  ShellAsInterpreter,
+  // WhatIsAShell,
+  // ShellDiagram,
+  // ShellAsInterpreter,
   EndOfInput,
   Tokens,
   Metacharacters,
@@ -351,27 +351,27 @@ const slides = [
   StartupFiles_1a,
   StartupFiles_1b,
   StartupFiles_2,
-  StartupFiles_3,
-  StartupFiles_4,
-  MacBashrc,
-  StartupAsSh,
+  // StartupFiles_3,
+  // StartupFiles_4,
+  // MacBashrc,
+  // StartupAsSh,
   EnvVarsIntro,
   SettingEnvVars,
   EnvVarsWithSudo,
   EnvVarsInheritance,
   EnvVarsWithProcess,
-  EnvVarsKeyValuePairs,
-  EnvVarsDeclare,
-  EnvVarsFunctions,
-  EnvVarsNames,
-  EnvVarsInScope,
+  // EnvVarsKeyValuePairs,
+  // EnvVarsDeclare,
+  // EnvVarsFunctions,
+  // EnvVarsNames,
+  // EnvVarsInScope,
   EnvVarsAutoSet,
   EnvVarsEveryScript,
   WhatCreatesSubshells,
-  SubshellInheritedEnv,
+  // SubshellInheritedEnv,
   SubshellEnvVars,
-  TheFullEnvironment,
-  AllTheThings,
+  // TheFullEnvironment,
+  // AllTheThings,
 
   // Standard I/O
   StandardIO,
@@ -381,37 +381,37 @@ const slides = [
   ProcessSubstitutionExample,
   HTTPClientExample,
   StdInOutErr,
-  StdIOFileDescriptors,
+  // StdIOFileDescriptors,
   RedirectionSyntax_1,
-  RedirectionSyntax_2,
-  RedirectionSyntax_3,
-  RedirectionSyntax_4,
-  RedirectionSyntax_5,
-  RedirectionSyntax_6,
-  RedirectionSyntax_7,
+  // RedirectionSyntax_2,
+  // RedirectionSyntax_3,
+  // RedirectionSyntax_4,
+  // RedirectionSyntax_5,
+  // RedirectionSyntax_6,
+  // RedirectionSyntax_7,
   ExecIntro,
   HelpExec,
   ExecReadFile,
-  ExecWriteFile,
+  // ExecWriteFile,
   ExecHTTPClient,
-  MultipleRedirections,
+  // MultipleRedirections,
 
   // Shell expansions
   ShellExpansionSection,
-  ShellExpansion,
+  // ShellExpansion,
   ShellExpansionList,
   ShellExpansionMnemonic,
-  ShellExpansionCode_1,
-  ShellExpansionCode_2,
-  ShellExpansionCode_3,
-  ShellExpansionCode_4,
-  ShellExpansionCode_5,
-  ShellExpansionCode_6,
-  ShellExpansionCode_7,
-  ShellExpansionCode_8,
-  ShellExpansionCode_9,
-  ShellExpansionCode_10,
-  ShellExpansionCode_11,
+  // ShellExpansionCode_1,
+  // ShellExpansionCode_2,
+  // ShellExpansionCode_3,
+  // ShellExpansionCode_4,
+  // ShellExpansionCode_5,
+  // ShellExpansionCode_6,
+  // ShellExpansionCode_7,
+  // ShellExpansionCode_8,
+  // ShellExpansionCode_9,
+  // ShellExpansionCode_10,
+  // ShellExpansionCode_11,
 
   // True, false, and exit status
   TrueFalseExitStatusSection,
@@ -433,35 +433,35 @@ const slides = [
   TrueFalseVarHowTo,
 
   // Getting help
-  GettingHelp,
-  ManMan,
-  ManPath,
-  ManConf,
-  ManPager,
-  ManSettings,
-  ManK,
-  Apropos,
-  AproposApropos,
-  AproposGrep,
-  AproposAll,
-  ManSections,
-  ListSystemCommands,
-  Man15Info,
-  InfoCommand,
-  ShellManuals,
-  HelpCommand,
-  HelpD,
-  UsageHelp,
+  // GettingHelp,
+  // ManMan,
+  // ManPath,
+  // ManConf,
+  // ManPager,
+  // ManSettings,
+  // ManK,
+  // Apropos,
+  // AproposApropos,
+  // AproposGrep,
+  // AproposAll,
+  // ManSections,
+  // ListSystemCommands,
+  // Man15Info,
+  // InfoCommand,
+  // ShellManuals,
+  // HelpCommand,
+  // HelpD,
+  // UsageHelp,
 
   // The prompt
-  ThePromptSection,
-  BasicPrompt,
-  UsefulPrompt,
-  PersonalPrompt,
-  PS1,
-  PromptEscapeSequences,
-  ComplexPS1,
-  PromptCommand,
+  // ThePromptSection,
+  // BasicPrompt,
+  // UsefulPrompt,
+  // PersonalPrompt,
+  // PS1,
+  // PromptEscapeSequences,
+  // ComplexPS1,
+  // PromptCommand,
 
   // Shell history
   ShellHistorySection,
@@ -514,36 +514,36 @@ const slides = [
   InstallBashCompletion,
 
   // Command lists
-  CommandListsAndPipelinesSection,
-  CommandListExamples,
-  UnixPhilosophy,
-  TapExample,
-  ProcessSubstitution,
+  // CommandListsAndPipelinesSection,
+  // CommandListExamples,
+  // UnixPhilosophy,
+  // TapExample,
+  // ProcessSubstitution,
 
   // Anatomy of a cli script
-  AnatomyOfAScriptSection,
-  AnatomyOfAScript,
-  Shebang,
-  ScriptPermissions,
-  Help,
-  OptionsParsing,
-  UsageString,
-  SimpleCommandArgs,
-  Subcommands,
-  Options,
-  DoubleHyphen,
-  MainRoutine,
-  ExitStatus,
-  ShellStyle,
+  // AnatomyOfAScriptSection,
+  // AnatomyOfAScript,
+  // Shebang,
+  // ScriptPermissions,
+  // Help,
+  // OptionsParsing,
+  // UsageString,
+  // SimpleCommandArgs,
+  // Subcommands,
+  // Options,
+  // DoubleHyphen,
+  // MainRoutine,
+  // ExitStatus,
+  // ShellStyle,
 
   // Files, lines, fields, and streams
-  FilesLinesFieldsStreams,
-  Flfs,
-  FlfsExample,
-  Awk,
+  // FilesLinesFieldsStreams,
+  // Flfs,
+  // FlfsExample,
+  // Awk,
 
   // Conclusion
-  ScriptingTechniques,
+  // ScriptingTechniques,
   Contemplate
 ];
 

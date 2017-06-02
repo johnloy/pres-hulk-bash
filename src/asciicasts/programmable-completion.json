@@ -1,62 +1,550 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 30.367837,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.209274,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.773115,
+      "c"
     ],
     [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
+      0.159715,
       "o"
     ],
     [
-      0.240611,
+      0.112218,
+      "m"
+    ],
+    [
+      0.135943,
+      "p"
+    ],
+    [
+      0.184644,
+      "l"
+    ],
+    [
+      0.087442,
+      "e"
+    ],
+    [
+      0.239989,
+      "t"
+    ],
+    [
+      0.271983,
+      "e"
+    ],
+    [
+      0.280119,
+      " "
+    ],
+    [
+      0.215881,
+      "-"
+    ],
+    [
+      0.400165,
+      "p"
+    ],
+    [
+      1.512153,
+      " "
+    ],
+    [
+      0.319634,
+      "|"
+    ],
+    [
+      0.184724,
+      " "
+    ],
+    [
+      0.167362,
+      "l"
+    ],
+    [
+      0.103627,
+      "e"
+    ],
+    [
+      0.264278,
+      "s"
+    ],
+    [
+      0.232002,
+      "s"
+    ],
+    [
+      0.423817,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.016366,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      6.2e-05,
+      "complete -F _ldapwhoami ldapwhoami\r\ncomplete -F _ldapaddmodify ldapadd\r\ncomplete -F _filedir_xspec freeamp\r\ncomplete -F _ypmatch ypcat\r\ncomplete -F _filedir_xspec bibtex\r\ncomplete -F _filedir_xspec chromium-browser\r\ncomplete -F _command time\r\ncomplete -F _command do\r\ncomplete -o nospace -F _alias alias\r\ncomplete -o default -F _longopt tail\r\ncomplete -F _known_hosts host\r\ncomplete -o dirnames -F _umount umount\r\ncomplete -o nospace -F _dd dd\r\ncomplete -F _filedir_xspec lrunzip\r\ncomplete -o default -F _dropdb dropdb\r\ncomplete -F _filedir_xspec amaya\r\ncomplete -o default -F _longopt df\r\ncomplete -F _known_hosts traceroute6\r\ncomplete -F _ldapaddmodify ldapmodify\r\ncomplete -A binding bind\r\ncomplete -F _ypmatch ypmatch\r\ncomplete -F _filedir_xspec lzgrep\r\ncomplete -F _vipw vigr\r\ncomplete -u groups\r\n:\u001b[K"
+    ],
+    [
+      1.47991,
+      "\r\u001b[Kcomplete -F _filedir_xspec lzless\r\n:\u001b[K"
+    ],
+    [
+      0.399655,
+      "\r\u001b[Kcomplete -o default -F _longopt bison\r\n:\u001b[K"
+    ],
+    [
+      0.259402,
+      "\r\u001b[Kcomplete -F _filedir_xspec kdvi\r\n:\u001b[K"
+    ],
+    [
+      0.033677,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "complete -o default -F _longopt indent\r\n:\u001b[K"
+    ],
+    [
+      0.035772,
+      "\r\u001b[K"
+    ],
+    [
+      2.7e-05,
+      "complete -F _make gmake\r\n:\u001b[K"
+    ],
+    [
+      0.342664,
+      "\r\u001b[Kcomplete -F _filedir_xspec lilypond\r\n:\u001b[K"
+    ],
+    [
+      0.255362,
+      "\r\u001b[Kcomplete -F _command then\r\n:\u001b[K"
+    ],
+    [
+      1.408805,
+      "\r\u001b[Kcomplete -F _filedir_xspec sxemacs\r\n:\u001b[K"
+    ],
+    [
+      0.512438,
+      "\r\u001b[Kcomplete -F _command aoss\r\n:\u001b[K"
+    ],
+    [
+      0.59973,
+      "\r\u001b[Kcomplete -o nospace -F _rsync rsync\r\n:\u001b[K"
+    ],
+    [
+      0.256192,
+      "\r\u001b[Kcomplete -o default -F _quota quota\r\n:\u001b[K"
+    ],
+    [
+      0.034013,
+      "\r\u001b[Kcomplete -F _chsh chsh\r\n:\u001b[K"
+    ],
+    [
+      0.037957,
+      "\r\u001b[Kcomplete -F _crontab crontab\r\n:\u001b[K"
+    ],
+    [
+      0.032812,
+      "\r\u001b[Kcomplete -o default -F _longopt fmt\r\n:\u001b[K"
+    ],
+    [
+      0.359911,
+      "\r\u001b[Kcomplete -o default -F _longopt du\r\n:\u001b[K"
+    ],
+    [
+      0.253136,
+      "\r\u001b[Kcomplete -F _filedir_xspec ps2pdf12\r\n:\u001b[K"
+    ],
+    [
+      0.037244,
+      "\r\u001b[Kcomplete -F _sftp sftp\r\n:\u001b[K"
+    ],
+    [
+      0.031419,
+      "\r\u001b[Kcomplete -o bashdefault -o default -o nospace -F __git_wrap__gitk_main gitk\r\n:\u001b[K"
+    ],
+    [
+      0.034843,
+      "\r\u001b[K"
+    ],
+    [
+      1.7e-05,
+      "complete -F _filedir_xspec ps2pdf13\r\n:\u001b[K"
+    ],
+    [
+      0.346349,
+      "\r\u001b[Kcomplete -o default -F _longopt rm\r\n:\u001b[K"
+    ],
+    [
+      0.253406,
+      "\r\u001b[Kcomplete -F _filedir_xspec ps2pdf14\r\n:\u001b[K"
+    ],
+    [
+      0.033731,
+      "\r\u001b[Kcomplete -F _filedir_xspec lzfgrep\r\n:\u001b[K"
+    ],
+    [
+      0.328595,
+      "\r\u001b[Kcomplete -F _filedir_xspec hbrun\r\n:\u001b[K"
+    ],
+    [
+      0.257306,
+      "\r\u001b[Kcomplete -F _filedir_xspec kbabel\r\n:\u001b[K"
+    ],
+    [
+      0.033277,
+      "\r\u001b[K"
+    ],
+    [
+      2e-05,
+      "complete -F _filedir_xspec rview\r\n:\u001b[K"
+    ],
+    [
+      0.038005,
+      "\r\u001b[Kcomplete -F _filedir_xspec kaffeine\r\n:\u001b[K"
+    ],
+    [
+      1.159763,
+      "\r\u001b[Kcomplete -o default -F _longopt touch\r\n:\u001b[K"
+    ],
+    [
+      0.254677,
+      "\r\u001b[Kcomplete -F _known_hosts traceroute\r\n:\u001b[K"
+    ],
+    [
+      0.440966,
+      "\r\u001b[Kcomplete -F _ri ri\r\n:\u001b[K"
+    ],
+    [
+      0.255965,
+      "\r\u001b[Kcomplete -o default -o dirnames -F _mount mount\r\n:\u001b[K"
+    ],
+    [
+      0.034172,
+      "\r\u001b[Kcomplete -F _filedir_xspec oodraw\r\n:\u001b[K"
+    ],
+    [
+      0.035322,
+      "\r\u001b[Kcomplete -F _filedir_xspec elinks\r\n:\u001b[K"
+    ],
+    [
+      0.034143,
+      "\r\u001b[K"
+    ],
+    [
+      3.6e-05,
+      "complete -F _git_unpublish git-unpublish\r\n:\u001b[K"
+    ],
+    [
+      0.034836,
+      "\r\u001b[Kcomplete -F _gcc g++\r\n:\u001b[K"
+    ],
+    [
+      0.041506,
+      "\r\u001b[Kcomplete -A stopped -P '\"%' -S '\"' bg\r\n:\u001b[K"
+    ],
+    [
+      0.468074,
+      "\r\u001b[Kcomplete -F _filedir_xspec xpdf\r\n:\u001b[K"
+    ],
+    [
+      0.254301,
+      "\r\u001b[Kcomplete -o default -F _longopt pr\r\n:\u001b[K"
+    ],
+    [
+      0.033348,
+      "\r\u001b[K"
+    ],
+    [
+      4e-05,
+      "complete -o bashdefault -F _perldoc perldoc\r\n:\u001b[K"
+    ],
+    [
+      0.037903,
+      "\r\u001b[Kcomplete -F _vipw vipw\r\n:\u001b[K"
+    ],
+    [
+      0.035424,
+      "\r\u001b[Kcomplete -F _filedir_xspec latex\r\n:\u001b[K"
+    ],
+    [
+      0.035343,
+      "\r\u001b[Kcomplete -o default -F _longopt bc\r\n:\u001b[K"
+    ],
+    [
+      0.035482,
+      "\r\u001b[Kcomplete -F _filedir_xspec rvim\r\n:\u001b[K"
+    ],
+    [
+      0.616196,
+      "\r\u001b[Kcomplete -F _known_hosts tracepath\r\n:\u001b[K"
+    ],
+    [
+      0.256899,
+      "\r\u001b[Kcomplete -F _filedir_xspec ogg123\r\n:\u001b[K"
+    ],
+    [
+      0.032651,
+      "\r\u001b[Kcomplete -F _lsof lsof\r\n:\u001b[K"
+    ],
+    [
+      0.0343,
+      "\r\u001b[Kcomplete -F _filedir_xspec ps2pdfwr\r\n:\u001b[K"
+    ],
+    [
+      0.033443,
+      "\r\u001b[K"
+    ],
+    [
+      2.3e-05,
+      "complete -F _known_hosts ping\r\n:\u001b[K"
+    ],
+    [
+      0.52238,
+      "\r\u001b[Kcomplete -F _cpio cpio\r\n:\u001b[K"
+    ],
+    [
+      0.256613,
+      "\r\u001b[Kcomplete -F _filedir_xspec harbour\r\n:\u001b[K"
+    ],
+    [
+      0.034803,
+      "\r\u001b[K"
+    ],
+    [
+      1.8e-05,
+      "complete -F _filedir_xspec unlzma\r\n:\u001b[K"
+    ],
+    [
+      0.034589,
+      "\r\u001b[K"
+    ],
+    [
+      1.7e-05,
+      "complete -o default -F _longopt mkdir\r\n:\u001b[K"
+    ],
+    [
+      0.538244,
+      "\r\u001b[Kcomplete -F _autoscan autoscan\r\n:\u001b[K"
+    ],
+    [
+      0.251525,
+      "\r\u001b[Kcomplete -o default -F _repquota repquota\r\n:\u001b[K"
+    ],
+    [
+      0.039435,
+      "\r\u001b[Kcomplete -F _known_hosts mtr\r\n:\u001b[K"
+    ],
+    [
+      0.02871,
+      "\r\u001b[K"
+    ],
+    [
+      1.8e-05,
+      "complete -F _man man\r\n:\u001b[K"
+    ],
+    [
+      0.03337,
+      "\r\u001b[Kcomplete -F _filedir_xspec gvim\r\n:\u001b[K"
+    ],
+    [
+      0.037271,
+      "\r\u001b[Kcomplete -F _gzip pigz\r\n:\u001b[K"
+    ],
+    [
+      0.529268,
+      "\r\u001b[Kcomplete -F _sqlite3 sqlite3\r\n:\u001b[K"
+    ],
+    [
+      0.254731,
+      "\r\u001b[K"
+    ],
+    [
+      1.9e-05,
+      "complete -F _id id\r\n:\u001b[K"
+    ],
+    [
+      0.036258,
+      "\r\u001b[K"
+    ],
+    [
+      2e-05,
+      "complete -F _filedir_xspec kid3-qt\r\n:\u001b[K"
+    ],
+    [
+      0.038179,
+      "\r\u001b[K"
+    ],
+    [
+      3e-05,
+      "complete -F _pgrep pgrep\r\n:\u001b[K"
+    ],
+    [
+      0.041424,
+      "\r\u001b[Kcomplete -F _autoscan autoupdate\r\n:\u001b[K"
+    ],
+    [
+      0.029311,
+      "\r\u001b[Kcomplete -F _filedir_xspec fbxine\r\n:\u001b[K"
+    ],
+    [
+      0.034243,
+      "\r\u001b[Kcomplete -o default -F _longopt less\r\n:\u001b[K"
+    ],
+    [
+      0.517906,
+      "\r\u001b[Kcomplete -F _filedir_xspec oomath\r\n:\u001b[K"
+    ],
+    [
+      0.254677,
+      "\r\u001b[Kcomplete -F _filedir_xspec compress\r\n:\u001b[K"
+    ],
+    [
+      0.034699,
+      "\r\u001b[K"
+    ],
+    [
+      2e-05,
+      "complete -F _tar tar\r\n:\u001b[K"
+    ],
+    [
+      0.03743,
+      "\r\u001b[Kcomplete -o default -F _longopt env\r\n:\u001b[K"
+    ],
+    [
+      0.688958,
+      "\r\u001b[Kcomplete -F _filedir_xspec zcat\r\n:\u001b[K"
+    ],
+    [
+      0.254922,
+      "\r\u001b[Kcomplete -o default -F _longopt wc\r\n:\u001b[K"
+    ],
+    [
+      0.03442,
+      "\r\u001b[Kcomplete -o default -F _longopt mknod\r\n:\u001b[K"
+    ],
+    [
+      0.036445,
+      "\r\u001b[K"
+    ],
+    [
+      2.1e-05,
+      "complete -F _filedir_xspec modplug123\r\n:\u001b[K"
+    ],
+    [
+      0.035082,
+      "\r\u001b[Kcomplete -F _find find\r\n:\u001b[K"
+    ],
+    [
+      0.041897,
+      "\r\u001b[Kcomplete -F _filedir_xspec oobase\r\n:\u001b[K"
+    ],
+    [
+      0.029497,
+      "\r\u001b[Kcomplete -F _filedir_xspec zipinfo\r\n:\u001b[K"
+    ],
+    [
+      0.975666,
+      "\r\u001b[Kcomplete -v readonly\r\n:\u001b[K"
+    ],
+    [
+      0.252957,
+      "\r\u001b[K"
+    ],
+    [
+      2.7e-05,
+      "complete -F _legit legit\r\n:\u001b[K"
+    ],
+    [
+      0.60283,
+      "\r\u001b[K"
+    ],
+    [
+      3.3e-05,
+      "complete -F _root_command fakeroot\r\n:\u001b[K"
+    ],
+    [
+      0.256236,
+      "\r\u001b[Kcomplete -o default -F _longopt units\r\n:\u001b[K"
+    ],
+    [
+      0.03281,
+      "\r\u001b[K"
+    ],
+    [
+      2.4e-05,
+      "complete -F _filedir_xspec bzme\r\n:\u001b[K"
+    ],
+    [
+      0.431069,
+      "\r\u001b[Kcomplete -F _filedir_xspec xfig\r\n:\u001b[K"
+    ],
+    [
+      0.253605,
+      "\r\u001b[Kcomplete -o default -F _longopt mkfifo\r\n:\u001b[K"
+    ],
+    [
+      0.036451,
+      "\r\u001b[K"
+    ],
+    [
+      1.8e-05,
+      "complete -F _filedir_xspec xdvi\r\n:\u001b[K"
+    ],
+    [
+      0.637775,
+      "\r\u001b[Kcomplete -o default -F _longopt uniq\r\n:\u001b[K"
+    ],
+    [
+      0.252764,
+      "\r\u001b[Kcomplete -F _kill kill\r\n:\u001b[K"
+    ],
+    [
+      0.036764,
+      "\r\u001b[Kcomplete -d pushd\r\n:\u001b[K"
+    ],
+    [
+      0.030799,
+      "\r\u001b[Kcomplete -F _postmap postalias\r\n:\u001b[K"
+    ],
+    [
+      0.033711,
+      "\r\u001b[Kcomplete -F _make gnumake\r\n:\u001b[K"
+    ],
+    [
+      1.102132,
+      "\r\u001b[Kcomplete -F _filedir_xspec cdiff\r\n:\u001b[K"
+    ],
+    [
+      0.256827,
+      "\r\u001b[K"
+    ],
+    [
+      2.6e-05,
+      "complete -F _filedir_xspec evince\r\n:\u001b[K"
+    ],
+    [
+      1.311093,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.001549,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }

@@ -1,19 +1,28 @@
 import * as React from "react";
 import Slide from "../../components/slide";
-import Terminal from "../../components/terminal";
 import SlideTitleComic from "../../components/slide-title-comic";
+import {
+  Appear
+} from "spectacle";
 
-class TerminalSlide extends React.Component {
+const bgImage = require("../../images/hulk-meditating.jpg");
+
+class ImageSlide extends React.Component {
   render() {
     return (
-      <Terminal id="2-foo"/>
+      <span/>
     );
   }
 }
 
 export default (
-  <Slide key="contemplate">
-    <SlideTitleComic>The Bourne Shell...</SlideTitleComic>
-    <TerminalSlide/>
+  <Slide key="image" bgImage={bgImage}>
+    <Appear>
+      <div>
+        <SlideTitleComic>Contemplate. And thank you.</SlideTitleComic>
+      </div>
+    </Appear>
+    <ImageSlide/>
   </Slide>
 );
+

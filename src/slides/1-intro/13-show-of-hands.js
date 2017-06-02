@@ -1,7 +1,7 @@
 import * as React from "react";
 import Slide from "../../components/slide";
 
-const bgImage = require("../../images/hulk-feriggno-bixby.jpg");
+const bgImage = require("../../images/show-of-hands.jpg");
 
 class ImageSlide extends React.Component {
   render() {

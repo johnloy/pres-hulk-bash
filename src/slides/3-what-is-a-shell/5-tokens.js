@@ -1,12 +1,20 @@
 import * as React from "react";
+import Radium from "radium";
 import Slide from "../../components/slide";
-import Terminal from "../../components/terminal";
 import SlideTitleComic from "../../components/slide-title-comic";
+import {
+  CodePane
+} from "spectacle";
 
-class TerminalSlide extends React.Component {
+import code from "../../code/tokens.sh";
+
+@Radium
+class CodeSlide extends React.Component {
   render() {
     return (
-      <Terminal id="tokens"/>
+      <div className="content zoom-in">
+        <CodePane lang="bash" source={code} style={{ fontSize: "36px" }}/>
+      </div>
     );
   }
 }
@@ -14,6 +22,6 @@ class TerminalSlide extends React.Component {
 export default (
   <Slide key="tokens">
     <SlideTitleComic>Tokens</SlideTitleComic>
-    <TerminalSlide/>
+    <CodeSlide/>
   </Slide>
 );

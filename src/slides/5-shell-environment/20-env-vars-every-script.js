@@ -18,14 +18,21 @@ class BulletsSlide extends React.Component {
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                Use source control (git, svn, mercurial)
+                $0 — The filename of the command being run
               </span>
             </ListItem>
           </Appear>
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                Run servers (http, database))
+                $# - The number of arguments passed to the command
+              </span>
+            </ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>
+              <span style={styles.listItemText}>
+                $? - The exit status of the command
               </span>
             </ListItem>
           </Appear>

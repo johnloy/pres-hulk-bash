@@ -1,12 +1,20 @@
 import * as React from "react";
+import Radium from "radium";
 import Slide from "../../components/slide";
-import Terminal from "../../components/terminal";
 import SlideTitleComic from "../../components/slide-title-comic";
+import {
+  CodePane
+} from "spectacle";
 
-class TerminalSlide extends React.Component {
+import code from "../../code/quoting.sh";
+
+@Radium
+class CodeSlide extends React.Component {
   render() {
     return (
-      <Terminal id="quoting"/>
+      <div className="content zoom-in">
+        <CodePane lang="bash" source={code} style={{ fontSize: "40px" }}/>
+      </div>
     );
   }
 }
@@ -14,6 +22,6 @@ class TerminalSlide extends React.Component {
 export default (
   <Slide key="quoting">
     <SlideTitleComic>Quoting</SlideTitleComic>
-    <TerminalSlide/>
+    <CodeSlide/>
   </Slide>
 );

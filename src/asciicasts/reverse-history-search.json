@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 30.483206,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/bash"
+  },
+  "stdout": [
+    [
+      1.274534,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.879437,
+      "bind -p"
+    ],
+    [
+      0.400142,
+      "\b\b\b\b\b\b\basciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/s\rsrc/asciicasts/reverse-history-search.json "
+    ],
+    [
+      0.343524,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[31Pcd very/long/directory/name/coverage\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.320245,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C~/Desktop\u001b[K"
+    ],
+    [
+      0.256081,
+      "\b\b\b\b\b\b\b\b\b\b\b\basciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/s\rsrc/asciicasts/reverse-history-search.json "
+    ],
+    [
+      0.343993,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[31Pcd very/long/directory/name/coverage\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.295614,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C~/Desktop/\u001b[K"
+    ],
+    [
+      0.312448,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\basciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/s\rsrc/asciicasts/reverse-history-search.json "
+    ],
+    [
+      0.415942,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ccd ~/Desktop/\u001b[K\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.254727,
+      "\b\b\b\b\b\b\b\b\b\bvery/long/directory/name/coverage"
+    ],
+    [
+      0.036014,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Casciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/s\rsrc/asciicasts/reverse-history-search.json "
+    ],
+    [
+      0.037646,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ccd ~/Desktop\u001b[K\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.035128,
+      "\b\b\b\b\b\b\b\b\bvery/long/directory/name/coverage"
+    ],
+    [
+      0.252167,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Casciinema rec /Users/johnloy/src/github.com/johnloy/pres-hulk-bash/s\rsrc/asciicasts/reverse-history-search.json "
+    ],
+    [
+      0.232157,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cbind -p\u001b[K\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.511759,
+      "\b\b\b\b\b\b\b\u001b[K"
+    ],
+    [
+      2.823876,
+      "\r\u001b[9@(reverse-i-search)`':\u001b[C"
+    ],
+    [
+      1.09642,
+      "\b\b\bc': asciinema rec /Users/johnloy/src/github.com/johnloy/pres-h\rhulk-bash/src/asciicasts/reverse-history-search.json \b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.240407,
+      "\u001b[A\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[20Pd': cd very/long/directory/name/coverage\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.855915,
+      "\b\b\b\u001b[1@ \u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.727411,
+      "\b\b\b\u001b[23P~': cd ~/Desktop\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      1.328277,
+      "\r\u001b[13P\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m \r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  \r\n"
+    ],
+    [
+      0.002436,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.645021,
+      "p"
+    ],
+    [
+      0.148125,
+      "w"
+    ],
+    [
+      0.196004,
+      "d"
+    ],
+    [
+      0.159992,
+      "\r\n"
+    ],
+    [
+      4.8e-05,
+      "/Users/johnloy/Desktop\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.695489,
+      "b"
+    ],
+    [
+      0.295984,
+      "i"
+    ],
+    [
+      0.095846,
+      "n"
+    ],
+    [
+      0.128881,
+      "d"
+    ],
+    [
+      0.319653,
+      " "
+    ],
+    [
+      0.879662,
+      "p"
+    ],
+    [
+      1.031996,
+      "\b\u001b[K"
+    ],
+    [
+      0.816266,
+      "-"
+    ],
+    [
+      0.719679,
+      "p"
+    ],
+    [
+      0.391682,
+      " "
+    ],
+    [
+      0.352273,
+      "|"
+    ],
+    [
+      0.216032,
+      " "
+    ],
+    [
+      0.120301,
+      "g"
+    ],
+    [
+      0.223564,
+      "r"
+    ],
+    [
+      0.0647,
+      "e"
+    ],
+    [
+      0.175427,
+      "p"
+    ],
+    [
+      0.584106,
+      " "
+    ],
+    [
+      1.135809,
+      "s"
+    ],
+    [
+      0.160457,
+      "e"
+    ],
+    [
+      0.111716,
+      "a"
+    ],
+    [
+      0.087559,
+      "r"
+    ],
+    [
+      0.184301,
+      "c"
+    ],
+    [
+      0.087784,
+      "h"
+    ],
+    [
+      0.240247,
+      "-"
+    ],
+    [
+      0.247913,
+      "h"
+    ],
+    [
+      0.207884,
+      "i"
+    ],
+    [
+      0.128135,
+      "s"
+    ],
+    [
+      0.119883,
+      "t"
+    ],
+    [
+      0.119982,
+      "o"
+    ],
+    [
+      0.144021,
+      "r"
+    ],
+    [
+      0.184599,
+      "y"
+    ],
+    [
+      0.77543,
+      "\r\n"
+    ],
+    [
+      0.007302,
+      "\"\\C-s\": forward-search-history\r\n# non-incremental-forward-search-history (not bound)\r\n# non-incremental-forward-search-history-again (not bound)\r\n# non-incremental-reverse-search-history (not bound)\r\n# non-incremental-reverse-search-history-again (not bound)\r\n"
+    ],
+    [
+      4.9e-05,
+      "\"\\C-r\": reverse-search-history\r\n"
+    ],
+    [
+      0.001531,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ]
+  ]
+}

@@ -14,45 +14,45 @@ class BulletsSlide extends React.Component {
   render() {
     return (
       <div className="content zoom-in">
-        <List textSize="24px" textColor="white" style={styles.list}>
+        <List textSize="24px" textColor="white" style={styles.list} className="smaller-list">
           <ListItem>
             <span style={styles.listItemText}>
-              {"(Best)race: {}"}
+              <span style={{ color: "#fff" }}>(Best)</span>{'race: {foo,bar,baz}'}
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (To)ilde: ~
+              <span style={{ color: "#fff" }}>(To)</span>ilde: ~
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (Prepare)arameter: $VAR
+              <span style={{ color: "#fff" }}>(Prepare)</span>arameter: $VAR
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (Cake)ommand: $(commands)
+              <span style={{ color: "#fff" }}>(Cake)</span>ommand: $(commands)
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (At)rithmetic: ((n+n))
+              <span style={{ color: "#fff" }}>(At)</span>rithmetic: ((n+n))
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              {"(Parties)rocess: <(commands)"}
+              <span style={{ color: "#fff" }}>(Parties)</span>{"rocess: <(commands)"}
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (With)ord splitting: token token
+              <span style={{ color: "#fff" }}>(With)</span>ord splitting: token token
             </span>
           </ListItem>
           <ListItem>
             <span style={styles.listItemText}>
-              (Frosting)ilename: /*.*
+              <span style={{ color: "#fff" }}>(Frosting)</span>ilename: /*.*
             </span>
           </ListItem>
         </List>

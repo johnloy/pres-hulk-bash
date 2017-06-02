@@ -14,11 +14,11 @@ class BulletsSlide extends React.Component {
   render() {
     return (
       <div className="content zoom-in">
-        <List textSize="24px" textColor="white" style={styles.list}>
+        <List textSize="20px" textColor="white" style={styles.list} className="smaller-list">
           <Appear>
             <ListItem>
               <span style={styles.listItemText}>
-                {"Brace: {}"}
+                {"Brace: {foo,bar,baz}"}
               </span>
             </ListItem>
           </Appear>

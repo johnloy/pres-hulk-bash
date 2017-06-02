@@ -6,14 +6,14 @@ import {
   CodePane
 } from "spectacle";
 
-import code from "../../code/echo.sh";
+import code from "../../code/http-client.sh";
 
 @Radium
 class CodeSlide extends React.Component {
   render() {
     return (
       <div className="content zoom-in">
-        <CodePane lang="bash" source={code} className="big-code"/>
+        <CodePane lang="bash" source={code} className="medium-code"/>
       </div>
     );
   }

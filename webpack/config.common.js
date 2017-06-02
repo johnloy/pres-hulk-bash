@@ -60,7 +60,7 @@ module.exports = {
       },
 
       {
-        test: /\.(png|gif)$/,
+        test: /\.(gif)$/,
         loader: "url-loader?limit=500"
       },
 

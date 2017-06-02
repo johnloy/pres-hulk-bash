@@ -40,7 +40,6 @@ h1 {
   animation-duration: .5s;
   animation-fill-mode: both;
   animation-name: zoomIn;
-  animation-delay: 500ms;
   position: relative;
   opacity: 1;
 }
@@ -104,6 +103,14 @@ h1 {
   font-size: 40px;
 }
 
+.medium-code code {
+  font-size: 30px;
+}
+
+.smaller-list li {
+  font-size: 40px !important;
+}
+
 .section-title {
   font-size: 80px;
   color: greenyellow;
@@ -126,4 +133,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+pre[class*="language-"] {
+  padding: 0;
+}
+
+li {
+  margin-bottom: .5em;
 }

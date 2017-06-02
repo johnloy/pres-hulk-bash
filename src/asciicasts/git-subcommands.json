@@ -1,62 +1,290 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 14.680199,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.210317,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.669093,
+      "w"
     ],
     [
-      0.244881,
-      "a"
-    ],
-    [
-      0.144528,
-      "y"
-    ],
-    [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
+      0.112006,
       "h"
     ],
     [
-      0.11892,
-      "e"
+      0.080097,
+      "i"
     ],
     [
-      0.13619,
-      "l"
+      0.16819,
+      "c"
     ],
     [
-      0.144402,
-      "l"
+      0.152498,
+      "h"
     ],
     [
-      0.223923,
-      "o"
+      0.23179,
+      " "
     ],
     [
-      0.240611,
+      0.15922,
+      "g"
+    ],
+    [
+      0.136722,
+      "i"
+    ],
+    [
+      0.135434,
+      "t"
+    ],
+    [
+      0.560212,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.003993,
+      "/usr/local/bin/git\r\n"
+    ],
+    [
+      0.002607,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      0.881249,
+      "/"
+    ],
+    [
+      0.287778,
+      "u"
+    ],
+    [
+      0.176163,
+      "s"
+    ],
+    [
+      0.199707,
+      "r"
+    ],
+    [
+      0.56848,
+      "/"
+    ],
+    [
+      0.223746,
+      "l"
+    ],
+    [
+      0.176426,
+      "o"
+    ],
+    [
+      0.095095,
+      "c"
+    ],
+    [
+      0.216355,
+      "a"
+    ],
+    [
+      0.072187,
+      "l"
+    ],
+    [
+      0.615408,
+      "/"
+    ],
+    [
+      0.240212,
+      "b"
+    ],
+    [
+      0.144376,
+      "i"
+    ],
+    [
+      0.104014,
+      "n"
+    ],
+    [
+      0.239323,
+      "/"
+    ],
+    [
+      0.256526,
+      "g"
+    ],
+    [
+      0.167814,
+      "i"
+    ],
+    [
+      0.127959,
+      "t"
+    ],
+    [
+      0.353427,
+      "\r\n\u001b[01;35mgit\u001b[0m\u001b[K                         \u001b[01;35mgit\u001b[0m\u001b[K-lock\r\n"
+    ],
+    [
+      8e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-alias                   \u001b[01;35mgit\u001b[0m\u001b[K-locked\r\n\u001b[01;35mgit\u001b[0m\u001b[K-archive-file            \u001b[01;35mgit\u001b[0m\u001b[K-merge-into\r\n\u001b[01;35mgit\u001b[0m\u001b[K-authors                 \u001b[01;35mgit\u001b[0m\u001b[K-merge-repo\r\n"
+    ],
+    [
+      2e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-back                    \u001b[01;35mgit\u001b[0m\u001b[K-missing\r\n"
+    ],
+    [
+      1.3e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-bug                     \u001b[01;35mgit\u001b[0m\u001b[K-obliterate\r\n"
+    ],
+    [
+      6.6e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-changelog               \u001b[01;35mgit\u001b[0m\u001b[K-pr\r\n\u001b[01;35mgit\u001b[0m\u001b[K-chore                   \u001b[01;35mgit\u001b[0m\u001b[K-pull-request\r\n"
+    ],
+    [
+      6.4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-commits-since           \u001b[01;35mgit\u001b[0m\u001b[K-rebase-patch\r\n"
+    ],
+    [
+      7.4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-contrib                 \u001b[01;35mgit\u001b[0m\u001b[K-receive-pack\r\n"
+    ],
+    [
+      1.9e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-count                   \u001b[01;35mgit\u001b[0m\u001b[K-refactor\r\n"
+    ],
+    [
+      3.4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-create-branch           \u001b[01;35mgit\u001b[0m\u001b[K-release\r\n"
+    ],
+    [
+      5.2e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-credential-osxkeychain  \u001b[01;35mgit\u001b[0m\u001b[K-rename-tag\r\n"
+    ],
+    [
+      0.000118,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-cvsserver               \u001b[01;35mgit\u001b[0m\u001b[K-repl\r\n\u001b[01;35mgit\u001b[0m\u001b[K-delete-branch           \u001b[01;35mgit\u001b[0m\u001b[K-reset-file\r\n"
+    ],
+    [
+      2.1e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-delete-merged-branches  \u001b[01;35mgit\u001b[0m\u001b[K-root\r\n"
+    ],
+    [
+      1.3e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-delete-submodule        \u001b[01;35mgit\u001b[0m\u001b[K-rscp\r\n"
+    ],
+    [
+      8.4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-delete-tag              \u001b[01;35mgit\u001b[0m\u001b[K-scp\r\n\u001b[01;35mgit\u001b[0m\u001b[K-delta                   \u001b[01;35mgit\u001b[0m\u001b[K-setup\r\n"
+    ],
+    [
+      2.4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-effort                  \u001b[01;35mgit\u001b[0m\u001b[K-shell\r\n"
+    ],
+    [
+      1.8e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-extras                  \u001b[01;35mgit\u001b[0m\u001b[K-show-merged-branches\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-feature                 \u001b[01;35mgit\u001b[0m\u001b[K-show-tree\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-flow                    \u001b[01;35mgit\u001b[0m\u001b[K-show-unmerged-branches\r\n"
+    ],
+    [
+      4e-05,
+      "\u001b[01;35mgit\u001b[0m\u001b[K-fork                    \u001b[01;35mgit\u001b[0m\u001b[K-squash\r\n--More--"
+    ],
+    [
+      3.445487,
+      "\r\u001b[K\r\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  /usr/local/bin/git"
+    ],
+    [
+      0.800166,
+      "\b\u001b[K"
+    ],
+    [
+      0.250099,
+      "\b\u001b[K"
+    ],
+    [
+      0.036393,
+      "\b\u001b[K"
+    ],
+    [
+      0.033318,
+      "\b\u001b[K"
+    ],
+    [
+      0.034412,
+      "\b\u001b[K"
+    ],
+    [
+      0.034924,
+      "\b\u001b[K"
+    ],
+    [
+      0.034821,
+      "\b\u001b[K"
+    ],
+    [
+      0.035133,
+      "\b\u001b[K"
+    ],
+    [
+      0.034459,
+      "\b\u001b[K"
+    ],
+    [
+      0.034836,
+      "\b\u001b[K"
+    ],
+    [
+      0.036555,
+      "\b\u001b[K"
+    ],
+    [
+      0.035795,
+      "\b\u001b[K"
+    ],
+    [
+      0.038121,
+      "\b\u001b[K"
+    ],
+    [
+      0.034618,
+      "\b\u001b[K"
+    ],
+    [
+      0.036784,
+      "\b\u001b[K"
+    ],
+    [
+      0.036263,
+      "\b\u001b[K"
+    ],
+    [
+      0.581963,
+      "\b\u001b[K"
+    ],
+    [
+      0.335552,
+      "\b\u001b[K"
     ]
   ]
 }

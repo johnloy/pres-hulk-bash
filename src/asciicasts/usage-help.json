@@ -1,62 +1,174 @@
 {
   "version": 1,
-  "width": 108,
-  "height": 30,
-  "duration": 9.767696,
+  "width": 80,
+  "height": 25,
+  "duration": 23.746824,
   "command": null,
-  "title": "testing",
+  "title": null,
   "env": {
     "TERM": "xterm-256color",
-    "SHELL": "/bin/bash"
+    "SHELL": "/usr/local/bin/bash"
   },
   "stdout": [
     [
-      2.366814,
-      "\u001b[?1034hbash-3.2$ "
+      1.17272,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ],
     [
-      2.707129,
-      "s"
+      0.826995,
+      "n"
     ],
     [
-      0.244881,
-      "a"
+      0.264869,
+      "p"
     ],
     [
-      0.144528,
-      "y"
+      0.423374,
+      "m"
     ],
     [
-      0.751604,
-      " "
-    ],
-    [
-      1.800467,
-      "h"
-    ],
-    [
-      0.11892,
-      "e"
-    ],
-    [
-      0.13619,
-      "l"
-    ],
-    [
-      0.144402,
-      "l"
-    ],
-    [
-      0.223923,
-      "o"
-    ],
-    [
-      0.240611,
+      0.912176,
       "\r\n"
     ],
     [
-      0.885286,
-      "bash-3.2$ "
+      0.517563,
+      "\r\nUsage: npm <command>\r\n\r\nwhere <command> is one of:\r\n    access, adduser, bin, bugs, c, cache, completion, config,\r\n    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,\r\n    help, help-search, i, init, install, install-test, it, link,\r\n    list, ln, login, logout, ls, outdated, owner, pack, ping,\r\n    prefix, prune, publish, rb, rebuild, repo, restart, root,\r\n    run, run-script, s, se, search, set, shrinkwrap, star,\r\n    stars, start, stop, t, tag, team, test, tst, un, uninstall,\r\n    unpublish, unstar, up, update, v, version, view, whoami\r\n\r\nnpm <cmd> -h     quick help on <cmd>\r\nnpm -l           display full usage info\r\nnpm help <term>  search for help on <term>\r\nnpm help npm     involved overview\r\n\r\nSpecify configs in the ini-formatted file:\r\n    /Users/johnloy/.npmrc\r\nor on the command line via: npm <command> --key value\r\nConfig info can be viewed via: npm help config\r\n\r\nnpm@3.10.10 /Users/johnloy/.nvm/versions/node/v6.10.1/lib/node_modules/npm\r\n"
+    ],
+    [
+      0.010003,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      3.856111,
+      "n"
+    ],
+    [
+      0.192089,
+      "p"
+    ],
+    [
+      0.159774,
+      "m"
+    ],
+    [
+      0.247856,
+      " "
+    ],
+    [
+      0.208126,
+      "-"
+    ],
+    [
+      0.280015,
+      "h"
+    ],
+    [
+      0.759834,
+      "\r\n"
+    ],
+    [
+      0.512446,
+      "\r\nUsage: npm <command>\r\n\r\nwhere <command> is one of:\r\n    access, adduser, bin, bugs, c, cache, completion, config,\r\n    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,\r\n    help, help-search, i, init, install, install-test, it, link,\r\n    list, ln, login, logout, ls, outdated, owner, pack, ping,\r\n    prefix, prune, publish, rb, rebuild, repo, restart, root,\r\n    run, run-script, s, se, search, set, shrinkwrap, star,\r\n    stars, start, stop, t, tag, team, test, tst, un, uninstall,\r\n    unpublish, unstar, up, update, v, version, view, whoami\r\n\r\nnpm <cmd> -h     quick help on <cmd>\r\nnpm -l           display full usage info\r\nnpm help <term>  search for help on <term>\r\nnpm help npm     involved overview\r\n\r\nSpecify configs in the ini-formatted file:\r\n    /Users/johnloy/.npmrc\r\nor on the command line via: npm <command> --key value\r\nConfig info can be viewed via: npm help config\r\n\r\nnpm@3.10.10 /Users/johnloy/.nvm/versions/node/v6.10.1/lib/node_modules/npm\r\n"
+    ],
+    [
+      0.010824,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      4.124552,
+      "n"
+    ],
+    [
+      0.240102,
+      "p"
+    ],
+    [
+      0.231944,
+      "m"
+    ],
+    [
+      0.248256,
+      " "
+    ],
+    [
+      0.280064,
+      "-"
+    ],
+    [
+      0.216183,
+      "-"
+    ],
+    [
+      0.215763,
+      "h"
+    ],
+    [
+      0.215532,
+      "e"
+    ],
+    [
+      0.208579,
+      "l"
+    ],
+    [
+      0.208267,
+      "p"
+    ],
+    [
+      0.711123,
+      "\r\n"
+    ],
+    [
+      0.543471,
+      "\r\nUsage: npm <command>\r\n\r\nwhere <command> is one of:\r\n    access, adduser, bin, bugs, c, cache, completion, config,\r\n    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,\r\n    help, help-search, i, init, install, install-test, it, link,\r\n    list, ln, login, logout, ls, outdated, owner, pack, ping,\r\n    prefix, prune, publish, rb, rebuild, repo, restart, root,\r\n    run, run-script, s, se, search, set, shrinkwrap, star,\r\n    stars, start, stop, t, tag, team, test, tst, un, uninstall,\r\n    unpublish, unstar, up, update, v, version, view, whoami\r\n\r\nnpm <cmd> -h     quick help on <cmd>\r\nnpm -l           display full usage info\r\nnpm help <term>  search for help on <term>\r\nnpm help npm     involved overview\r\n\r\nSpecify configs in the ini-formatted file:\r\n    /Users/johnloy/.npmrc\r\nor on the command line via: npm <command> --key value\r\nConfig info can be viewed via: npm help config\r\n\r\nnpm@3.10.10 /Users/johnloy/.nvm/versions/node/v6.10.1/lib/node_modules/npm\r\n"
+    ],
+    [
+      0.011005,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
+    ],
+    [
+      2.469438,
+      "n"
+    ],
+    [
+      0.303891,
+      "p"
+    ],
+    [
+      0.231984,
+      "m"
+    ],
+    [
+      0.280619,
+      " "
+    ],
+    [
+      0.47963,
+      "h"
+    ],
+    [
+      0.191619,
+      "e"
+    ],
+    [
+      0.144222,
+      "l"
+    ],
+    [
+      0.199997,
+      "p"
+    ],
+    [
+      1.063901,
+      "\r\n"
+    ],
+    [
+      0.558051,
+      "\r\nUsage: npm <command>\r\n\r\nwhere <command> is one of:\r\n    access, adduser, bin, bugs, c, cache, completion, config,\r\n    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,\r\n    help, help-search, i, init, install, install-test, it, link,\r\n    list, ln, login, logout, ls, outdated, owner, pack, ping,\r\n    prefix, prune, publish, rb, rebuild, repo, restart, root,\r\n    run, run-script, s, se, search, set, shrinkwrap, star,\r\n    stars, start, stop, t, tag, team, test, tst, un, uninstall,\r\n    unpublish, unstar, up, update, v, version, view, whoami\r\n\r\nnpm <cmd> -h     quick help on <cmd>\r\nnpm -l           display full usage info\r\nnpm help <term>  search for help on <term>\r\nnpm help npm     involved overview\r\n\r\nSpecify configs in the ini-formatted file:\r\n    /Users/johnloy/.npmrc\r\nor on the command line via: npm <command> --key value\r\nConfig info can be viewed via: npm help config\r\n\r\nnpm@3.10.10 /Users/johnloy/.nvm/versions/node/v6.10.1/lib/node_modules/npm\r\n"
+    ],
+    [
+      0.012568,
+      "\u001b[92m\u001b[1mHulk Bash!\u001b(B\u001b[m\u001b[38;5;202m✶\u001b(B\u001b[m  "
     ]
   ]
 }
